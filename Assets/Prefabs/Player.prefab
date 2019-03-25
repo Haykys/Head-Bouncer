@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2741047292013444780}
   - component: {fileID: 8867378149714160957}
   - component: {fileID: 7604069410280928213}
-  - component: {fileID: 1437132684825967792}
+  - component: {fileID: 815580408}
+  - component: {fileID: 6463989012021750870}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: -1125094849
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c4e5c74dd09cead4eaf6b8ca85267b78, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 77e6269df6921c94d9e93b28579958e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +103,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &1437132684825967792
+--- !u!114 &815580408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8064727525727276210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e083707ad5ae7747a11bb0c96f081e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: 0.69
+  maxX: 5.3
+  screenWidthInUnits: 6
+--- !u!60 &6463989012021750870
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,8 +134,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6666666, y: 1.6666666}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.6875, y: 1.3125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -127,19 +143,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.28333336, y: -0.21666668}
-      - {x: 0.21666668, y: -0.18333334}
-      - {x: 0.40000004, y: 0.23333335}
-      - {x: 0.40000004, y: 0.3166667}
-      - {x: 0.28333336, y: 0.35000002}
-      - {x: 0.18601751, y: 0.5880753}
-      - {x: -0.4549471, y: 0.5850786}
-      - {x: -0.54943955, y: 0.51666677}
-      - {x: -0.5638454, y: 0.03347349}
-      - {x: -0.73333335, y: -0.20000002}
-      - {x: -0.73333335, y: -0.73333335}
-      - {x: -0.65000004, y: -0.8166667}
-      - {x: -0.53333336, y: -0.8333334}
-      - {x: 0.16666667, y: -0.8333334}
-      - {x: 0.35000002, y: -0.65000004}
-      - {x: 0.35000002, y: -0.35000002}
+    - - {x: -0.34375, y: 1.3125}
+      - {x: -0.34375, y: 0}
+      - {x: 0.34375, y: 0}
+      - {x: 0.34375, y: 1.3125}
