@@ -53,12 +53,6 @@ public class GameSession : MonoBehaviour
         DisplayScore();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     /// <summary>
     /// Adds a certain amount of points to the player for bouncing of objects
     /// </summary>
@@ -78,10 +72,19 @@ public class GameSession : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Will restart the currently loaded level
     /// </summary>
     public void ResetGame()
     {
+        Time.timeScale = 0;
 
+        var go = GetGameOverMenu();
+
+        go.SetActive(true);
+    }
+
+    GameObject GetGameOverMenu()
+    {
+        return GameObject.Find("Game Canvas").transform.Find("Game Over Menu").gameObject;
     }
 }

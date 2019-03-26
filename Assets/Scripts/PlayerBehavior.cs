@@ -9,8 +9,8 @@ public class PlayerBehavior : MonoBehaviour
     string BouncingObject = "Bouncing Object";
 
     // config params
-    [SerializeField] float minX = 0f;
-    [SerializeField] float maxX = 5f;
+    [SerializeField] float minX = -3f;
+    [SerializeField] float maxX = 0f;
     [SerializeField] float screenWidthInUnits = 6f;
 
     // cached ref
@@ -43,21 +43,11 @@ public class PlayerBehavior : MonoBehaviour
             Touch touch = Input.touches[0];
 
             float touchPosInUnits = touch.position.x / Screen.width * screenWidthInUnits;
-            playerPos.x = Mathf.Clamp(touchPosInUnits, minX, maxX);
+            playerPos.x = Mathf.Clamp(touchPosInUnits, Camera.main.transform.position.x + minX + touchPosInUnits, Camera.main.transform.position.x);
             transform.position = playerPos;
 
         }
 #endif
-
-    }
-
-    private void OnCollisionEnter2D(Collision2D otherCollider)
-    {
-        GameObject otherGameObject = otherCollider.gameObject;
-        if (otherGameObject.layer == LayerMask.NameToLayer(BouncingObject))
-        {
-            gameSession.AddToScore(1);
-        }
 
     }
 }

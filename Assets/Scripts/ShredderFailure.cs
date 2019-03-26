@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shredder : MonoBehaviour
+public class ShredderFailure : MonoBehaviour
 {
     string BouncingObject = "Bouncing Object";
 
@@ -19,6 +19,7 @@ public class Shredder : MonoBehaviour
         if(otherGameObject.layer == LayerMask.NameToLayer(BouncingObject))
         {
             Destroy(otherGameObject);
+            gameSession.ResetGame();
         }
     }
 }
