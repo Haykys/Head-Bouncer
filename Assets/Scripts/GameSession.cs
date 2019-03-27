@@ -25,14 +25,19 @@ public class GameSession : MonoBehaviour
     // State variable
     int currentScore = 0;
 
-    public int CurrentScore { get => currentScore; }
+    public int CurrentScore { get => currentScore; set => currentScore = value; }
 
     // cached ref
-    [SerializeField] TextMeshProUGUI scoreText;
+    GameObject scoreDisplay;
 
     private void Awake()
     {
         SetUpSingleton();
+    }
+
+    private void Update()
+    {
+        scoreDisplay = GameObject.Find("Score Text");
     }
 
     private void SetUpSingleton()
@@ -43,14 +48,9 @@ public class GameSession : MonoBehaviour
         } else
         {
             instance = this;
+            CurrentScore = 0;
             DontDestroyOnLoad(gameObject);
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        DisplayScore();
     }
 
     /// <summary>
@@ -59,16 +59,8 @@ public class GameSession : MonoBehaviour
     /// <param name="amount">Amount to add</param>
     public void AddToScore(int amount)
     {
-        currentScore += amount;
-        DisplayScore();
-    }
-
-    /// <summary>
-    /// Displays the score to the player
-    /// </summary>
-    private void DisplayScore()
-    {
-        scoreText.text = currentScore.ToString();
+        CurrentScore += amount;
+        scoreDisplay.GetComponent<ScoreDisplay>().DisplayScore();
     }
 
     /// <summary>

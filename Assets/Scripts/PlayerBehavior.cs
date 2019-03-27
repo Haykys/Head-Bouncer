@@ -9,15 +9,21 @@ public class PlayerBehavior : MonoBehaviour
     string BouncingObject = "Bouncing Object";
 
     // config params
-    [SerializeField] float minX = -3f;
-    [SerializeField] float maxX = 0f;
+    [SerializeField] float minX = 0f;
+    [SerializeField] float maxX = 5f;
     [SerializeField] float screenWidthInUnits = 6f;
+    [Header("Animation")]
+    [SerializeField] float idleAnimationWaitTime = 4f;
+
+    private float playerOffset = 3.2f;
 
     // cached ref
     GameSession gameSession;
-    // Start is called before the first frame update
+    Animator myAnimator;
+
     void Start()
     {
+        myAnimator = GetComponent<Animator>();
         gameSession = FindObjectOfType<GameSession>();
     }
 
@@ -42,12 +48,30 @@ public class PlayerBehavior : MonoBehaviour
         {
             Touch touch = Input.touches[0];
 
+            float screenPosX = Camera.main.transform.position.x;
+
             float touchPosInUnits = touch.position.x / Screen.width * screenWidthInUnits;
-            playerPos.x = Mathf.Clamp(touchPosInUnits, Camera.main.transform.position.x + minX + touchPosInUnits, Camera.main.transform.position.x);
+
+            playerPos.x = Mathf.Clamp(touchPosInUnits + screenPosX - playerOffset, screenPosX - minX, screenPosX + maxX);
             transform.position = playerPos;
 
         }
 #endif
 
     }
+
+    #region PlayerAnimation
+
+    private void setPlayerIdleAnimationTrue()
+    {
+        myAnimator.SetBool("playIdleBlueShirtDude", true);
+    }
+
+    public void WaitTillNextIdleAnimation()
+    {
+        myAnimator.SetBool("playIdleBlueShirtDude", false);
+        Invoke("setPlayerIdleAnimationTrue", idleAnimationWaitTime);
+    }
+
+    #endregion
 }

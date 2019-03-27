@@ -11,7 +11,7 @@ public class BackgroundEndBehaviour : MonoBehaviour
     [Tooltip("How much time to wait before destroyying the background after reaching the end")]
     [SerializeField] float destroyTime = 1.5f;
 
-    private void OnTriggerEnter(Collider otherCollider)
+    private void OnTriggerEnter2D(Collider2D otherCollider)
     {
         // First check if we collided with the player
         if (otherCollider.gameObject.layer == LayerMask.NameToLayer(Player))
