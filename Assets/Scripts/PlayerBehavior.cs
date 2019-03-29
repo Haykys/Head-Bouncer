@@ -46,6 +46,16 @@ public class PlayerBehavior : MonoBehaviour
 #elif UNITY_IOS || UNITY_ANDROID
         if (Input.touchCount > 0)
         {
+            // Because of the game being pause when it starts up
+            FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(false);
+
+            if (GameObject.FindGameObjectWithTag("Usher NPC") || GameObject.FindGameObjectWithTag("Usher Text")) { }
+            {
+                Destroy(GameObject.FindGameObjectWithTag("Usher NPC"));
+                Destroy(GameObject.FindGameObjectWithTag("Usher Text"));
+            }
+
+
             Touch touch = Input.touches[0];
 
             float screenPosX = Camera.main.transform.position.x;

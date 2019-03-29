@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3b9644d9510df0438fa228c093c2b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 0}
+  background: {fileID: 4602658082472206761, guid: e5fe2a834c4b00243a52aa50c7999d0f,
+    type: 3}
   startPoint: {x: 0, y: 0}
   initSpawnNum: 10

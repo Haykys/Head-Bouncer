@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class ShredderFailure : MonoBehaviour
 {
+    // Constants
     string BouncingObject = "Bouncing Object";
+    string Player = "Player";
 
+    // Config params
     GameSession gameSession;
+    GameObject player;
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag(Player);
         gameSession = FindObjectOfType<GameSession>();
     }
 
@@ -18,6 +23,14 @@ public class ShredderFailure : MonoBehaviour
         GameObject otherGameObject = otherCollider.gameObject;
         if(otherGameObject.layer == LayerMask.NameToLayer(BouncingObject))
         {
+            GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
+
+            for (int i = 0; i < bouncingObjects.Length; i++)
+            {
+                bouncingObjects[i].SetActive(false);
+            }
+
+            player.SetActive(false);
             Destroy(otherGameObject);
             gameSession.ResetGame();
         }

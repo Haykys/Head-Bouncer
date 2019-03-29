@@ -32,6 +32,8 @@ public class GameSession : MonoBehaviour
 
     private void Awake()
     {
+        Time.timeScale = 0;
+
         SetUpSingleton();
     }
 
@@ -68,14 +70,14 @@ public class GameSession : MonoBehaviour
     /// </summary>
     public void ResetGame()
     {
-        Time.timeScale = 0;
+        FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(true);
 
         var go = GetGameOverMenu();
 
         go.SetActive(true);
     }
 
-    GameObject GetGameOverMenu()
+    public GameObject GetGameOverMenu()
     {
         return GameObject.Find("Game Canvas").transform.Find("Game Over Menu").gameObject;
     }

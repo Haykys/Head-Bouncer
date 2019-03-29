@@ -5,18 +5,43 @@ using UnityEngine.SceneManagement;
 
 public class GameOverMenuBehavior : MonoBehaviour
 {
+    // State
     private static bool paused;
 
+    //  Constant
+    string Player = "Player";
+    string BouncingObject = "Bouncing Object";
+
+    // cached ref
     [Tooltip("Reference to the pause menu object to tun on/off")]
     [SerializeField] GameObject gameOverMenu;
+    [Tooltip("Reference to the player")]
+    GameObject player;
 
     public static bool Paused { get => paused; set => paused = value; }
 
     private void Start()
     {
-       Paused = false;
+        player = GameObject.FindGameObjectWithTag(Player);
+    }
 
-       SetPauseMenu(false);
+    /// <summary>
+    /// Hadles resetting the game if needed
+    /// </summary>
+    public void Continue()
+    {
+        GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
+
+        for (int i = 0; i < bouncingObjects.Length; i++)
+        {
+            Destroy(bouncingObjects[i]);
+        }
+
+        var go = FindObjectOfType<GameSession>().GetGameOverMenu();
+        go.SetActive(false);
+        player.SetActive(true);
+
+        SetPauseMenu(false);
     }
 
     /// <summary>
@@ -24,7 +49,7 @@ public class GameOverMenuBehavior : MonoBehaviour
     /// </summary>
     public void Restart()
     {
-        Time.timeScale = 1;
+        SetPauseMenu(false);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -36,6 +61,7 @@ public class GameOverMenuBehavior : MonoBehaviour
     public void SetPauseMenu(bool isPaused)
     {
         Paused = isPaused;
+        Debug.Log(Paused);
 
         // If the game is paused, timeScale is 0, otherwise 1
         Time.timeScale = (Paused) ? 0 : 1;
