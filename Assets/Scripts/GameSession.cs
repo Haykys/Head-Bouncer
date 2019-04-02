@@ -32,8 +32,6 @@ public class GameSession : MonoBehaviour
 
     private void Awake()
     {
-        Time.timeScale = 0;
-
         SetUpSingleton();
     }
 

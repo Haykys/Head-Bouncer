@@ -6,15 +6,13 @@ public class ShredderFailure : MonoBehaviour
 {
     // Constants
     string BouncingObject = "Bouncing Object";
-    string Player = "Player";
 
     // Config params
     GameSession gameSession;
-    GameObject player;
+    [SerializeField] GameObject player;
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag(Player);
         gameSession = FindObjectOfType<GameSession>();
     }
 

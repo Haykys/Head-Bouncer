@@ -7,6 +7,7 @@ public class PlayerBehavior : MonoBehaviour
 {
     // constants
     string BouncingObject = "Bouncing Object";
+    string EmissionObject = "Emission Object";
 
     // config params
     [SerializeField] float minX = 0f;
@@ -16,15 +17,22 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] float idleAnimationWaitTime = 4f;
 
     private float playerOffset = 3.2f;
+    private bool hasMoved = false;
 
     // cached ref
     GameSession gameSession;
     Animator myAnimator;
+    CameraBehavior cameraBehaviour;
+    EmitterSpawner emitterSpawner;
+
+    public bool HasMoved { get => hasMoved; set => hasMoved = value; }
 
     void Start()
     {
         myAnimator = GetComponent<Animator>();
         gameSession = FindObjectOfType<GameSession>();
+        cameraBehaviour = FindObjectOfType<CameraBehavior>();
+        emitterSpawner = FindObjectOfType<EmitterSpawner>();
     }
 
     // Update is called once per frame
@@ -51,6 +59,8 @@ public class PlayerBehavior : MonoBehaviour
 
             if (GameObject.FindGameObjectWithTag("Usher NPC") || GameObject.FindGameObjectWithTag("Usher Text")) { }
             {
+                HasMoved = true;
+                cameraBehaviour.CameraMovementSpeed = 1f;
                 Destroy(GameObject.FindGameObjectWithTag("Usher NPC"));
                 Destroy(GameObject.FindGameObjectWithTag("Usher Text"));
             }
