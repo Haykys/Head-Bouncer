@@ -116,9 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e083707ad5ae7747a11bb0c96f081e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minX: 2.7
-  maxX: 2.5
-  screenWidthInUnits: 6
+  xOffset: 0.38
   idleAnimationWaitTime: 4
 --- !u!60 &6463989012021750870
 PolygonCollider2D:

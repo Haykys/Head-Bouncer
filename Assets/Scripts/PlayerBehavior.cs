@@ -10,13 +10,11 @@ public class PlayerBehavior : MonoBehaviour
     string EmissionObject = "Emission Object";
 
     // config params
-    [SerializeField] float minX = 0f;
-    [SerializeField] float maxX = 5f;
-    [SerializeField] float screenWidthInUnits = 6f;
+    [SerializeField] float xOffset = 0.5f;
     [Header("Animation")]
     [SerializeField] float idleAnimationWaitTime = 4f;
 
-    private float playerOffset = 3.2f;
+    private float playerOffset = 2.81f;
     private bool hasMoved = false;
 
     // cached ref
@@ -70,9 +68,15 @@ public class PlayerBehavior : MonoBehaviour
 
             float screenPosX = Camera.main.transform.position.x;
 
-            float touchPosInUnits = touch.position.x / Screen.width * screenWidthInUnits;
+            float screenHalf = Camera.main.orthographicSize * Screen.width / Screen.height;
 
-            playerPos.x = Mathf.Clamp(touchPosInUnits + screenPosX - playerOffset, screenPosX - minX, screenPosX + maxX);
+            float leftSideOfScreen = Camera.main.transform.position.x - Camera.main.orthographicSize * Screen.width / Screen.height;
+
+            float rightSideOfScreen = Camera.main.transform.position.x + Camera.main.orthographicSize * Screen.width / Screen.height;
+
+            float touchPosInUnits = ((rightSideOfScreen - leftSideOfScreen) * (touch.position.x / Screen.width)) + leftSideOfScreen;
+
+            playerPos.x = Mathf.Clamp(touchPosInUnits, leftSideOfScreen + xOffset, rightSideOfScreen - xOffset);
             transform.position = playerPos;
 
         }
