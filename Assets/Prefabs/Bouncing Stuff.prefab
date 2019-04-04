@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2869863175375323282}
   - component: {fileID: 2869863175375323283}
   m_Layer: 0
-  m_Name: Bouncing Stuff Emission
+  m_Name: Bouncing Stuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

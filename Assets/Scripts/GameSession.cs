@@ -7,6 +7,9 @@ using System;
 public class GameSession : MonoBehaviour
 {
 
+    // config params
+    [SerializeField] bool isAutoplayEnabled;
+
     private static GameSession instance;
 
     public static GameSession Instance
@@ -78,5 +81,10 @@ public class GameSession : MonoBehaviour
     public GameObject GetGameOverMenu()
     {
         return GameObject.Find("Game Canvas").transform.Find("Game Over Menu").gameObject;
+    }
+
+    public bool IsAutoplayEnabled()
+    {
+        return isAutoplayEnabled;
     }
 }

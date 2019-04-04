@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class BouncingObjectEmission : MonoBehaviour
+public class BouncingStuff : MonoBehaviour
 {
     // config params
     [SerializeField] float bouncerSpawnDelayMin = 1f;

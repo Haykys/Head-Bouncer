@@ -116,8 +116,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e083707ad5ae7747a11bb0c96f081e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xOffset: 0.38
+  xOffset: 0.36
   idleAnimationWaitTime: 4
+  bouncingStuff: {fileID: 5129337053730110815, guid: 6f4828010961cc24a905d28d11d98ce3,
+    type: 3}
 --- !u!60 &6463989012021750870
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -160,7 +162,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 402a512045569f74ca4e4b04cfc66a5f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

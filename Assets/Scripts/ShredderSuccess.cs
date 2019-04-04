@@ -20,7 +20,7 @@ public class ShredderSuccess : MonoBehaviour
         if (otherGameObject.layer == LayerMask.NameToLayer(BouncingObject))
         {
             gameSession.AddToScore(1);
-            Destroy(otherCollider);
+            Destroy(otherGameObject);
         }
     }
 }

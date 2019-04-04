@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Linq;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerBehavior : MonoBehaviour
     private bool hasMoved = false;
 
     // cached ref
+    [SerializeField] GameObject bouncingStuff;
     GameSession gameSession;
     Animator myAnimator;
     CameraBehavior cameraBehaviour;
@@ -76,7 +78,24 @@ public class PlayerBehavior : MonoBehaviour
 
             float touchPosInUnits = ((rightSideOfScreen - leftSideOfScreen) * (touch.position.x / Screen.width)) + leftSideOfScreen;
 
-            playerPos.x = Mathf.Clamp(touchPosInUnits, leftSideOfScreen + xOffset, rightSideOfScreen - xOffset);
+            if (gameSession.IsAutoplayEnabled() && GameObject.FindGameObjectWithTag(BouncingObject))
+            {
+                if(GameObject.FindGameObjectsWithTag(BouncingObject).Length > 1)
+                {
+                    GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
+                    bouncingObjects = bouncingObjects.OrderBy(filling => filling.transform.position.y).ToArray();
+
+                    // Set player position the the bouncing object with lowest transform.position.y value
+                    playerPos.x = bouncingObjects[0].transform.position.x;
+
+                } else
+                {
+                    playerPos.x = GameObject.FindGameObjectWithTag(BouncingObject).transform.position.x;
+                }
+            } else
+            {
+                playerPos.x = Mathf.Clamp(touchPosInUnits, leftSideOfScreen + xOffset, rightSideOfScreen - xOffset);
+            }
             transform.position = playerPos;
 
         }
