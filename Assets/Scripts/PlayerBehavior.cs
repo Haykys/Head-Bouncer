@@ -57,11 +57,14 @@ public class PlayerBehavior : MonoBehaviour
             // Because of the game being pause when it starts up
             FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(false);
 
-            if (GameObject.FindGameObjectWithTag("Usher NPC") || GameObject.FindGameObjectWithTag("Usher Text")) { }
+            if (!HasMoved && GameObject.FindGameObjectWithTag("Usher NPC") || GameObject.FindGameObjectWithTag("Usher Text"))
             {
                 HasMoved = true;
                 cameraBehaviour.CameraMovementSpeed = 1f;
-                Destroy(GameObject.FindGameObjectWithTag("Usher NPC"));
+                for (int i = 0; i < GameObject.FindGameObjectsWithTag("Usher NPC").Length; i++)
+                {
+                    Destroy(GameObject.FindGameObjectsWithTag("Usher NPC")[i]);
+                }
                 Destroy(GameObject.FindGameObjectWithTag("Usher Text"));
             }
 
@@ -83,7 +86,7 @@ public class PlayerBehavior : MonoBehaviour
                 if(GameObject.FindGameObjectsWithTag(BouncingObject).Length > 1)
                 {
                     GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
-                    bouncingObjects = bouncingObjects.OrderBy(filling => filling.transform.position.y).ToArray();
+                    bouncingObjects = bouncingObjects.OrderBy(bouncingObject => bouncingObject.transform.position.y).ToArray();
 
                     // Set player position the the bouncing object with lowest transform.position.y value
                     playerPos.x = bouncingObjects[0].transform.position.x;
