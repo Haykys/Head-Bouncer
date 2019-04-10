@@ -31,6 +31,13 @@ public class ShredderFailure : MonoBehaviour
             player.SetActive(false);
             Destroy(otherGameObject);
             gameSession.ResetGame();
+
+            if (PlayerPrefsController.GetBestScore() < gameSession.CurrentScore)
+            {
+                PlayerPrefsController.SetBestScore(gameSession.CurrentScore);
+            }
+
+            PlayerPrefsController.SetLastScore(gameSession.CurrentScore);
         }
     }
 }

@@ -52,8 +52,20 @@ public class PlayerBehavior : MonoBehaviour
         transform.position = playerPos;
 
 #elif UNITY_IOS || UNITY_ANDROID
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && FindObjectOfType<PolygonCollider2D>())
         {
+            Touch touch = Input.touches[0];
+
+            if (touch.deltaPosition.x > 0)
+            {
+                myAnimator.SetBool("isWalking", true);
+                transform.localScale = new Vector2(-1f, 1f);
+            } else if (touch.deltaPosition.x < 0)
+            {
+                myAnimator.SetBool("isWalking", true);
+                transform.localScale = new Vector2(1f, 1f);
+            }
+
             // Because of the game being pause when it starts up
             FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(false);
 
@@ -68,8 +80,6 @@ public class PlayerBehavior : MonoBehaviour
                 Destroy(GameObject.FindGameObjectWithTag("Usher Text"));
             }
 
-
-            Touch touch = Input.touches[0];
 
             float screenPosX = Camera.main.transform.position.x;
 

@@ -906,7 +906,7 @@ PrefabInstance:
     - target: {fileID: 4767206910944034809, guid: 80b9c864ee9d1354582c3aedfa29d85b,
         type: 3}
       propertyPath: isAutoplayEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80b9c864ee9d1354582c3aedfa29d85b, type: 3}
@@ -1297,6 +1297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Emission Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010665729898092643, guid: e9f47f0cf1d072a4a9b95849bb7ca134,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6010665729898092642, guid: e9f47f0cf1d072a4a9b95849bb7ca134,
         type: 3}

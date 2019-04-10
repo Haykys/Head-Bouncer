@@ -10,50 +10,22 @@ public class GameSession : MonoBehaviour
     // config params
     [SerializeField] bool isAutoplayEnabled;
 
-    private static GameSession instance;
-
-    public static GameSession Instance
-    {
-        get
-        {
-            if (instance == null)
-            {
-                instance = GameObject.FindObjectOfType<GameSession>();
-            }
-
-            return instance;
-        }
-    }
-
     // State variable
     int currentScore = 0;
 
     public int CurrentScore { get => currentScore; set => currentScore = value; }
 
     // cached ref
-    GameObject scoreDisplay;
+    ScoreDisplay scoreDisplay;
 
     private void Awake()
     {
-        SetUpSingleton();
+        CurrentScore = 0;
     }
 
     private void Update()
     {
-        scoreDisplay = GameObject.Find("Score Text");
-    }
-
-    private void SetUpSingleton()
-    {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        } else
-        {
-            instance = this;
-            CurrentScore = 0;
-            DontDestroyOnLoad(gameObject);
-        }
+        scoreDisplay = FindObjectOfType<ScoreDisplay>();
     }
 
     /// <summary>
