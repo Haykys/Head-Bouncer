@@ -10,6 +10,7 @@ public class PlayerBehavior : MonoBehaviour
     const string BouncingObject = "Bouncing Object";
     const string NonBouncingObject = "Non Bouncing Object";
     const string EmissionObject = "Emission Object";
+    const string Floor = "Floor";
 
     // config params
     [SerializeField] float xOffset = 0.5f;
@@ -120,9 +121,11 @@ public class PlayerBehavior : MonoBehaviour
             // User has tapped
             if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
             {
-                if (Time.time - touchTime <= 0.5)
+                var isTouchingFloor = GetComponent<BoxCollider2D>().IsTouchingLayers(LayerMask.GetMask(Floor));
+
+                if (Time.time - touchTime <= 0.5 && isTouchingFloor)
                 {
-                    Vector2 jumpVelocityToAdd = new Vector2(0f, 10f);
+                    Vector2 jumpVelocityToAdd = new Vector2(0f, 30f);
                     myRigidbody2D.velocity += jumpVelocityToAdd;
                 }
             }

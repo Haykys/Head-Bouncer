@@ -764,7 +764,7 @@ PrefabInstance:
     - target: {fileID: 2741047292013444780, guid: ac2a37e30a9dec04f8b225dd9005076d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -4.238
       objectReference: {fileID: 0}
     - target: {fileID: 2741047292013444780, guid: ac2a37e30a9dec04f8b225dd9005076d,
         type: 3}
@@ -813,24 +813,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7604069410280928213, guid: ac2a37e30a9dec04f8b225dd9005076d,
         type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 815580408, guid: ac2a37e30a9dec04f8b225dd9005076d, type: 3}
-      propertyPath: plyerHealthObjects.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 815580408, guid: ac2a37e30a9dec04f8b225dd9005076d, type: 3}
-      propertyPath: plyerHealthObjects.Array.data[0]
-      value: 
-      objectReference: {fileID: 2041612073}
-    - target: {fileID: 815580408, guid: ac2a37e30a9dec04f8b225dd9005076d, type: 3}
-      propertyPath: plyerHealthObjects.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 815580408, guid: ac2a37e30a9dec04f8b225dd9005076d, type: 3}
-      propertyPath: plyerHealthObjects.Array.data[2]
-      value: 
+      propertyPath: m_Interpolate
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac2a37e30a9dec04f8b225dd9005076d, type: 3}
@@ -886,7 +870,7 @@ Transform:
   m_GameObject: {fileID: 1827056293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.01, y: -5.013, z: 0}
-  m_LocalScale: {x: 5.7487497, y: 1, z: 1}
+  m_LocalScale: {x: 6.4673433, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 4
@@ -973,12 +957,6 @@ Transform:
   m_Father: {fileID: 519420032}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2041612073 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7770043287712845739, guid: ee06cd47d11a35e4c9d33816d70c76e9,
-    type: 3}
-  m_PrefabInstance: {fileID: 7770043287565376657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1139943557488415210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2065,6 +2043,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7218618091772972794, guid: b6e7c4a2a2eaf5443ac4c08a2ea2c5f1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.578125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6e7c4a2a2eaf5443ac4c08a2ea2c5f1, type: 3}

@@ -46,9 +46,8 @@ public class ShredderFailure : MonoBehaviour
 
                 PlayerPrefsController.SetLastScore(gameSession.CurrentScore);
             }
-            else if (otherGameObject.layer == LayerMask.NameToLayer(NonBouncingObject))
+            else
             {
-                gameSession.AddToScore(1);
                 Destroy(otherGameObject);
             }
             #endregion
