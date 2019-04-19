@@ -43,10 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5a2e9149f91114890cab3748fc316d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bouncerSpawnDelayMin: 2
-  bouncerSpawnDelayMax: 4
-  xPushMin: 2
-  xPushMax: 4
-  yPushMin: 3
-  yPushMax: 5
-  bouncer: {fileID: 5129337053730110815, guid: 6f4828010961cc24a905d28d11d98ce3, type: 3}
+  bouncers:
+  - {fileID: 3883987354083658239, guid: 4214f1affd30515409d2bccfe029cfda, type: 3}
+  - {fileID: 5129337053730110815, guid: 6f4828010961cc24a905d28d11d98ce3, type: 3}

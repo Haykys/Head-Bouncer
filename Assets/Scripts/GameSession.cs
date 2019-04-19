@@ -12,20 +12,24 @@ public class GameSession : MonoBehaviour
 
     // State variable
     int currentScore = 0;
+    int difficultyLevel = 1;
 
     public int CurrentScore { get => currentScore; set => currentScore = value; }
+    public int DifficultyLevel { get => difficultyLevel; set => difficultyLevel = value; }
 
     // cached ref
     ScoreDisplay scoreDisplay;
+    DifficultyLevel gameDifficultyLevel;
 
     private void Awake()
     {
         CurrentScore = 0;
     }
 
-    private void Update()
+    private void Start()
     {
         scoreDisplay = FindObjectOfType<ScoreDisplay>();
+        gameDifficultyLevel = FindObjectOfType<DifficultyLevel>();
     }
 
     /// <summary>
@@ -36,6 +40,15 @@ public class GameSession : MonoBehaviour
     {
         CurrentScore += amount;
         scoreDisplay.GetComponent<ScoreDisplay>().DisplayScore();
+    }
+
+    /// <summary>
+    /// Increment Difficulty level in the Game Scene
+    /// </summary>
+    public void IncrementDifficulty()
+    {
+        DifficultyLevel += 1;
+        gameDifficultyLevel.GetComponent<DifficultyLevel>().DisplayDifficulty();
     }
 
     /// <summary>
@@ -50,11 +63,19 @@ public class GameSession : MonoBehaviour
         go.SetActive(true);
     }
 
+    /// <summary>
+    /// Show Game Over Menu
+    /// </summary>
+    /// <returns></returns>
     public GameObject GetGameOverMenu()
     {
         return GameObject.Find("Game Canvas").transform.Find("Game Over Menu").gameObject;
     }
 
+    /// <summary>
+    /// Enables Autoplay Feature (Currently not good use with knifes in game)
+    /// </summary>
+    /// <returns></returns>
     public bool IsAutoplayEnabled()
     {
         return isAutoplayEnabled;

@@ -5,15 +5,18 @@ using UnityEngine;
 public class ShredderFailure : MonoBehaviour
 {
     // Constants
-    string BouncingObject = "Bouncing Object";
+    const string BouncingObject = "Bouncing Object";
+    const string NonBouncingObject = "Non Bouncing Object";
 
     // Config params
     GameSession gameSession;
+    PlayerHealth playerHealth;
     [SerializeField] GameObject player;
 
     private void Start()
     {
         gameSession = FindObjectOfType<GameSession>();
+        playerHealth = FindObjectOfType<PlayerHealth>();
     }
 
     private void OnTriggerEnter2D(Collider2D otherCollider)
@@ -21,23 +24,34 @@ public class ShredderFailure : MonoBehaviour
         GameObject otherGameObject = otherCollider.gameObject;
         if(otherGameObject.layer == LayerMask.NameToLayer(BouncingObject))
         {
-            GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
-
-            for (int i = 0; i < bouncingObjects.Length; i++)
+            playerHealth.DecreaseHealth(1);
+            if(playerHealth.Health <= 0)
             {
-                bouncingObjects[i].SetActive(false);
+                #region Game Over
+                GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
+
+                for (int i = 0; i < bouncingObjects.Length; i++)
+                {
+                    bouncingObjects[i].SetActive(false);
+                }
+
+                player.SetActive(false);
+                Destroy(otherGameObject);
+                gameSession.ResetGame();
+
+                if (PlayerPrefsController.GetBestScore() < gameSession.CurrentScore)
+                {
+                    PlayerPrefsController.SetBestScore(gameSession.CurrentScore);
+                }
+
+                PlayerPrefsController.SetLastScore(gameSession.CurrentScore);
             }
-
-            player.SetActive(false);
-            Destroy(otherGameObject);
-            gameSession.ResetGame();
-
-            if (PlayerPrefsController.GetBestScore() < gameSession.CurrentScore)
+            else if (otherGameObject.layer == LayerMask.NameToLayer(NonBouncingObject))
             {
-                PlayerPrefsController.SetBestScore(gameSession.CurrentScore);
+                gameSession.AddToScore(1);
+                Destroy(otherGameObject);
             }
-
-            PlayerPrefsController.SetLastScore(gameSession.CurrentScore);
+            #endregion
         }
     }
 }

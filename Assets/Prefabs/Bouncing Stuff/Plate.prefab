@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6303659742921902041}
   - component: {fileID: 7988273960732666454}
   - component: {fileID: 8846344876044055493}
-  - component: {fileID: 8613119445198491068}
+  - component: {fileID: 8391400763136861831}
   m_Layer: 8
   m_Name: Plate
   m_TagString: Bouncing Object
@@ -102,8 +102,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &8613119445198491068
-CircleCollider2D:
+--- !u!70 &8391400763136861831
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -115,6 +115,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.012592435}
-  serializedVersion: 2
-  m_Radius: 0.1698674
+  m_Offset: {x: 0.0052819555, y: -0.0000004327634}
+  m_Size: {x: 0.53163475, y: 0.24462752}
+  m_Direction: 1

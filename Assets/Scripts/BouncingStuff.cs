@@ -7,25 +7,21 @@ using Random = UnityEngine.Random;
 public class BouncingStuff : MonoBehaviour
 {
     // config params
-    private int bouncerSpawnDelayMin = 2;
-    private int bouncerSpawnDelayMax = 3;
-    private int xPushMin = 2;
-    private int xPushMax = 4;
-    private int yPushMin = 3;
-    private int yPushMax = 4;
-    private float gravityScale = 1;
+    private float bouncerSpawnDelay = 3f;
+    private float xPush = 3f;
+    private float yPush = 4f;
+    private float gravityScale = 1f;
+    private bool withKnife;
 
     // cached ref
-    [SerializeField] GameObject bouncer;
+    [SerializeField] GameObject[] bouncers;
     GameSession gameSession;
 
-    public int BouncerSpawnDelayMin { get => bouncerSpawnDelayMin; set => bouncerSpawnDelayMin = value; }
-    public int BouncerSpawnDelayMax { get => bouncerSpawnDelayMax; set => bouncerSpawnDelayMax = value; }
-    public int XPushMin { get => xPushMin; set => xPushMin = value; }
-    public int XPushMax { get => xPushMax; set => xPushMax = value; }
-    public int YPushMin { get => yPushMin; set => yPushMin = value; }
-    public int YPushMax { get => yPushMax; set => yPushMax = value; }
+    public float BouncerSpawnDelay { get => bouncerSpawnDelay; set => bouncerSpawnDelay = value; }
+    public float XPush { get => xPush; set => xPush = value; }
+    public float YPush { get => yPush; set => yPush = value; }
     public float GravityScale { get => gravityScale; set => gravityScale = value; }
+    public bool WithKnife { get => withKnife; set => withKnife = value; }
 
     IEnumerator Start()
     {
@@ -34,29 +30,34 @@ public class BouncingStuff : MonoBehaviour
 
         while (true)
         {
-            yield return new WaitForSeconds(Random.Range(BouncerSpawnDelayMax, BouncerSpawnDelayMax));
+            yield return new WaitForSeconds(bouncerSpawnDelay);
             SpawnBouncer();
         }
     }
 
-    private void Update()
-    {
-
-    }
-
     private void SpawnBouncer()
     {
+        GameObject bouncer;
+
+        if (WithKnife)
+        {
+            bouncer = bouncers[Random.Range(0, bouncers.Length)];
+        } else
+        {
+            bouncer = bouncers[Random.Range(1, bouncers.Length)];
+
+        }
         Spawn(bouncer);
     }
 
     private void Spawn(GameObject bouncer)
     {
         Vector2 bouncerSpawnPossition = transform.position;
-        GameObject newBouncer = Instantiate(bouncer, bouncerSpawnPossition, Quaternion.identity);
+        GameObject newBouncer = Instantiate(bouncer, bouncerSpawnPossition, transform.rotation * Quaternion.Euler(180, 0, 0));
         Rigidbody2D newBouncerRB = newBouncer.GetComponent<Rigidbody2D>();
 
         // Launch the bouncer given the direction
-        newBouncerRB.velocity = new Vector2(Random.Range(XPushMin,XPushMax), Random.Range(YPushMin, YPushMax));
+        newBouncerRB.velocity = new Vector2(XPush, YPush);
         newBouncerRB.gravityScale = GravityScale;
 
         newBouncer.transform.parent = transform;

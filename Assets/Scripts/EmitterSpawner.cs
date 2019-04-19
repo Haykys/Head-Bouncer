@@ -10,6 +10,11 @@ public class EmitterSpawner : MonoBehaviour
     private bool spawnedThirdEmitter = false;
     private bool spawnedForthEmitter = false;
     private bool spawnedFifthEmitter = false;
+    private bool spawnedSixthEmitter = false;
+    private bool spawnedSeventhEmitter = false;
+    private bool spawnedEigthEmitter = false;
+    private bool spawnedNinthEmitter = false;
+    private bool spawnedTenthEmitter = false;
 
     // cached ref
     [SerializeField] GameObject emittor;
@@ -34,49 +39,63 @@ public class EmitterSpawner : MonoBehaviour
     {
         if (playerBehavior.HasMoved)
         {
-            if (gameSession.CurrentScore < 10 && !spawnedFirstEmitter)
+            if (gameSession.CurrentScore < 5 && !spawnedFirstEmitter)
             {
-                Vector2 emittorSpawnPossition = new Vector2(transform.position.x, transform.position.y + 5);
+                Vector2 emittorSpawnPossition = new Vector2(transform.position.x, transform.position.y + 5f);
                 GameObject newEmitter = Instantiate(emittor, emittorSpawnPossition, Quaternion.identity);
                 newEmitter.transform.parent = transform;
 
                 spawnedFirstEmitter = true;
             }
-            else if (gameSession.CurrentScore >= 10 && !spawnedSecondEmitter)
+            else if (gameSession.CurrentScore >= 5 && !spawnedSecondEmitter)
             {
-                FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 1.5f;
-                spawnedSecondEmitter = SpawnNewEmiter(2f, 7, 4, 5, 2, 3, 2, 3, 0.8f);
+                spawnedSecondEmitter = SpawnNewEmiter(5f, 4f, 2f, 6f, 1f, false);
             }
-            else if (gameSession.CurrentScore >= 30 && !spawnedThirdEmitter)
+            else if (gameSession.CurrentScore >= 15 && !spawnedThirdEmitter)
             {
                 FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 2f;
-                spawnedThirdEmitter = SpawnNewEmiter(3f, 3, 5, 6, 2, 3, 7, 8, 0.7f);
-            } else if (gameSession.CurrentScore >= 80 && !spawnedForthEmitter)
+                spawnedThirdEmitter = SpawnNewEmiter(5f, 5f, 1.2f, 8f, 1f, false);
+            } else if (gameSession.CurrentScore >= 30 && !spawnedForthEmitter)
+            {
+                spawnedForthEmitter = SpawnNewEmiter(3f, 4f, 3f, 5f, 1f, false);
+            } else if (gameSession.CurrentScore >= 50 && !spawnedFifthEmitter)
             {
                 FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 3f;
-                spawnedForthEmitter = SpawnNewEmiter(4f, 2, 6, 7, 2, 4, 8, 9, 0.8f);
-            } else if (gameSession.CurrentScore >= 150 && !spawnedFifthEmitter)
+                spawnedFifthEmitter = SpawnNewEmiter(3f, 5f, 2f, 7f, 1f, false);
+            } else if (gameSession.CurrentScore >= 80 && !spawnedSixthEmitter)
+            {
+                spawnedSixthEmitter = SpawnNewEmiter(3f, 6f, 2.5f, 10f, 1f, false);
+            } else if (gameSession.CurrentScore >= 120 && !spawnedSeventhEmitter)
             {
                 FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 4f;
-                spawnedFifthEmitter = SpawnNewEmiter(5f, 9, 7, 8, 2, 4, 1, 2, 0.6f);
+                spawnedSeventhEmitter = SpawnNewEmiter(6f, 5f, 2f, 5f, 1f, false);
+            } else if (gameSession.CurrentScore >= 170 && !spawnedEigthEmitter)
+            {
+                spawnedEigthEmitter = SpawnNewEmiter(6f, 10f, 1.3f, 7f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= 230 && !spawnedNinthEmitter)
+            {
+                FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 3f;
+                spawnedNinthEmitter = SpawnNewEmiter(6f, 7.5f, 1f, 8f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= 300 && !spawnedTenthEmitter)
+            {
+                FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 4f;
+                spawnedTenthEmitter = SpawnNewEmiter(4f, 12f, 1.5f, 10f, 0.9f, false);
             }
         }
     }
 
-    private bool SpawnNewEmiter(float cameraMovemntSpeed, int spawnPosition, int bouncerSpawnDelayMin, int bouncerSpawnDelayMax,
-        int xPushMin, int xPushMax, int yPushMin, int yPushMax, float gravityScale)
+    private bool SpawnNewEmiter(float spawnPosition, float bouncerSpawnDelay,
+        float xPush, float yPush, float gravityScale, bool withKnife)
     {
-        FindObjectOfType<CameraBehavior>().CameraMovementSpeed = cameraMovemntSpeed;
         Vector2 emittorSpawnPossition = new Vector2(transform.position.x, transform.position.y + spawnPosition);
         GameObject newEmitter = Instantiate(emittor, emittorSpawnPossition, Quaternion.identity);
 
-        newEmitter.GetComponent<BouncingStuff>().BouncerSpawnDelayMin = bouncerSpawnDelayMin;
-        newEmitter.GetComponent<BouncingStuff>().BouncerSpawnDelayMax = bouncerSpawnDelayMax;
-        newEmitter.GetComponent<BouncingStuff>().XPushMin = xPushMin;
-        newEmitter.GetComponent<BouncingStuff>().XPushMax = xPushMax;
-        newEmitter.GetComponent<BouncingStuff>().YPushMin = yPushMin;
-        newEmitter.GetComponent<BouncingStuff>().YPushMax = yPushMax;
+        newEmitter.GetComponent<BouncingStuff>().BouncerSpawnDelay = bouncerSpawnDelay;
+        newEmitter.GetComponent<BouncingStuff>().XPush = xPush;
+        newEmitter.GetComponent<BouncingStuff>().YPush = yPush;
         newEmitter.GetComponent<BouncingStuff>().GravityScale = gravityScale;
+        newEmitter.GetComponent<BouncingStuff>().WithKnife = withKnife;
+        gameSession.IncrementDifficulty();
 
         newEmitter.transform.parent = transform;
 
