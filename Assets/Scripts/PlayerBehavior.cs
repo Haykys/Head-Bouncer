@@ -13,13 +13,12 @@ public class PlayerBehavior : MonoBehaviour
     const string Floor = "Floor";
 
     // config params
-    [SerializeField] float xOffset = 0.5f;
+    [SerializeField] float xOffset = 0.31f;
     [Header("Animation")]
     [SerializeField] float idleAnimationWaitTime = 4f;
 
-    private float playerOffset = 2.81f;
-    private float touchTime;
     private bool hasMoved = false;
+    private float touchTime;
 
     // cached ref
     GameSession gameSession;
@@ -28,6 +27,7 @@ public class PlayerBehavior : MonoBehaviour
     EmitterSpawner emitterSpawner;
     PlayerHealth playerHealth;
     Rigidbody2D myRigidbody2D;
+
 
     public bool HasMoved { get => hasMoved; set => hasMoved = value; }
 
@@ -38,13 +38,18 @@ public class PlayerBehavior : MonoBehaviour
         cameraBehaviour = FindObjectOfType<CameraBehavior>();
         emitterSpawner = FindObjectOfType<EmitterSpawner>();
         playerHealth = FindObjectOfType<PlayerHealth>();
-        myRigidbody2D = FindObjectOfType<Rigidbody2D>();
+        myRigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerMovement();
+    }
+
+    private void FixedUpdate()
+    {
+        Jump();
     }
 
     private void OnTriggerEnter2D(Collider2D otherCollider)
@@ -73,19 +78,10 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
-    #region Player Movement
-    private void PlayerMovement()
+    #region Jump
+    private void Jump()
     {
-        Vector2 playerPos = new Vector2(transform.position.x, transform.position.y);
-
-#if UNITY_STANDALONE || UNITY_WEBPLAYER
-
-        float mousePosInUnits = Input.mousePosition.x / Screen.width * screenWidthInUnits;
-        playerPos.x = Mathf.Clamp(mousePosInUnits, minX, maxX);
-        transform.position = playerPos;
-
-#elif UNITY_IOS || UNITY_ANDROID
-        if (Input.touchCount > 0 && FindObjectOfType<BoxCollider2D>())
+        if (Input.touchCount > 0)
         {
             Touch touch = Input.touches[0];
 
@@ -93,6 +89,30 @@ public class PlayerBehavior : MonoBehaviour
             {
                 touchTime = Time.time;
             }
+
+            // User has tapped
+            if (touch.phase == TouchPhase.Ended)
+            {
+                var isTouchingFloor = GetComponent<BoxCollider2D>().IsTouchingLayers(LayerMask.GetMask(Floor));
+
+                if (Time.time - touchTime <= 0.5f && isTouchingFloor)
+                {
+                    Vector2 jumpVelocityToAdd = new Vector2(0f, 8f);
+                    myRigidbody2D.AddForce(jumpVelocityToAdd, ForceMode2D.Impulse);
+                }
+            }
+        }
+    }
+    #endregion
+
+    #region Player Movement
+    private void PlayerMovement()
+    {
+        Vector2 playerPos = new Vector2(transform.position.x, transform.position.y);
+
+        if (Input.touchCount > 0 && FindObjectOfType<BoxCollider2D>())
+        {
+            Touch touch = Input.touches[0];
 
             if (touch.deltaPosition.x > 1)
             {
@@ -116,18 +136,6 @@ public class PlayerBehavior : MonoBehaviour
                     Destroy(GameObject.FindGameObjectsWithTag("Usher NPC")[i]);
                 }
                 Destroy(GameObject.FindGameObjectWithTag("Usher Text"));
-            }
-
-            // User has tapped
-            if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
-            {
-                var isTouchingFloor = GetComponent<BoxCollider2D>().IsTouchingLayers(LayerMask.GetMask(Floor));
-
-                if (Time.time - touchTime <= 0.5 && isTouchingFloor)
-                {
-                    Vector2 jumpVelocityToAdd = new Vector2(0f, 30f);
-                    myRigidbody2D.velocity += jumpVelocityToAdd;
-                }
             }
 
             float screenPosX = Camera.main.transform.position.x;
@@ -161,8 +169,6 @@ public class PlayerBehavior : MonoBehaviour
             transform.position = playerPos;
 
         }
-#endif
-
     }
     #endregion
 

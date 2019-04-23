@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SecPlayerPrefs;
 
 public class PlayerPrefsController : MonoBehaviour
 {
@@ -9,21 +10,21 @@ public class PlayerPrefsController : MonoBehaviour
 
     public static void SetBestScore(int score)
     {
-        PlayerPrefs.SetInt(BEST_SCORE, score);
+        SecurePlayerPrefs.SetInt(BEST_SCORE, score);
     }
 
     public static int GetBestScore()
     {
-        return PlayerPrefs.GetInt(BEST_SCORE);
+        return SecurePlayerPrefs.GetInt(BEST_SCORE);
     }
 
     public static void SetLastScore(int score)
     {
-        PlayerPrefs.SetInt(LAST_SCORE, score);
+        SecurePlayerPrefs.SetInt(LAST_SCORE, score);
     }
 
     public static int GetLastScore()
     {
-        return PlayerPrefs.GetInt(LAST_SCORE);
+        return SecurePlayerPrefs.GetInt(LAST_SCORE);
     }
 }
