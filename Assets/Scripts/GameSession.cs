@@ -6,6 +6,8 @@ using System;
 
 public class GameSession : MonoBehaviour
 {
+    //constants
+    const string Player = "Player";
 
     // config params
     [SerializeField] bool isAutoplayEnabled;
@@ -20,6 +22,8 @@ public class GameSession : MonoBehaviour
     // cached ref
     ScoreDisplay scoreDisplay;
     DifficultyLevel gameDifficultyLevel;
+    GameObject player;
+    GlobalManager globalManager;
 
     private void Awake()
     {
@@ -30,6 +34,10 @@ public class GameSession : MonoBehaviour
     {
         scoreDisplay = FindObjectOfType<ScoreDisplay>();
         gameDifficultyLevel = FindObjectOfType<DifficultyLevel>();
+        player = GameObject.FindGameObjectWithTag(Player);
+        globalManager = FindObjectOfType<GlobalManager>();
+
+        globalManager.SetCharacter(player);
     }
 
     /// <summary>

@@ -28,7 +28,6 @@ public class PlayerBehavior : MonoBehaviour
     PlayerHealth playerHealth;
     Rigidbody2D myRigidbody2D;
 
-
     public bool HasMoved { get => hasMoved; set => hasMoved = value; }
 
     void Start()
@@ -176,12 +175,12 @@ public class PlayerBehavior : MonoBehaviour
 
     private void setPlayerIdleAnimationTrue()
     {
-        myAnimator.SetBool("playIdleBlueShirtDude", true);
+        myAnimator.SetBool("isIdle", true);
     }
 
     public void WaitTillNextIdleAnimation()
     {
-        myAnimator.SetBool("playIdleBlueShirtDude", false);
+        myAnimator.SetBool("isIdle", false);
         Invoke("setPlayerIdleAnimationTrue", idleAnimationWaitTime);
     }
 
