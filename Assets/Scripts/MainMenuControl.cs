@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class MainMenuControl : MonoBehaviour
 {
@@ -41,9 +43,22 @@ public class MainMenuControl : MonoBehaviour
 
     public void OnCharacterSelect(int characterChoice)
     {
+        var characterButtons = FindObjectsOfType<CharacterSelectionButton>();
         Character selectedCharacter = characters[characterChoice];
-        globalManager.CharacterSprite = selectedCharacter.CharacterSprite;
-        globalManager.CharacterRuntimeAnimatorController = selectedCharacter.CharacterRuntimeAnimatorController;
-        globalManager.SetCharacter(player);
+
+        foreach (CharacterSelectionButton characterButton in characterButtons)
+        {
+            if (characterButton.CharacterIndex == characterChoice)
+            {
+                characterButton.GetComponent<Toggle>().Select();
+                characterButton.GetComponent<Toggle>().interactable = false;
+                globalManager.CharacterSprite = selectedCharacter.CharacterSprite;
+                globalManager.CharacterRuntimeAnimatorController = selectedCharacter.CharacterRuntimeAnimatorController;
+                globalManager.SetCharacter(player);
+            } else
+            {
+                characterButton.GetComponent<Toggle>().interactable = true;
+            }
+        }
     }
 }

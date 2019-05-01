@@ -109,7 +109,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         Vector2 playerPos = new Vector2(transform.position.x, transform.position.y);
 
-        if (Input.touchCount > 0 && FindObjectOfType<BoxCollider2D>())
+        if (Input.touchCount > 0)
         {
             Touch touch = Input.touches[0];
 
@@ -165,6 +165,7 @@ public class PlayerBehavior : MonoBehaviour
             {
                 playerPos.x = Mathf.Clamp(touchPosInUnits, leftSideOfScreen + xOffset, rightSideOfScreen - xOffset);
             }
+
             transform.position = playerPos;
 
         }

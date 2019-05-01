@@ -51,7 +51,7 @@ public class GlobalManager : MonoBehaviour
         {
             player.GetComponent<SpriteRenderer>().sprite = CharacterSprite;
 
-            if (player.GetComponent<PlayerBehavior>())
+            if (player.GetComponent<PlayerBehavior>() && !player.GetComponent<Animator>())
             {
                 player.AddComponent<Animator>();
             }
