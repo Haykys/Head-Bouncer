@@ -11,13 +11,16 @@ public class GameSession : MonoBehaviour
 
     // config params
     [SerializeField] bool isAutoplayEnabled;
+    [SerializeField] GameObject playerCharacter;
 
     // State variable
     int currentScore = 0;
+    int points = 0;
     int difficultyLevel = 1;
 
     public int CurrentScore { get => currentScore; set => currentScore = value; }
     public int DifficultyLevel { get => difficultyLevel; set => difficultyLevel = value; }
+    public int Points { get => points; set => points = value; }
 
     // cached ref
     ScoreDisplay scoreDisplay;
@@ -28,6 +31,7 @@ public class GameSession : MonoBehaviour
     private void Awake()
     {
         CurrentScore = 0;
+        SpawnPlayer();
     }
 
     private void Start()
@@ -40,6 +44,13 @@ public class GameSession : MonoBehaviour
         globalManager.SetCharacter(player);
     }
 
+    private void SpawnPlayer()
+    {
+        Vector2 playerSpawnPossition = transform.position;
+        GameObject newPlayer = Instantiate(playerCharacter, playerSpawnPossition, Quaternion.identity);
+        newPlayer.transform.parent = transform;
+    }
+
     /// <summary>
     /// Adds a certain amount of points to the player for bouncing of objects
     /// </summary>
@@ -48,6 +59,13 @@ public class GameSession : MonoBehaviour
     {
         CurrentScore += amount;
         scoreDisplay.GetComponent<ScoreDisplay>().DisplayScore();
+    }
+
+    public void AddPoints(int amount)
+    {
+        int currentPoints = PlayerPrefsController.GetPoints();
+        int newPoints = currentPoints + amount;
+        PlayerPrefsController.SetPoints(newPoints);
     }
 
     /// <summary>

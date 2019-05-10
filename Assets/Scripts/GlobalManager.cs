@@ -53,7 +53,7 @@ public class GlobalManager : MonoBehaviour
 
             if (player.GetComponent<PlayerBehavior>() && !player.GetComponent<Animator>())
             {
-                player.AddComponent<Animator>();
+                player.AddComponent(typeof(Animator));
             }
 
             if (player.GetComponent<PlayerBehavior>() && player.GetComponent<Animator>())
@@ -62,6 +62,5 @@ public class GlobalManager : MonoBehaviour
             }
         }
     }
-
     #endregion
 }

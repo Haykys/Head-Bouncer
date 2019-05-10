@@ -53,7 +53,7 @@ public class BouncingStuff : MonoBehaviour
     private void Spawn(GameObject bouncer)
     {
         Vector2 bouncerSpawnPossition = transform.position;
-        GameObject newBouncer = Instantiate(bouncer, bouncerSpawnPossition, transform.rotation * Quaternion.Euler(180, 0, 0));
+        GameObject newBouncer = Instantiate(bouncer, bouncerSpawnPossition, transform.rotation * Quaternion.Euler(180, 0, 0)) as GameObject;
         Rigidbody2D newBouncerRB = newBouncer.GetComponent<Rigidbody2D>();
 
         // Launch the bouncer given the direction

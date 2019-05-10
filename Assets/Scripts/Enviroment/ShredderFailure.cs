@@ -7,16 +7,18 @@ public class ShredderFailure : MonoBehaviour
     // Constants
     const string BouncingObject = "Bouncing Object";
     const string NonBouncingObject = "Non Bouncing Object";
+    const string Player = "Player";
 
     // Config params
     GameSession gameSession;
     PlayerHealth playerHealth;
-    [SerializeField] GameObject player;
+    GameObject player;
 
     private void Start()
     {
         gameSession = FindObjectOfType<GameSession>();
         playerHealth = FindObjectOfType<PlayerHealth>();
+        player = GameObject.FindGameObjectWithTag(Player);
     }
 
     private void OnTriggerEnter2D(Collider2D otherCollider)

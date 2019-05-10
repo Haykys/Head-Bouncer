@@ -32,11 +32,11 @@ public class PlayerBehavior : MonoBehaviour
 
     void Start()
     {
-        myAnimator = GetComponent<Animator>();
         gameSession = FindObjectOfType<GameSession>();
         cameraBehaviour = FindObjectOfType<CameraBehavior>();
         emitterSpawner = FindObjectOfType<EmitterSpawner>();
         playerHealth = FindObjectOfType<PlayerHealth>();
+        myAnimator = GetComponent<Animator>();
         myRigidbody2D = GetComponent<Rigidbody2D>();
     }
 
@@ -66,11 +66,18 @@ public class PlayerBehavior : MonoBehaviour
                 for (int i = 0; i < bouncingObjects.Length; i++)
                 {
                     bouncingObjects[i].SetActive(false);
-                }
+                } 
 
                 gameObject.SetActive(false);
                 Destroy(otherGameObject);
                 gameSession.ResetGame();
+
+                if (PlayerPrefsController.GetBestScore() < gameSession.CurrentScore)
+                {
+                    PlayerPrefsController.SetBestScore(gameSession.CurrentScore);
+                }
+
+                PlayerPrefsController.SetLastScore(gameSession.CurrentScore);
                 #endregion
             }
 
@@ -78,23 +85,22 @@ public class PlayerBehavior : MonoBehaviour
     }
 
     #region Jump
+    /// <summary>
+    /// Makes player jump when you let you finger go
+    /// TODO Try if this is better then having jump on tap
+    /// </summary>
     private void Jump()
     {
         if (Input.touchCount > 0)
         {
             Touch touch = Input.touches[0];
 
-            if (touch.phase == TouchPhase.Began)
-            {
-                touchTime = Time.time;
-            }
-
             // User has tapped
             if (touch.phase == TouchPhase.Ended)
             {
                 var isTouchingFloor = GetComponent<BoxCollider2D>().IsTouchingLayers(LayerMask.GetMask(Floor));
 
-                if (Time.time - touchTime <= 0.5f && isTouchingFloor)
+                if (isTouchingFloor)
                 {
                     Vector2 jumpVelocityToAdd = new Vector2(0f, 8f);
                     myRigidbody2D.AddForce(jumpVelocityToAdd, ForceMode2D.Impulse);
