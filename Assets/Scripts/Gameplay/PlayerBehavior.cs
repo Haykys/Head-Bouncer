@@ -98,7 +98,7 @@ public class PlayerBehavior : MonoBehaviour
             // User has tapped
             if (touch.phase == TouchPhase.Ended)
             {
-                var isTouchingFloor = GetComponent<BoxCollider2D>().IsTouchingLayers(LayerMask.GetMask(Floor));
+                var isTouchingFloor = GetComponent<PolygonCollider2D>().IsTouchingLayers(LayerMask.GetMask(Floor));
 
                 if (isTouchingFloor)
                 {

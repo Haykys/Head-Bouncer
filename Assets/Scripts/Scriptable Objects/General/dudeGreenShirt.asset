@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c042d7deecd01e24f80c6e3dafc9a7b4, type: 3}
+  m_Name: dudeGreenShirt
+  m_EditorClassIdentifier: 
+  characterIndex: 9
+  characterName: dudeGreenShirt
+  characterSprite: {fileID: 21300000, guid: ef000bbb926194f06bb9316d1e9762ae, type: 3}
+  characterRuntimeAnimatorController: {fileID: 9100000, guid: cce366802d8bb8a40ac535edd3260d57,
+    type: 2}
+  characterPointCost: 200
+  playerHealth: 4

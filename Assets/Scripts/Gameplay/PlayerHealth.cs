@@ -11,9 +11,15 @@ public class PlayerHealth : MonoBehaviour
 
     public int Health { get => playerHealth; set => playerHealth = value; }
 
+    // cached ref
+    GlobalManager globalManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        globalManager = FindObjectOfType<GlobalManager>();
+        Health = globalManager.PlayerHealth;
+
         DisplayHealth();
     }
 

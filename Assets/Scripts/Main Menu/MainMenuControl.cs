@@ -35,28 +35,36 @@ public class MainMenuControl : MonoBehaviour
             cost.HidePointCost(ownedCharacters);
         }
 
-        characterSelection = GameObject.FindGameObjectWithTag(CharacterSelection);
         globalManager = FindObjectOfType<GlobalManager>();
-        player = GameObject.FindGameObjectWithTag(Player);
         modalPanel = FindObjectOfType<ModalPanel>();
+        player = GameObject.FindGameObjectWithTag(Player);
+        characterSelection = GameObject.FindGameObjectWithTag(CharacterSelection);
 
         SetCharacterOnStart(PlayerPrefsController.GetCharacter());
     }
 
+    /// <summary>
+    /// Set character selection modal to active
+    /// </summary>
     public void DisplayCharacterSelect()
     {
-        characterSelection.GetComponent<CanvasGroup>().interactable = true;
         characterSelection.GetComponent<CanvasGroup>().alpha = 1;
         characterSelection.GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
 
+    /// <summary>
+    /// Hide character selection modal
+    /// </summary>
     public void CloseCharacterSelect()
     {
-        characterSelection.GetComponent<CanvasGroup>().interactable = false;
         characterSelection.GetComponent<CanvasGroup>().alpha = 0;
         characterSelection.GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
 
+    /// <summary>
+    /// When game stars set last active character as selected
+    /// </summary>
+    /// <param name="characterChoice">index of the character</param>
     private void SetCharacterOnStart(int characterChoice)
     {
         if (PlayerPrefsController.GetCharacters().Length == 0)
@@ -70,11 +78,15 @@ public class MainMenuControl : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Either select the character or open modal
+    /// </summary>
+    /// <param name="characterChoice">Index of the selected character</param>
     public void OnCharacterSelect(int characterChoice)
     {
         this.characterChoice = characterChoice;
 
-        var characterButtons = FindObjectsOfType<CharacterSelectionButton>();
+        CharacterSelectionButton[] characterButtons = FindObjectsOfType<CharacterSelectionButton>();
         Character selectedCharacter = characters[characterChoice];
         string[] ownedCharacters = PlayerPrefsController.GetCharacters();
 
@@ -90,9 +102,24 @@ public class MainMenuControl : MonoBehaviour
         if (PlayerPrefsController.GetPoints() >= selectedCharacter.CharacterPointCost)
         {
             modalPanel.ShowPanelSuccess();
-        } else
+            FixIsOnBug(characterButtons);
+        }
+        else
         {
             modalPanel.ShowPanelFail();
+            FixIsOnBug(characterButtons);
+        }
+    }
+
+    /// <summary>
+    /// Fix when selecting character that is not owned and then selecting owned character pop up
+    /// </summary>
+    /// <param name="characterButtons">Character buttons (toggles)</param>
+    private static void FixIsOnBug(CharacterSelectionButton[] characterButtons)
+    {
+        foreach (CharacterSelectionButton characterButton in characterButtons)
+        {
+            characterButton.GetComponent<Toggle>().isOn = false;
         }
     }
 
@@ -112,9 +139,13 @@ public class MainMenuControl : MonoBehaviour
         modalPanel.ClosePanelFail();
     }
 
+    /// <summary>
+    /// If character isn't inside of playerPrefs buy it otherwise select
+    /// </summary>
+    /// <param name="characterChoice">Index of the clicked character</param>
     private void BuyOrSelectCharacter(int characterChoice)
     {
-        var characterButtons = FindObjectsOfType<CharacterSelectionButton>();
+        CharacterSelectionButton[] characterButtons = FindObjectsOfType<CharacterSelectionButton>();
         Character selectedCharacter = characters[characterChoice];
         string[] ownedCharacters = PlayerPrefsController.GetCharacters();
 
@@ -137,6 +168,7 @@ public class MainMenuControl : MonoBehaviour
                 characterButton.GetComponent<Toggle>().interactable = false;
                 globalManager.CharacterSprite = selectedCharacter.CharacterSprite;
                 globalManager.CharacterRuntimeAnimatorController = selectedCharacter.CharacterRuntimeAnimatorController;
+                globalManager.PlayerHealth = selectedCharacter.PlayerHealth;
                 globalManager.SetCharacter(player);
             }
             else

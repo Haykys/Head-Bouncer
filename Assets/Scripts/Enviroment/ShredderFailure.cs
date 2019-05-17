@@ -37,7 +37,7 @@ public class ShredderFailure : MonoBehaviour
                     bouncingObjects[i].SetActive(false);
                 }
 
-                player.SetActive(false);
+                player.GetComponent<Renderer>().enabled = false; ;
                 Destroy(otherGameObject);
                 gameSession.ResetGame();
 

@@ -9,15 +9,21 @@ public class GameOverMenuBehavior : MonoBehaviour
     private static bool paused;
 
     //  Constant
-    string BouncingObject = "Bouncing Object";
+    const string BouncingObject = "Bouncing Object";
+    const string Player = "Player";
 
     // cached ref
     [Tooltip("Reference to the pause menu object to tun on/off")]
     [SerializeField] GameObject gameOverMenu;
     [Tooltip("Reference to the player")]
-    [SerializeField] GameObject player;
+    GameObject player;
 
     public static bool Paused { get => paused; set => paused = value; }
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag(Player);
+    }
 
     /// <summary>
     /// Hadles resetting the game if needed
@@ -33,7 +39,7 @@ public class GameOverMenuBehavior : MonoBehaviour
 
         var go = FindObjectOfType<GameSession>().GetGameOverMenu();
         go.SetActive(false);
-        player.SetActive(true);
+        player.GetComponent<Renderer>().enabled = true;
 
         SetPauseMenu(false);
     }

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c042d7deecd01e24f80c6e3dafc9a7b4, type: 3}
+  m_Name: dudeCrestKnight
+  m_EditorClassIdentifier: 
+  characterIndex: 34
+  characterName: dudeCrestKnight
+  characterSprite: {fileID: 21300000, guid: 4acfe9df231be3e46a2969f5548aa795, type: 3}
+  characterRuntimeAnimatorController: {fileID: 9100000, guid: a2457dde085bbf64487232340d9f51e8,
+    type: 2}
+  characterPointCost: 6000
+  playerHealth: 4

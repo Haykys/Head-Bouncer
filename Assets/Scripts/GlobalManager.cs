@@ -10,10 +10,12 @@ public class GlobalManager : MonoBehaviour
     // cached ref
     // Serilized only for testing
     [SerializeField] private Sprite characterSprite;
-    [SerializeField]  private RuntimeAnimatorController characterRuntimeAnimatorController;
+    [SerializeField] private RuntimeAnimatorController characterRuntimeAnimatorController;
+    [SerializeField] private int playerHealth;
 
     public Sprite CharacterSprite { get => characterSprite; set => characterSprite = value; }
     public RuntimeAnimatorController CharacterRuntimeAnimatorController { get => characterRuntimeAnimatorController; set => characterRuntimeAnimatorController = value; }
+    public int PlayerHealth { get => playerHealth; set => playerHealth = value; }
 
     public static GlobalManager Instance
     {

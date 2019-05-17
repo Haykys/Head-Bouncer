@@ -16,6 +16,9 @@ public class LastScore : MonoBehaviour
         if (PlayerPrefsController.GetBestScore() > 0)
         {
             gameObject.GetComponent<TextMeshProUGUI>().text = PlayerPrefsController.GetLastScore().ToString();
+        } else
+        {
+            gameObject.GetComponent<TextMeshProUGUI>().text = 0.ToString();
         }
     }
 }

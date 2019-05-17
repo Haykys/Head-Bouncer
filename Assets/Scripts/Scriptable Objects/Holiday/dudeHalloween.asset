@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c042d7deecd01e24f80c6e3dafc9a7b4, type: 3}
+  m_Name: dudeHalloween
+  m_EditorClassIdentifier: 
+  characterIndex: 24
+  characterName: dudeHalloween
+  characterSprite: {fileID: 21300000, guid: af3c3c40457576d42b53d84ab62fb3e9, type: 3}
+  characterRuntimeAnimatorController: {fileID: 9100000, guid: 547ad777f2cfa81498f9a3ff53749c29,
+    type: 2}
+  characterPointCost: 2000
+  playerHealth: 4
