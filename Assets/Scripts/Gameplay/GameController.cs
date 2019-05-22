@@ -8,7 +8,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     [Tooltip("A reference to the background we want to spawn")]
-    [SerializeField] Transform background;
+    [SerializeField] Transform[] backgrounds;
     [Tooltip("Where the first background should be placed at")]
     [SerializeField] Vector2 startPoint = new Vector2(0, 0);
     [Tooltip("How many tiles should we create in advance")]
@@ -43,8 +43,9 @@ public class GameController : MonoBehaviour
     /// </summary>
     public void SpawnNextBackground()
     {
+        int randomBackgroundIndex = Random.Range(0, backgrounds.Length -1);
 
-        var newBackground = Instantiate(background, nextBackgroundLocation, nextBackgroundRotation);
+        var newBackground = Instantiate(backgrounds[randomBackgroundIndex], nextBackgroundLocation, nextBackgroundRotation);
 
         // Figure out where and at what rotation we should spawn
         // the next item

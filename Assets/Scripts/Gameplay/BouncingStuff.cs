@@ -8,7 +8,8 @@ public class BouncingStuff : MonoBehaviour
 {
     // config params
     private float bouncerSpawnDelay = 3f;
-    private float xPush = 3f;
+    private float xPushMin = 3f;
+    private float xPushMax = 3.5f;
     private float yPush = 4f;
     private float gravityScale = 1f;
     private bool withKnife;
@@ -18,7 +19,8 @@ public class BouncingStuff : MonoBehaviour
     GameSession gameSession;
 
     public float BouncerSpawnDelay { get => bouncerSpawnDelay; set => bouncerSpawnDelay = value; }
-    public float XPush { get => xPush; set => xPush = value; }
+    public float XPushMin { get => xPushMin; set => xPushMin = value; }
+    public float XPushMax { get => xPushMax; set => xPushMax = value; }
     public float YPush { get => yPush; set => yPush = value; }
     public float GravityScale { get => gravityScale; set => gravityScale = value; }
     public bool WithKnife { get => withKnife; set => withKnife = value; }
@@ -57,7 +59,7 @@ public class BouncingStuff : MonoBehaviour
         Rigidbody2D newBouncerRB = newBouncer.GetComponent<Rigidbody2D>();
 
         // Launch the bouncer given the direction
-        newBouncerRB.velocity = new Vector2(XPush, YPush);
+        newBouncerRB.velocity = new Vector2(Random.Range(XPushMin, XPushMax), YPush);
         newBouncerRB.gravityScale = GravityScale;
 
         newBouncer.transform.parent = transform;

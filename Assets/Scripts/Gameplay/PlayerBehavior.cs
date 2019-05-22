@@ -102,7 +102,7 @@ public class PlayerBehavior : MonoBehaviour
 
                 if (isTouchingFloor)
                 {
-                    Vector2 jumpVelocityToAdd = new Vector2(0f, 8f);
+                    Vector2 jumpVelocityToAdd = new Vector2(0f, 7f);
                     myRigidbody2D.AddForce(jumpVelocityToAdd, ForceMode2D.Impulse);
                 }
             }
@@ -129,12 +129,13 @@ public class PlayerBehavior : MonoBehaviour
                 transform.localScale = new Vector2(1f, 1f);
             }
 
-            // Because of the game being pause when it starts up
-            FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(false);
-
             if (!HasMoved && GameObject.FindGameObjectWithTag("Usher NPC") || GameObject.FindGameObjectWithTag("Usher Text"))
             {
                 HasMoved = true;
+
+                // Because of the game being pause when it starts up
+                FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(false);
+
                 cameraBehaviour.CameraMovementSpeed = 1f;
                 for (int i = 0; i < GameObject.FindGameObjectsWithTag("Usher NPC").Length; i++)
                 {

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2495306740129573837}
   - component: {fileID: 6384309899986601700}
   - component: {fileID: 4771473440173443599}
+  - component: {fileID: 251355532491750311}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1125094849
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -96,12 +97,12 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
+  m_Mass: 0.3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 20
+  m_GravityScale: 30
   m_Material: {fileID: 0}
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -172,7 +173,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.405, y: 0}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.6875, y: 1.3125}
     newSize: {x: 0.6875, y: 1.3125}
     adaptiveTilingThreshold: 0.5
@@ -181,12 +182,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.2471875, y: 0.03125}
-      - {x: 0.3778125, y: 0.03125}
-      - {x: 0.3778125, y: 1.21875}
-      - {x: 0.3778125, y: 1.28125}
-      - {x: -0.2471875, y: 1.28125}
-      - {x: -0.2471875, y: 0.09375001}
+    - - {x: -0.3125, y: 0.03125}
+      - {x: 0.3125, y: 0.03125}
+      - {x: 0.3125, y: 1.21875}
+      - {x: 0.3125, y: 1.28125}
+      - {x: -0.3125, y: 1.28125}
+      - {x: -0.3125, y: 0.09375001}
 --- !u!114 &4771473440173443599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,12 +213,31 @@ MonoBehaviour:
   lastSprite: {fileID: 0}
   lastRect:
     serializedVersion: 2
-    x: 25
+    x: 0
     y: 0
     width: 11
     height: 21
-  lastOffset: {x: 4.455, y: 0}
+  lastOffset: {x: 5.5, y: 0}
   lastPixelsPerUnit: 16
   lastFlipX: 0
   lastFlipY: 0
   editorCache: []
+--- !u!95 &251355532491750311
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8064727525727276210}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -62,6 +62,8 @@ public class GameOverMenuBehavior : MonoBehaviour
     {
         Paused = isPaused;
 
+        Debug.Log("Game Paused " + Paused);
+
         // If the game is paused, timeScale is 0, otherwise 1
         Time.timeScale = (Paused) ? 0 : 1;
 

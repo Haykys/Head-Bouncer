@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6860090361180473387}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: Game Controller
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3b9644d9510df0438fa228c093c2b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 4602658082472206761, guid: e5fe2a834c4b00243a52aa50c7999d0f,
-    type: 3}
+  backgrounds:
+  - {fileID: 4602658082472206761, guid: e5fe2a834c4b00243a52aa50c7999d0f, type: 3}
+  - {fileID: 5860113880834457791, guid: c980b08965e6837438d580cdc7225bc5, type: 3}
+  - {fileID: 5860113880834457791, guid: c393d58f6168e1b4d94f81d07dd1efa8, type: 3}
+  - {fileID: 5860113880834457791, guid: 5b401dc7f0c0d3b4180143a55c01f01b, type: 3}
+  - {fileID: 5860113880834457791, guid: 42cbaf689be26734db19d0961ebf0790, type: 3}
+  - {fileID: 5860113880834457791, guid: 91f204f01977fdf41be348315b00836f, type: 3}
+  - {fileID: 5860113880834457791, guid: ab1adfa13403f2f418790aea466ae880, type: 3}
+  - {fileID: 5860113880834457791, guid: 9262789a3622b624bb1b004650f763dd, type: 3}
+  - {fileID: 5860113880834457791, guid: 51b7cb0aa36522b4b9d5edb43bae8b26, type: 3}
+  - {fileID: 5860113880834457791, guid: a50a417d1f249c949b63ea119b655d99, type: 3}
   startPoint: {x: 0, y: 0}
   initSpawnNum: 10

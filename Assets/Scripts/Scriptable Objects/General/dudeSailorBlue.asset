@@ -18,4 +18,4 @@ MonoBehaviour:
   characterRuntimeAnimatorController: {fileID: 9100000, guid: ed5ebd9fe4473f342a5ec09a30bf2e91,
     type: 2}
   characterPointCost: 1000
-  playerHealth: 4
+  playerHealth: 7

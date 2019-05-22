@@ -27,7 +27,7 @@ public class ShredderFailure : MonoBehaviour
         if(otherGameObject.layer == LayerMask.NameToLayer(BouncingObject))
         {
             playerHealth.DecreaseHealth(1);
-            if(playerHealth.Health <= 0)
+            if(playerHealth.Health < 1)
             {
                 #region Game Over
                 GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);

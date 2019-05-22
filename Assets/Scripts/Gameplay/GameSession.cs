@@ -17,16 +17,20 @@ public class GameSession : MonoBehaviour
     int currentScore = 0;
     int points = 0;
     int difficultyLevel = 1;
+    int nextDifficultyIn = 5;
 
     public int CurrentScore { get => currentScore; set => currentScore = value; }
     public int DifficultyLevel { get => difficultyLevel; set => difficultyLevel = value; }
     public int Points { get => points; set => points = value; }
+    public int NextDifficultyIn { get => nextDifficultyIn; set => nextDifficultyIn = value; }
 
     // cached ref
     ScoreDisplay scoreDisplay;
     DifficultyLevel gameDifficultyLevel;
     GameObject player;
     GlobalManager globalManager;
+    EmitterSpawner emitterSpawner;
+    NextDifficultyIn nextDifficultyInComponent;
 
     private void Awake()
     {
@@ -40,8 +44,15 @@ public class GameSession : MonoBehaviour
         gameDifficultyLevel = FindObjectOfType<DifficultyLevel>();
         player = GameObject.FindGameObjectWithTag(Player);
         globalManager = FindObjectOfType<GlobalManager>();
+        emitterSpawner = FindObjectOfType<EmitterSpawner>();
+        nextDifficultyInComponent = FindObjectOfType<NextDifficultyIn>();
 
         globalManager.SetCharacter(player);
+    }
+
+    void Update()
+    {
+        PointsTillTextDifficulty();
     }
 
     private void SpawnPlayer()
@@ -76,6 +87,49 @@ public class GameSession : MonoBehaviour
         DifficultyLevel += 1;
         gameDifficultyLevel.GetComponent<DifficultyLevel>().DisplayDifficulty();
     }
+
+    #region NextDifficultyIn
+    public void PointsTillTextDifficulty()
+    {
+        if (CurrentScore < emitterSpawner.FirstDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.FirstDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.SecondDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.SecondDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.ThirdDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.ThirdDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.ForthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.ForthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.FifthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.FifthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.SixthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.SixthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.SeventhDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.SeventhDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.EigthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.EigthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.NinthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.NinthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        }
+    }
+    #endregion
 
     /// <summary>
     /// Will restart the currently loaded level
