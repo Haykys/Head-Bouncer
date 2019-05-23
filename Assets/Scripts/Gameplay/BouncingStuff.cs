@@ -8,8 +8,8 @@ public class BouncingStuff : MonoBehaviour
 {
     // config params
     private float bouncerSpawnDelay = 3f;
-    private float xPushMin = 3f;
-    private float xPushMax = 3.5f;
+    private float xPushMin = 2f;
+    private float xPushMax = 3f;
     private float yPush = 4f;
     private float gravityScale = 1f;
     private bool withKnife;
