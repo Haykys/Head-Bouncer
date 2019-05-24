@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Usher NPC
+  - Usher Text
+  - Bouncing Object
+  - Main Menu
+  - Game Canvas
+  - Game Controller
+  - Main Menu Background
+  - Emission Object
+  - Non Bouncing Object
+  - Health
+  - Floor
+  - Character Selection
+  - Character Selection Button
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Bouncing Object
+  - Player
+  - NPC Ushers
+  - Non Bouncing Object
+  - Floor
+  - Character Selection
+  - Character Selection Button
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 546459873
+    locked: 0
+  - name: Background Decoration
+    uniqueID: 2502225647
+    locked: 0
+  - name: Background Table Decoration
+    uniqueID: 1169156307
+    locked: 0
+  - name: Background Highest
+    uniqueID: 3512063187
+    locked: 0
+  - name: Player
+    uniqueID: 3169872447
+    locked: 0
+  - name: NPC Ushers
+    uniqueID: 2529354937
+    locked: 0
+  - name: Bouncing Object
+    uniqueID: 1533668215
+    locked: 0
+  - name: Gameplay Items
+    uniqueID: 2467542515
+    locked: 0
+  - name: Game Menu
+    uniqueID: 2457530689
+    locked: 0
