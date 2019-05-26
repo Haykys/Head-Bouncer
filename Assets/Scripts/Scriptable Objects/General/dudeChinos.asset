@@ -17,5 +17,5 @@ MonoBehaviour:
   characterSprite: {fileID: 21300000, guid: 3bde0af49ed22eb4e9b7ca55a1bd761c, type: 3}
   characterRuntimeAnimatorController: {fileID: 9100000, guid: 6a83b5145db49aa479765c09414fd9d6,
     type: 2}
-  characterPointCost: 50
+  characterPointCost: 100
   playerHealth: 4
