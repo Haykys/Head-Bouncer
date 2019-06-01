@@ -16,12 +16,17 @@ public class MainMenuControl : MonoBehaviour
     [SerializeField] Character[] characters;
     private int characterChoice;
 
+    [Header("SFX")]
+    [SerializeField] AudioClip[] UISound;
+    [SerializeField] [Range(0, 1)] float UISoundVolume = 0.7f;
+
     // cached ref
     GameObject characterSelection;
     GlobalManager globalManager;
     GameObject player;
     ModalPanel modalPanel;
     Cost[] costs;
+    Points points;
 
     private void Start()
     {
@@ -39,6 +44,7 @@ public class MainMenuControl : MonoBehaviour
         modalPanel = FindObjectOfType<ModalPanel>();
         player = GameObject.FindGameObjectWithTag(Player);
         characterSelection = GameObject.FindGameObjectWithTag(CharacterSelection);
+        points = FindObjectOfType<Points>();
 
         SetCharacterOnStart(PlayerPrefsController.GetCharacter());
     }
@@ -48,6 +54,9 @@ public class MainMenuControl : MonoBehaviour
     /// </summary>
     public void DisplayCharacterSelect()
     {
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, UISoundVolume);
+
         characterSelection.GetComponent<CanvasGroup>().alpha = 1;
         characterSelection.GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
@@ -57,12 +66,15 @@ public class MainMenuControl : MonoBehaviour
     /// </summary>
     public void CloseCharacterSelect()
     {
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, UISoundVolume);
+
         characterSelection.GetComponent<CanvasGroup>().alpha = 0;
         characterSelection.GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
 
     /// <summary>
-    /// When game stars set last active character as selected
+    /// When game start set last active character as selected
     /// </summary>
     /// <param name="characterChoice">index of the character</param>
     private void SetCharacterOnStart(int characterChoice)
@@ -84,6 +96,8 @@ public class MainMenuControl : MonoBehaviour
     /// <param name="characterChoice">Index of the selected character</param>
     public void OnCharacterSelect(int characterChoice)
     {
+        Debug.Log("CALLING");
+
         this.characterChoice = characterChoice;
 
         CharacterSelectionButton[] characterButtons = FindObjectsOfType<CharacterSelectionButton>();
@@ -125,17 +139,26 @@ public class MainMenuControl : MonoBehaviour
 
     public void ModalYesFunction()
     {
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, UISoundVolume);
+
         BuyOrSelectCharacter(characterChoice);
         modalPanel.ClosePanelSuccess();
     }
 
     public void ModalNoFunction()
     {
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, UISoundVolume);
+
         modalPanel.ClosePanelSuccess();
     }
 
     public void ModalOkFunction()
     {
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, UISoundVolume);
+
         modalPanel.ClosePanelFail();
     }
 
@@ -151,6 +174,10 @@ public class MainMenuControl : MonoBehaviour
 
         if(ownedCharacters.Contains(selectedCharacter.CharacterName) == false)
         {
+            int newPointsTotal = PlayerPrefsController.GetPoints() - selectedCharacter.CharacterPointCost;
+            PlayerPrefsController.SetPoints(newPointsTotal);
+            points.DisplayPoints();
+
             PlayerPrefsController.SetCharacters(selectedCharacter.CharacterName);
             string[] updatedOwnedCharacters = PlayerPrefsController.GetCharacters();
             foreach (Cost cost in costs)

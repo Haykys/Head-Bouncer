@@ -12,7 +12,7 @@ public class Points : MonoBehaviour
         DisplayPoints();
     }
 
-    private void DisplayPoints()
+    public void DisplayPoints()
     {
         if (PlayerPrefsController.GetPoints() > 0)
         {

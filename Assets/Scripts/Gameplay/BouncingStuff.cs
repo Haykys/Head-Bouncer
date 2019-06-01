@@ -14,6 +14,10 @@ public class BouncingStuff : MonoBehaviour
     private float gravityScale = 1f;
     private bool withKnife;
 
+    [Header("SFX")]
+    [SerializeField] AudioClip[] emissionSound;
+    [SerializeField] [Range(0, 1)] float emissionSoundVolume = 0.7f;
+
     // cached ref
     [SerializeField] GameObject[] bouncers;
     GameSession gameSession;
@@ -57,6 +61,9 @@ public class BouncingStuff : MonoBehaviour
         Vector2 bouncerSpawnPossition = transform.position;
         GameObject newBouncer = Instantiate(bouncer, bouncerSpawnPossition, transform.rotation * Quaternion.Euler(180, 0, 0)) as GameObject;
         Rigidbody2D newBouncerRB = newBouncer.GetComponent<Rigidbody2D>();
+
+        AudioClip clip = emissionSound[Random.Range(0, emissionSound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, emissionSoundVolume);
 
         // Launch the bouncer given the direction
         newBouncerRB.velocity = new Vector2(Random.Range(XPushMin, XPushMax), YPush);

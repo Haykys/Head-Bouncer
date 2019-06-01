@@ -13,6 +13,10 @@ public class GameSession : MonoBehaviour
     [SerializeField] bool isAutoplayEnabled;
     [SerializeField] GameObject playerCharacter;
 
+    [Header("SFX")]
+    [SerializeField] AudioClip nextDifficultySound;
+    [SerializeField] [Range(0, 1)] float nextDifficultySoundVolume = 0.7f;
+
     // State variable
     int currentScore = 0;
     int points = 0;
@@ -84,6 +88,9 @@ public class GameSession : MonoBehaviour
     /// </summary>
     public void IncrementDifficulty()
     {
+        Handheld.Vibrate();
+        AudioSource.PlayClipAtPoint(nextDifficultySound, transform.position, nextDifficultySoundVolume);
+
         DifficultyLevel += 1;
         gameDifficultyLevel.GetComponent<DifficultyLevel>().DisplayDifficulty();
     }

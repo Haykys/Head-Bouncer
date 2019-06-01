@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Linq;
+using Random = UnityEngine.Random;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -16,6 +17,12 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] float xOffset = 0.31f;
     [Header("Animation")]
     [SerializeField] float idleAnimationWaitTime = 4f;
+
+    [Header("SFX")]
+    [SerializeField] AudioClip[] plateBounceSound;
+    [SerializeField] AudioClip[] jumpSound;
+    [SerializeField] [Range(0, 1)] float plateBounceSoundVolume = 0.7f;
+    [SerializeField] [Range(0, 1)] float jumpSoundVolume = 0.7f;
 
     private bool hasMoved = false;
     private float touchTime;
@@ -51,36 +58,14 @@ public class PlayerBehavior : MonoBehaviour
         Jump();
     }
 
-    private void OnTriggerEnter2D(Collider2D otherCollider)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject otherGameObject = otherCollider.gameObject;
+        GameObject otherGameObject = collision.collider.gameObject.transform.parent.gameObject;
 
-        if (otherGameObject.layer == LayerMask.NameToLayer(NonBouncingObject))
+        if (otherGameObject.tag == BouncingObject)
         {
-            playerHealth.DecreaseHealth(1);
-            if (playerHealth.Health <= 0)
-            {
-                #region Game Over;
-                GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
-
-                for (int i = 0; i < bouncingObjects.Length; i++)
-                {
-                    bouncingObjects[i].SetActive(false);
-                } 
-
-                gameObject.SetActive(false);
-                Destroy(otherGameObject);
-                gameSession.ResetGame();
-
-                if (PlayerPrefsController.GetBestScore() < gameSession.CurrentScore)
-                {
-                    PlayerPrefsController.SetBestScore(gameSession.CurrentScore);
-                }
-
-                PlayerPrefsController.SetLastScore(gameSession.CurrentScore);
-                #endregion
-            }
-
+            AudioClip clip = plateBounceSound[Random.Range(0, plateBounceSound.Length - 1)];
+            AudioSource.PlayClipAtPoint(clip, transform.position, plateBounceSoundVolume);
         }
     }
 
@@ -98,12 +83,15 @@ public class PlayerBehavior : MonoBehaviour
             // User has tapped
             if (touch.phase == TouchPhase.Ended)
             {
+                AudioClip clip = jumpSound[Random.Range(0, jumpSound.Length -1)];
+
                 var isTouchingFloor = GetComponent<PolygonCollider2D>().IsTouchingLayers(LayerMask.GetMask(Floor));
 
                 if (isTouchingFloor)
                 {
                     Vector2 jumpVelocityToAdd = new Vector2(0f, 7f);
                     myRigidbody2D.AddForce(jumpVelocityToAdd, ForceMode2D.Impulse);
+                    AudioSource.PlayClipAtPoint(clip, transform.position, jumpSoundVolume);
                 }
             }
         }
