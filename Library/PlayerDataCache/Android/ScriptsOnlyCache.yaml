@@ -8,9 +8,15 @@ ScriptsOnlyBuild:
     - Character
     - CharacterSelectionButton
     - Cost
+    - Destructible2D.D2dDestroyer
+    - Destructible2D.D2dDestructibleSprite
+    - Destructible2D.D2dFracturer
+    - Destructible2D.D2dPolygonCollider
+    - Destructible2D.D2dRequirements
     - DifficultyLevel
     - DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider
     - EmitterSpawner
+    - Floor
     - GameController
     - GameOverMenuBehavior
     - GameSession
@@ -24,7 +30,6 @@ ScriptsOnlyBuild:
     - PlayerHealth
     - Points
     - ScoreDisplay
-    - ShredderFailure
     - ShredderNeutral
     - ShredderSuccess
     GitHub.Unity.45.dll:
@@ -93,74 +98,86 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
-    - Class: 70
-      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9292}
+      Script: {instanceID: 9300}
     - Class: 114
-      Script: {instanceID: 9372}
+      Script: {instanceID: 9338}
+    - Class: 114
+      Script: {instanceID: 9340}
     - Class: 114
       Script: {instanceID: 9388}
     - Class: 114
-      Script: {instanceID: 9434}
+      Script: {instanceID: 9406}
     - Class: 114
-      Script: {instanceID: 9444}
+      Script: {instanceID: 9454}
     - Class: 114
-      Script: {instanceID: 9446}
-    - Class: 114
-      Script: {instanceID: 9448}
-    - Class: 114
-      Script: {instanceID: 9452}
-    - Class: 114
-      Script: {instanceID: 9458}
-    - Class: 114
-      Script: {instanceID: 9462}
+      Script: {instanceID: 9464}
     - Class: 114
       Script: {instanceID: 9466}
     - Class: 114
-      Script: {instanceID: 9502}
+      Script: {instanceID: 9468}
     - Class: 114
-      Script: {instanceID: 9504}
+      Script: {instanceID: 9472}
     - Class: 114
-      Script: {instanceID: 9514}
+      Script: {instanceID: 9478}
     - Class: 114
-      Script: {instanceID: 9696}
+      Script: {instanceID: 9482}
     - Class: 114
-      Script: {instanceID: 9702}
+      Script: {instanceID: 9486}
     - Class: 114
-      Script: {instanceID: 9876}
+      Script: {instanceID: 9522}
     - Class: 114
-      Script: {instanceID: 9930}
+      Script: {instanceID: 9524}
     - Class: 114
-      Script: {instanceID: 10180}
+      Script: {instanceID: 9534}
     - Class: 114
-      Script: {instanceID: 10292}
+      Script: {instanceID: 9716}
     - Class: 114
-      Script: {instanceID: 10344}
+      Script: {instanceID: 9722}
     - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 9872}
     - Class: 114
-      Script: {instanceID: 10456}
+      Script: {instanceID: 9916}
     - Class: 114
-      Script: {instanceID: 10462}
+      Script: {instanceID: 9982}
     - Class: 114
-      Script: {instanceID: 10636}
+      Script: {instanceID: 10204}
     - Class: 114
-      Script: {instanceID: 10710}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10854}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10860}
+      Script: {instanceID: 10382}
     - Class: 114
-      Script: {instanceID: 10864}
+      Script: {instanceID: 10458}
     - Class: 114
-      Script: {instanceID: 11098}
+      Script: {instanceID: 10542}
+    - Class: 114
+      Script: {instanceID: 10546}
+    - Class: 114
+      Script: {instanceID: 10552}
+    - Class: 114
+      Script: {instanceID: 10746}
+    - Class: 114
+      Script: {instanceID: 10824}
+    - Class: 114
+      Script: {instanceID: 10970}
+    - Class: 114
+      Script: {instanceID: 10976}
+    - Class: 114
+      Script: {instanceID: 10980}
+    - Class: 114
+      Script: {instanceID: 11230}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -204,6 +221,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 104
@@ -211,75 +232,75 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9296}
+      Script: {instanceID: 9304}
     - Class: 114
-      Script: {instanceID: 9326}
+      Script: {instanceID: 9342}
     - Class: 114
-      Script: {instanceID: 9350}
+      Script: {instanceID: 9366}
     - Class: 114
-      Script: {instanceID: 9352}
+      Script: {instanceID: 9368}
     - Class: 114
-      Script: {instanceID: 9372}
-    - Class: 114
-      Script: {instanceID: 9398}
+      Script: {instanceID: 9388}
     - Class: 114
       Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 9444}
+      Script: {instanceID: 9434}
     - Class: 114
-      Script: {instanceID: 9446}
-    - Class: 114
-      Script: {instanceID: 9452}
-    - Class: 114
-      Script: {instanceID: 9458}
-    - Class: 114
-      Script: {instanceID: 9462}
+      Script: {instanceID: 9464}
     - Class: 114
       Script: {instanceID: 9466}
     - Class: 114
-      Script: {instanceID: 9474}
+      Script: {instanceID: 9472}
     - Class: 114
-      Script: {instanceID: 9488}
+      Script: {instanceID: 9478}
+    - Class: 114
+      Script: {instanceID: 9482}
+    - Class: 114
+      Script: {instanceID: 9486}
     - Class: 114
       Script: {instanceID: 9494}
     - Class: 114
-      Script: {instanceID: 9502}
-    - Class: 114
-      Script: {instanceID: 9506}
-    - Class: 114
       Script: {instanceID: 9508}
     - Class: 114
-      Script: {instanceID: 9736}
+      Script: {instanceID: 9514}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9522}
     - Class: 114
-      Script: {instanceID: 9856}
+      Script: {instanceID: 9526}
     - Class: 114
-      Script: {instanceID: 9874}
+      Script: {instanceID: 9528}
     - Class: 114
-      Script: {instanceID: 9936}
+      Script: {instanceID: 9758}
     - Class: 114
-      Script: {instanceID: 10016}
+      Script: {instanceID: 9860}
     - Class: 114
-      Script: {instanceID: 10276}
+      Script: {instanceID: 9894}
     - Class: 114
-      Script: {instanceID: 10462}
+      Script: {instanceID: 9914}
     - Class: 114
-      Script: {instanceID: 10476}
+      Script: {instanceID: 9988}
     - Class: 114
-      Script: {instanceID: 10572}
+      Script: {instanceID: 10070}
     - Class: 114
-      Script: {instanceID: 10584}
+      Script: {instanceID: 10346}
     - Class: 114
-      Script: {instanceID: 10636}
+      Script: {instanceID: 10552}
     - Class: 114
-      Script: {instanceID: 10764}
+      Script: {instanceID: 10566}
     - Class: 114
-      Script: {instanceID: 10868}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10922}
+      Script: {instanceID: 10682}
     - Class: 114
-      Script: {instanceID: 11040}
+      Script: {instanceID: 10746}
+    - Class: 114
+      Script: {instanceID: 10878}
+    - Class: 114
+      Script: {instanceID: 10984}
+    - Class: 114
+      Script: {instanceID: 11038}
+    - Class: 114
+      Script: {instanceID: 11164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -329,6 +350,18 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: b75f1ac37446dc3bab32cc21898e253a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dFracturer
+  - hash:
+      serializedVersion: 2
+      Hash: 42077d18ec2a65b79fb09bab83cbc020
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dRequirements
+  - hash:
+      serializedVersion: 2
       Hash: 2daac2c50db721ee8b2637568804d0e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -359,7 +392,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: cf0498cb1f604c3ced8d3d589cd0e6c9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelLoader
@@ -371,7 +404,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: b2a46414662b40cc6220dd5d50c09644
+      Hash: d406e81b25c7ee0ad616ea3314d9612f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BouncingStuff
@@ -381,6 +414,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkIdentity
+  - hash:
+      serializedVersion: 2
+      Hash: 3c28ab340d0a627ce667316fdc778ba8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dCalculateMass
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -833,6 +872,12 @@ ScriptsOnlyBuild:
     className: Points
   - hash:
       serializedVersion: 2
+      Hash: ba33d5ab05351a97dfdb422b1fbd8bd6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dDestroyer
+  - hash:
+      serializedVersion: 2
       Hash: 5f5a2768da1d273879f1e41f650bc1f6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -851,7 +896,7 @@ ScriptsOnlyBuild:
     className: BestScore
   - hash:
       serializedVersion: 2
-      Hash: eaf4a484bd7c1a4fa705acd01d858bb1
+      Hash: 6f050529d394cad7ed79c8cc87c3e319
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameSession
@@ -917,13 +962,19 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
+      Hash: a9204c32017ec76ba4f1670a4a64d582
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Floor
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 07a176b787fbf5c600d4a38f6b3e650b
+      Hash: 8ac0edcbc08a31d73551f89075052c4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerBehavior
@@ -953,6 +1004,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 2e592c89caa93139d5354622c637ef38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dImpactDamage
+  - hash:
+      serializedVersion: 2
       Hash: 7e4f3ade2dc50fff8786a4155405831b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -965,10 +1022,22 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 9e14cfb110ba6cd034f01ceaf18bb236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dPolygonCollider
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShredderFailure
+    namespaceName: Destructible2D
+    className: D2dRetainVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 3c75c3aac35755896010879a377ef82e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dImpactSpawner
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -983,16 +1052,34 @@ ScriptsOnlyBuild:
     className: ShredderNeutral
   - hash:
       serializedVersion: 2
+      Hash: 4f744dfb407356a1462acf77a4ce9aa2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dSnapshot
+  - hash:
+      serializedVersion: 2
       Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: fa97e88fdd5800f8bbbc53ee26d9d81d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShredderSuccess
+  - hash:
+      serializedVersion: 2
+      Hash: 95256d1a2126a332535ee6a3efbf8752
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dDestructibleSprite
+  - hash:
+      serializedVersion: 2
+      Hash: a064ddaf8f981efc803a1fc5f62ef4f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dFixture
   - hash:
       serializedVersion: 2
       Hash: 4a0369cd366c126cd420018a4ac01f32
@@ -1023,6 +1110,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkMigrationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dCollisionHandler
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -1079,6 +1172,12 @@ ScriptsOnlyBuild:
     className: SecurePlayerPrefs
   - hash:
       serializedVersion: 2
+      Hash: 39274231452e84e125dcb0734348d4e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dDamage
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -1095,6 +1194,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4a783bcce7e8b4c10f32afa5370b645a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dEdgeCollider
   - hash:
       serializedVersion: 2
       Hash: 516824a435828eadd660ef2f1658a48e
@@ -1121,6 +1226,12 @@ ScriptsOnlyBuild:
     className: GlobalManager
   - hash:
       serializedVersion: 2
+      Hash: 8dc4d9618eb3a6858a5e101fd0b563d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dFixtureGroup
+  - hash:
+      serializedVersion: 2
       Hash: d8843cd76e941805c38da8b9219529b2
     assemblyName: Assembly-CSharp.dll
     namespaceName: DigitalRuby.AdvancedPolygonCollider
@@ -1139,7 +1250,7 @@ ScriptsOnlyBuild:
     className: ScoreDisplay
   - hash:
       serializedVersion: 2
-      Hash: 8bcb5fd04fb5fbb1ae75067e7abf1d00
+      Hash: 2244c29de5b0bb6a8551aaead8c771e5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenuControl
@@ -1181,6 +1292,12 @@ ScriptsOnlyBuild:
     className: TextMeshPro
   - hash:
       serializedVersion: 2
+      Hash: c92b63e3f9cbf35aadbc9635ec9a2836
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dSplitter
+  - hash:
+      serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1197,6 +1314,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: e655cc3f06f01b32651f36fc51f29010
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Destructible2D
+    className: D2dImpactFissure
   - hash:
       serializedVersion: 2
       Hash: 8649814970b42d345b89944b862453cc
