@@ -88,7 +88,10 @@ public class GameSession : MonoBehaviour
     /// </summary>
     public void IncrementDifficulty()
     {
-        Handheld.Vibrate();
+        if (PlayerPrefsController.GetVibration() == true)
+        {
+            Handheld.Vibrate();
+        }
         AudioSource.PlayClipAtPoint(nextDifficultySound, transform.position, nextDifficultySoundVolume);
 
         DifficultyLevel += 1;
@@ -133,6 +136,30 @@ public class GameSession : MonoBehaviour
         } else if (CurrentScore < emitterSpawner.NinthDifficultyThreshold)
         {
             NextDifficultyIn = emitterSpawner.NinthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.TenthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.TenthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.EleventhDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.EleventhDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.TwelfthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.TwelfthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.ThirtiethDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.ThirtiethDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.FourteenthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.FourteenthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore > emitterSpawner.FourteenthDifficultyThreshold)
+        {
+            NextDifficultyIn = 0;
             nextDifficultyInComponent.DisplayNextDifficultyIn();
         }
     }

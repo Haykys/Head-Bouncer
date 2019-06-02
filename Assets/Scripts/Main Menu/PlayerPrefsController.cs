@@ -11,6 +11,8 @@ public class PlayerPrefsController : MonoBehaviour
     const string POINTS = "POINTS";
     const string PLAYER_CHARACTERS = "PLAYER CHARACTERS";
     const string CURRENT_PLAYER_CHARACTER = "CURRENT PLAYER CHARACTER";
+    const string VOLUME = "VOLUME";
+    const string VIBRATION = "VIBRATION";
 
     public static void SetBestScore(int score)
     {
@@ -72,5 +74,25 @@ public class PlayerPrefsController : MonoBehaviour
     public static int GetCharacter()
     {
         return SecurePlayerPrefs.GetInt(CURRENT_PLAYER_CHARACTER);
+    }
+
+    public static void SetVolume(bool volume)
+    {
+        SecurePlayerPrefs.SetBool(VOLUME, volume);
+    }
+
+    public static bool GetVolume()
+    {
+        return SecurePlayerPrefs.GetBool(VOLUME);
+    }
+
+    public static void SetVibration(bool vibration)
+    {
+        SecurePlayerPrefs.SetBool(VIBRATION, vibration);
+    }
+
+    public static bool GetVibration()
+    {
+        return SecurePlayerPrefs.GetBool(VIBRATION);
     }
 }
