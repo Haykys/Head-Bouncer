@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 12}
-  m_MinSize: {x: 950, y: 522}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -38,12 +38,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 311
+    x: 717
     y: 0
-    width: 754
+    width: 359
     height: 940
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 25}
   m_Panes:
   - {fileID: 25}
@@ -68,12 +68,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1065
+    width: 1076
     height: 940
   m_MinSize: {x: 408, y: 222}
   m_MaxSize: {x: 8008, y: 4022}
   vertical: 0
-  controlID: 18
+  controlID: 75
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,7 +91,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 940
-    width: 1065
+    width: 1076
     height: 127
   m_MinSize: {x: 104, y: 122}
   m_MaxSize: {x: 4004, y: 4022}
@@ -118,14 +118,14 @@ MonoBehaviour:
   - {fileID: 4}
   m_Position:
     serializedVersion: 2
-    x: 452
+    x: 473
     y: 0
-    width: 1065
+    width: 1076
     height: 1067
   m_MinSize: {x: 408, y: 344}
   m_MaxSize: {x: 8008, y: 8044}
   vertical: 1
-  controlID: 17
+  controlID: 74
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,10 +146,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1067
-  m_MinSize: {x: 917, y: 472}
-  m_MaxSize: {x: 22012, y: 14022}
+  m_MinSize: {x: 917, y: 494}
+  m_MaxSize: {x: 22012, y: 14044}
   vertical: 1
-  controlID: 15
+  controlID: 185
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 495
-    width: 452
+    width: 473
     height: 572
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
@@ -195,12 +195,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 452
+    width: 473
     height: 1067
-  m_MinSize: {x: 232, y: 472}
-  m_MaxSize: {x: 10002, y: 14022}
+  m_MinSize: {x: 232, y: 494}
+  m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 133
+  controlID: 17
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,10 +223,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1067
-  m_MinSize: {x: 917, y: 472}
-  m_MaxSize: {x: 22012, y: 14022}
+  m_MinSize: {x: 917, y: 494}
+  m_MaxSize: {x: 22012, y: 14044}
   vertical: 0
-  controlID: 16
+  controlID: 186
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,12 +242,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1517
+    x: 1549
     y: 0
-    width: 403
+    width: 371
     height: 1067
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -255,7 +255,7 @@ MonoBehaviour:
   - {fileID: 19}
   - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 3
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,10 +273,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 452
+    width: 473
     height: 495
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -366,10 +366,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 311
+    width: 717
     height: 940
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -396,16 +396,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1517
+    x: 1549
     y: 73
-    width: 401
+    width: 369
     height: 1048
   m_ViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
@@ -493,7 +493,7 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -503,9 +503,123 @@ MonoBehaviour:
     treeChanges:
       assets:
         keys:
+        - 00000000000000001000000000000000
+        - e180ef8bbf56e0a43a244d5ffbbf7d36
+        - a97a4b1a61416e744b981a837d99f298
+        - ce64fa41fe4801a43abdd597c4035087
+        - ac6862c8cf3a2e446978231197989cf3
+        - 2fee2e74d4dce9e4fb8afa6ac38e989a
         - 00000000000000005100000000000000
         - 00000000000000003000000000000000
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes\Main Menu.unity
+          label: Main Menu.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\Main Menu.unity
+            fullPath: C:\UnityGames\Mads Catcher\Assets\Scenes\Main Menu.unity
+            projectPath: Assets\Scenes\Main Menu.unity
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts\Gameplay
+          label: Gameplay
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts\Gameplay\GameSession.cs
+          label: GameSession.cs
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Gameplay\GameSession.cs
+            fullPath: C:\UnityGames\Mads Catcher\Assets\Scripts\Gameplay\GameSession.cs
+            projectPath: Assets\Scripts\Gameplay\GameSession.cs
+            originalPath: 
+            status: 3
+            staged: 0
         - path: ProjectSettings\Physics2DSettings.asset
           label: Physics2DSettings.asset
           level: 1
@@ -549,14 +663,23 @@ MonoBehaviour:
         - .vs\Mads Catcher\v15
         - .vs\Mads Catcher\v15\Server
         - .vs\Mads Catcher\v15\Server\sqlite3
+        - Assets
+        - Assets\Scenes
+        - Assets\Scripts
+        - Assets\Scripts\Gameplay
         - Library
         - Library\gfu
         - Library\gfu\cache
+        - Library\metadata
+        - Library\metadata\2f
+        - Library\ScriptAssemblies
+        - Library\StateCache
+        - Library\StateCache\Hierarchy
+        - Library\StateCache\SceneView
         - obj
         - obj\Debug
         - ProjectSettings
         - Temp
-        - Temp\__Backupscenes
         values:
         - path: .vs
           label: .vs
@@ -648,6 +771,78 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts\Gameplay
+          label: Gameplay
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -657,7 +852,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -675,7 +870,7 @@ MonoBehaviour:
           isHidden: 1
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -693,7 +888,115 @@ MonoBehaviour:
           isHidden: 1
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata
+          label: metadata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\2f
+          label: 2f
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache
+          label: StateCache
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache\Hierarchy
+          label: Hierarchy
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache\SceneView
+          label: SceneView
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -763,24 +1066,6 @@ MonoBehaviour:
           isContainer: 0
           isCollapsed: 1
           isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Temp\__Backupscenes
-          label: __Backupscenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -1000,6 +1285,114 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scenes\Main Menu.unity
+        label: Main Menu.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\Main Menu.unity
+          fullPath: C:\UnityGames\Mads Catcher\Assets\Scenes\Main Menu.unity
+          projectPath: Assets\Scenes\Main Menu.unity
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scripts\Gameplay
+        label: Gameplay
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scripts\Gameplay\GameSession.cs
+        label: GameSession.cs
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Gameplay\GameSession.cs
+          fullPath: C:\UnityGames\Mads Catcher\Assets\Scripts\Gameplay\GameSession.cs
+          projectPath: Assets\Scripts\Gameplay\GameSession.cs
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library
         label: Library
         level: 0
@@ -1009,7 +1402,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1017,6 +1410,96 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Library\assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\assetDatabase3
+          fullPath: C:\UnityGames\Mads Catcher\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentLayout.dwlt
+          fullPath: C:\UnityGames\Mads Catcher\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\EditorInstance.json
+        label: EditorInstance.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\EditorInstance.json
+          fullPath: C:\UnityGames\Mads Catcher\Library\EditorInstance.json
+          projectPath: Library\EditorInstance.json
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\EditorUserBuildSettings.asset
+        label: EditorUserBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\EditorUserBuildSettings.asset
+          fullPath: C:\UnityGames\Mads Catcher\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\expandedItems
+        label: expandedItems
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\expandedItems
+          fullPath: C:\UnityGames\Mads Catcher\Library\expandedItems
+          projectPath: Library\expandedItems
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library\gfu
         label: gfu
@@ -1027,7 +1510,7 @@ MonoBehaviour:
         isHidden: 1
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1045,7 +1528,7 @@ MonoBehaviour:
         isHidden: 1
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1063,12 +1546,30 @@ MonoBehaviour:
         isHidden: 1
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\branches.yaml
           fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\branches.yaml
           projectPath: Library\gfu\cache\branches.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\gitlocks.yaml
+        label: gitlocks.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitlocks.yaml
+          fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\gitlocks.yaml
+          projectPath: Library\gfu\cache\gitlocks.yaml
           originalPath: 
           status: 3
           staged: 0
@@ -1081,14 +1582,32 @@ MonoBehaviour:
         isHidden: 1
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\gitlog.yaml
           fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\gitlog.yaml
           projectPath: Library\gfu\cache\gitlog.yaml
           originalPath: 
-          status: 5
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitstatusentries.yaml
+          fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\gitstatusentries.yaml
+          projectPath: Library\gfu\cache\gitstatusentries.yaml
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library\gfu\cache\gittrackingstatus.yaml
         label: gittrackingstatus.yaml
@@ -1099,7 +1618,7 @@ MonoBehaviour:
         isHidden: 1
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\gittrackingstatus.yaml
@@ -1107,6 +1626,186 @@ MonoBehaviour:
           projectPath: Library\gfu\cache\gittrackingstatus.yaml
           originalPath: 
           status: 3
+          staged: 0
+      - path: Library\gfu\cache\repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\repoinfo.yaml
+          fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\metadata
+        label: metadata
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\2f
+        label: 2f
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\2f\2fee2e74d4dce9e4fb8afa6ac38e989a
+        label: 2fee2e74d4dce9e4fb8afa6ac38e989a
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\2f\2fee2e74d4dce9e4fb8afa6ac38e989a
+          fullPath: C:\UnityGames\Mads Catcher\Library\metadata\2f\2fee2e74d4dce9e4fb8afa6ac38e989a
+          projectPath: Library\metadata\2f\2fee2e74d4dce9e4fb8afa6ac38e989a
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\SceneVisibilityState.asset
+        label: SceneVisibilityState.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\SceneVisibilityState.asset
+          fullPath: C:\UnityGames\Mads Catcher\Library\SceneVisibilityState.asset
+          projectPath: Library\SceneVisibilityState.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        label: Assembly-CSharp.pdb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+        label: Assembly-CSharp-Editor.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+          fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+        label: BuiltinAssemblies.stamp
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+          fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+          projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+          originalPath: 
+          status: 1
           staged: 0
       - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
         label: shadercompiler-UnityShaderCompiler.exe0.log
@@ -1117,12 +1816,120 @@ MonoBehaviour:
         isHidden: 1
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\shadercompiler-UnityShaderCompiler.exe0.log
           fullPath: C:\UnityGames\Mads Catcher\Library\shadercompiler-UnityShaderCompiler.exe0.log
           projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+        label: shadercompiler-UnityShaderCompiler.exe7.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+          fullPath: C:\UnityGames\Mads Catcher\Library\shadercompiler-UnityShaderCompiler.exe7.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\StateCache
+        label: StateCache
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\StateCache\Hierarchy
+        label: Hierarchy
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\StateCache\Hierarchy\d6b8be-mainStage.json
+        label: d6b8be-mainStage.json
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\StateCache\Hierarchy\d6b8be-mainStage.json
+          fullPath: C:\UnityGames\Mads Catcher\Library\StateCache\Hierarchy\d6b8be-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\d6b8be-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\StateCache\SceneView
+        label: SceneView
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\StateCache\SceneView\660d23-mainStage.json
+        label: 660d23-mainStage.json
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\StateCache\SceneView\660d23-mainStage.json
+          fullPath: C:\UnityGames\Mads Catcher\Library\StateCache\SceneView\660d23-mainStage.json
+          projectPath: Library\StateCache\SceneView\660d23-mainStage.json
           originalPath: 
           status: 3
           staged: 0
@@ -1306,42 +2113,6 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Temp\__Backupscenes
-        label: __Backupscenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Temp\__Backupscenes\0.backup
-        label: 0.backup
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\__Backupscenes\0.backup
-          fullPath: C:\UnityGames\Mads Catcher\Temp\__Backupscenes\0.backup
-          projectPath: Temp\__Backupscenes\0.backup
-          originalPath: 
-          status: 1
-          staged: 0
       - path: Temp\UnityLockfile
         label: UnityLockfile
         level: 1
@@ -1357,420 +2128,6 @@ MonoBehaviour:
           path: Temp\UnityLockfile
           fullPath: C:\UnityGames\Mads Catcher\Temp\UnityLockfile
           projectPath: Temp\UnityLockfile
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-052612458500e2a4e8be13675253e02f
-        label: UnityTempFile-052612458500e2a4e8be13675253e02f
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-052612458500e2a4e8be13675253e02f
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-052612458500e2a4e8be13675253e02f
-          projectPath: Temp\UnityTempFile-052612458500e2a4e8be13675253e02f
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-0a8e1676fabd7df459865affe31c310f
-        label: UnityTempFile-0a8e1676fabd7df459865affe31c310f
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-0a8e1676fabd7df459865affe31c310f
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-0a8e1676fabd7df459865affe31c310f
-          projectPath: Temp\UnityTempFile-0a8e1676fabd7df459865affe31c310f
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-        label: UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-          projectPath: Temp\UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-        label: UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-          projectPath: Temp\UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-1326024ff48f808449885b586740ea69
-        label: UnityTempFile-1326024ff48f808449885b586740ea69
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-1326024ff48f808449885b586740ea69
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1326024ff48f808449885b586740ea69
-          projectPath: Temp\UnityTempFile-1326024ff48f808449885b586740ea69
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-        label: UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-          projectPath: Temp\UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-        label: UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-          projectPath: Temp\UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-        label: UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-          projectPath: Temp\UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-24cc18d6a21386b458089f01608b98d8
-        label: UnityTempFile-24cc18d6a21386b458089f01608b98d8
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-24cc18d6a21386b458089f01608b98d8
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-24cc18d6a21386b458089f01608b98d8
-          projectPath: Temp\UnityTempFile-24cc18d6a21386b458089f01608b98d8
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-        label: UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-          projectPath: Temp\UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-        label: UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-          projectPath: Temp\UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-        label: UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-          projectPath: Temp\UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-        label: UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-          projectPath: Temp\UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-        label: UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-          projectPath: Temp\UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-6d4a1cda37384904493baface34ca5cf
-        label: UnityTempFile-6d4a1cda37384904493baface34ca5cf
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-6d4a1cda37384904493baface34ca5cf
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-6d4a1cda37384904493baface34ca5cf
-          projectPath: Temp\UnityTempFile-6d4a1cda37384904493baface34ca5cf
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-7445d0b11d305574390ea665198b24a2
-        label: UnityTempFile-7445d0b11d305574390ea665198b24a2
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-7445d0b11d305574390ea665198b24a2
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-7445d0b11d305574390ea665198b24a2
-          projectPath: Temp\UnityTempFile-7445d0b11d305574390ea665198b24a2
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-        label: UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-          projectPath: Temp\UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-        label: UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-          projectPath: Temp\UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-        label: UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-          projectPath: Temp\UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-        label: UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-          projectPath: Temp\UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-        label: UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-          projectPath: Temp\UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-        label: UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-          projectPath: Temp\UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Temp\UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
-        label: UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp\UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
-          fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
-          projectPath: Temp\UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
           originalPath: 
           status: 1
           staged: 0
@@ -1824,9 +2181,57 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Assets\Scenes\Main Menu.unity
+      fullPath: C:\UnityGames\Mads Catcher\Assets\Scenes\Main Menu.unity
+      projectPath: Assets\Scenes\Main Menu.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Gameplay\GameSession.cs
+      fullPath: C:\UnityGames\Mads Catcher\Assets\Scripts\Gameplay\GameSession.cs
+      projectPath: Assets\Scripts\Gameplay\GameSession.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\UnityGames\Mads Catcher\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\UnityGames\Mads Catcher\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\UnityGames\Mads Catcher\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: C:\UnityGames\Mads Catcher\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\UnityGames\Mads Catcher\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\gfu\cache\branches.yaml
       fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\branches.yaml
       projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
       originalPath: 
       status: 3
       staged: 0
@@ -1834,7 +2239,13 @@ MonoBehaviour:
       fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\gitlog.yaml
       projectPath: Library\gfu\cache\gitlog.yaml
       originalPath: 
-      status: 5
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
       staged: 0
     - path: Library\gfu\cache\gittrackingstatus.yaml
       fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\gittrackingstatus.yaml
@@ -1842,9 +2253,69 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\UnityGames\Mads Catcher\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\2f\2fee2e74d4dce9e4fb8afa6ac38e989a
+      fullPath: C:\UnityGames\Mads Catcher\Library\metadata\2f\2fee2e74d4dce9e4fb8afa6ac38e989a
+      projectPath: Library\metadata\2f\2fee2e74d4dce9e4fb8afa6ac38e989a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\UnityGames\Mads Catcher\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\UnityGames\Mads Catcher\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
       fullPath: C:\UnityGames\Mads Catcher\Library\shadercompiler-UnityShaderCompiler.exe0.log
       projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+      fullPath: C:\UnityGames\Mads Catcher\Library\shadercompiler-UnityShaderCompiler.exe7.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\d6b8be-mainStage.json
+      fullPath: C:\UnityGames\Mads Catcher\Library\StateCache\Hierarchy\d6b8be-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\d6b8be-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\660d23-mainStage.json
+      fullPath: C:\UnityGames\Mads Catcher\Library\StateCache\SceneView\660d23-mainStage.json
+      projectPath: Library\StateCache\SceneView\660d23-mainStage.json
       originalPath: 
       status: 3
       staged: 0
@@ -1884,165 +2355,21 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Temp\__Backupscenes\0.backup
-      fullPath: C:\UnityGames\Mads Catcher\Temp\__Backupscenes\0.backup
-      projectPath: Temp\__Backupscenes\0.backup
-      originalPath: 
-      status: 1
-      staged: 0
     - path: Temp\UnityLockfile
       fullPath: C:\UnityGames\Mads Catcher\Temp\UnityLockfile
       projectPath: Temp\UnityLockfile
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-052612458500e2a4e8be13675253e02f
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-052612458500e2a4e8be13675253e02f
-      projectPath: Temp\UnityTempFile-052612458500e2a4e8be13675253e02f
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-0a8e1676fabd7df459865affe31c310f
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-0a8e1676fabd7df459865affe31c310f
-      projectPath: Temp\UnityTempFile-0a8e1676fabd7df459865affe31c310f
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-      projectPath: Temp\UnityTempFile-0bc5cbdb229fc5d4da2727ec53a879a1
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-      projectPath: Temp\UnityTempFile-11b1904c44dd84a45a61c3ffe6b8738f
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-1326024ff48f808449885b586740ea69
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1326024ff48f808449885b586740ea69
-      projectPath: Temp\UnityTempFile-1326024ff48f808449885b586740ea69
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-      projectPath: Temp\UnityTempFile-1414d729d02fdd84088a4a5d7ed98a9e
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-      projectPath: Temp\UnityTempFile-1586424ea5434ce40ba175be4092cf1d
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-      projectPath: Temp\UnityTempFile-1f1810179cdda9048be2e5c8a7b7b376
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-24cc18d6a21386b458089f01608b98d8
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-24cc18d6a21386b458089f01608b98d8
-      projectPath: Temp\UnityTempFile-24cc18d6a21386b458089f01608b98d8
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-      projectPath: Temp\UnityTempFile-3d397ee9aa259eb4eae497dae1cd59d7
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-      projectPath: Temp\UnityTempFile-3d8846604b787e042a96ad5ae5c202a6
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-      projectPath: Temp\UnityTempFile-43c7794940bdf014f9d78c0912677e3d
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-      projectPath: Temp\UnityTempFile-46a1c928c66f4154e91feae4af9ef905
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-      projectPath: Temp\UnityTempFile-5e2f5d139d05f594288ff1244dc1f3db
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-6d4a1cda37384904493baface34ca5cf
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-6d4a1cda37384904493baface34ca5cf
-      projectPath: Temp\UnityTempFile-6d4a1cda37384904493baface34ca5cf
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-7445d0b11d305574390ea665198b24a2
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-7445d0b11d305574390ea665198b24a2
-      projectPath: Temp\UnityTempFile-7445d0b11d305574390ea665198b24a2
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-      projectPath: Temp\UnityTempFile-923fb46ee9d515d4aace7a5292df3261
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-      projectPath: Temp\UnityTempFile-bc78084f7811a574a84e826a4b96a5ad
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-      projectPath: Temp\UnityTempFile-bfe53a1950716df45ba4d50f5f261c77
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-      projectPath: Temp\UnityTempFile-d8c001afbf061bd42a4401aeec2eae1b
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-      projectPath: Temp\UnityTempFile-eb1f1ca405b7f2b4baa12629b80e22b8
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-      projectPath: Temp\UnityTempFile-f2e564706bb4f9c4c96f036fddb4359b
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Temp\UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
-      fullPath: C:\UnityGames\Mads Catcher\Temp\UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
-      projectPath: Temp\UnityTempFile-ffda2886c2b69ea48a2a8acd36e54d81
-      originalPath: 
-      status: 1
-      staged: 0
-    changedFilesText: 40 changed files
+    changedFilesText: 35 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-06-01T22:46:09.933+02:00
+      updatedTimeString: 2019-06-02T17:06:16.184+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-06-02T09:22:58.539+02:00
+      updatedTimeString: 2019-06-02T17:42:16.299+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2019-06-02T09:22:12.816+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -19951,13 +20278,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-06-01T22:44:11.442+02:00
+    updatedTimeString: 2019-06-02T17:06:16.184+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-06-01T22:45:13.130+02:00
+    updatedTimeString: 2019-06-02T17:06:19.079+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-06-01T22:45:13.025+02:00
+    updatedTimeString: 2019-06-02T17:33:14.336+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -20002,9 +20329,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 452
+    x: 473
     y: 1013
-    width: 1063
+    width: 1074
     height: 108
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
@@ -20668,7 +20995,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 181580
+  m_LastSelectedObjectID: -222572
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -20725,9 +21052,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 494
+    x: 473
     y: 73
-    width: 612
+    width: 715
     height: 921
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
@@ -20753,7 +21080,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 568
-    width: 452
+    width: 473
     height: 553
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -20768,34 +21095,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Gameplay
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Gameplay
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\UnityGames\Mads Catcher
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 139}
-    m_SelectedIDs: 84370000
-    m_LastClickedID: 14212
-    m_ExpandedIDs: 000000001c2c0000822d0000f63100000432000092330000b034000072360000763800002c3900000c3a000020490000224900002449000026490000284900002a49000000ca9a3b
+    m_SelectedIDs: 9e340000
+    m_LastClickedID: 13470
+    m_ExpandedIDs: 00000000202c0000862d00000232000010320000c034000086360000b83700008a380000483900007a4900007c4900007e49000080490000824900008449000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Enviroment
-      m_OriginalName: Enviroment
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11706
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 7}
     m_SearchString: 
@@ -20809,7 +21136,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c2c0000822d0000f63100000432000092330000b034000072360000763800002c3900000c3a000020490000224900002449000026490000284900002a490000
+    m_ExpandedIDs: 00000000202c0000862d00000232000010320000c0340000863600008a380000483900007a4900007c4900007e490000804900008249000084490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -20840,18 +21167,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300000837000004360000c4350000e62c0000c8370000342f000086390000583900004e310000162c000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PauseMenuBehaviour
+      m_OriginalName: PauseMenuBehaviour
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 20604
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
@@ -20885,9 +21212,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1517
+    x: 1549
     y: 73
-    width: 401
+    width: 369
     height: 1048
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -20923,15 +21250,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 452
+    width: 473
     height: 476
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 06360000
+      m_SelectedIDs: 7c500000
       m_LastClickedID: 0
-      m_ExpandedIDs: ee10ffff4012ffff8a12ffff3019ffff7a19fffff44bffff304dffffc051fffff451ffff2c54ffffe854ffff62b3ffff96b3ffffceb5ffff8ab6ffff8efbffffd80f0100
+      m_ExpandedIDs: e0dcffffa8e3ffffdee3ffff24e4ffff3ceeffff8efbffff164a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -20976,9 +21303,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 452
+    x: 473
     y: 73
-    width: 309
+    width: 715
     height: 921
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -20991,9 +21318,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 111.32464, y: 529.37164, z: -377.06073}
+    m_Target: {x: 170.2007, y: 654.75635, z: -581.2408}
     speed: 2
-    m_Value: {x: 111.32464, y: 529.37164, z: -377.06073}
+    m_Value: {x: 170.2007, y: 654.75635, z: -581.2408}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -21026,9 +21353,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 397.35776
+    m_Target: 505.04837
     speed: 2
-    m_Value: 397.35776
+    m_Value: 505.04837
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -21074,9 +21401,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 763
+    x: 1190
     y: 73
-    width: 752
+    width: 357
     height: 921
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
@@ -21090,10 +21417,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -226
-    m_HBaseRangeMax: 226
-    m_VBaseRangeMin: -452
-    m_VBaseRangeMax: 452
+    m_HBaseRangeMin: -178.5
+    m_HBaseRangeMax: 178.5
+    m_VBaseRangeMin: -357
+    m_VBaseRangeMax: 357
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -21111,25 +21438,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 752
+      width: 357
       height: 904
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 376, y: 452}
+    m_Translation: {x: 178.5, y: 452}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -376
+      x: -178.5
       y: -452
-      width: 752
+      width: 357
       height: 904
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 752, y: 921}
+  m_LastWindowPixelSize: {x: 357, y: 921}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000100000100
@@ -21155,8 +21482,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1517
+    x: 1549
     y: 73
-    width: 401
+    width: 369
     height: 1048
   m_ViewDataDictionary: {fileID: 0}

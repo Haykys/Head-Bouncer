@@ -90,7 +90,7 @@ public class GameSession : MonoBehaviour
     {
         if (PlayerPrefsController.GetVibration() == true)
         {
-            Handheld.Vibrate();
+            Handheld.Vibrate(); 
         }
         AudioSource.PlayClipAtPoint(nextDifficultySound, transform.position, nextDifficultySoundVolume);
 
