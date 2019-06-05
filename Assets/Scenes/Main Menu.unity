@@ -644,6 +644,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ToggleVibration
       objectReference: {fileID: 0}
+    - target: {fileID: 271551625, guid: 07b2c56f7d22a264585e6817bd15e04f, type: 3}
+      propertyPath: m_text
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 271551625, guid: 07b2c56f7d22a264585e6817bd15e04f, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b2c56f7d22a264585e6817bd15e04f, type: 3}
 --- !u!1001 &626753802
