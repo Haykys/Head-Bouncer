@@ -99,7 +99,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.02
   m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: b7f7e5523493a524cb161125946ea592, type: 2}
@@ -452,7 +452,7 @@ MonoBehaviour:
   life: 1
   target: {fileID: 0}
   fade: 1
-  fadeDuration: 1
+  fadeDuration: 0.5
   shrink: 0
   shrinkDuration: 1
   randomizeOnEnable: 0

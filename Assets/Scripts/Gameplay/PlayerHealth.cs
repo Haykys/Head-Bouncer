@@ -33,13 +33,16 @@ public class PlayerHealth : MonoBehaviour
 
     public void DecreaseHealth(int amount)
     {
-        Health -= amount;
-        DisplayHealth();
+        if (Health > 0)
+        {
+            Health -= amount;
+            DisplayHealth();
+        }
     }
 
     public void IncreaseHealth(int amount)
     {
-        Health -= amount;
+        Health += amount;
         DisplayHealth();
     }
 }

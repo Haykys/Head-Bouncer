@@ -34,6 +34,7 @@ public class PlayerBehavior : MonoBehaviour
     EmitterSpawner emitterSpawner;
     PlayerHealth playerHealth;
     Rigidbody2D myRigidbody2D;
+    PauseMenuBehaviour pauseMenuBehaviour;
 
     public bool HasMoved { get => hasMoved; set => hasMoved = value; }
 
@@ -43,6 +44,8 @@ public class PlayerBehavior : MonoBehaviour
         cameraBehaviour = FindObjectOfType<CameraBehavior>();
         emitterSpawner = FindObjectOfType<EmitterSpawner>();
         playerHealth = FindObjectOfType<PlayerHealth>();
+        pauseMenuBehaviour = FindObjectOfType<PauseMenuBehaviour>();
+
         myAnimator = GetComponent<Animator>();
         myRigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -76,7 +79,7 @@ public class PlayerBehavior : MonoBehaviour
     /// </summary>
     private void Jump()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && !pauseMenuBehaviour.GameIsPaused)
         {
             Touch touch = Input.touches[0];
 
@@ -103,7 +106,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         Vector2 playerPos = new Vector2(transform.position.x, transform.position.y);
 
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && !pauseMenuBehaviour.GameIsPaused)
         {
             Touch touch = Input.touches[0];
 

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-06-10T19:57:19.055+02:00
-  initializedAtString: 2019-06-10T19:57:19.055+02:00
+  lastUpdatedAtString: 2019-06-14T23:06:19.281+02:00
+  initializedAtString: 2019-06-13T23:02:52.855+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/Haykys/Mads-Catcher.git

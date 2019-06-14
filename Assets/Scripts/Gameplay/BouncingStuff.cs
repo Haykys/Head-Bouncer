@@ -21,6 +21,7 @@ public class BouncingStuff : MonoBehaviour
     // cached ref
     [SerializeField] GameObject[] bouncers;
     GameSession gameSession;
+    Floor floor;
 
     public float BouncerSpawnDelay { get => bouncerSpawnDelay; set => bouncerSpawnDelay = value; }
     public float XPushMin { get => xPushMin; set => xPushMin = value; }
@@ -33,6 +34,7 @@ public class BouncingStuff : MonoBehaviour
     {
         // Use to later implement progresive difficulty with higher score
         gameSession = FindObjectOfType<GameSession>();
+        floor = FindObjectOfType<Floor>();
 
         while (true)
         {
@@ -53,7 +55,11 @@ public class BouncingStuff : MonoBehaviour
             bouncer = bouncers[Random.Range(1, bouncers.Length)];
 
         }
-        Spawn(bouncer);
+
+        if(!floor.IsGameOver)
+        {
+            Spawn(bouncer);
+        }
     }
 
     private void Spawn(GameObject bouncer)
