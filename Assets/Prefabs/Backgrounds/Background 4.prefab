@@ -578,7 +578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5860113880810347967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.84, y: 6.84, z: 0}
+  m_LocalPosition: {x: 2.84, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5860113880834457791}
@@ -1042,11 +1042,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5860113880834457791}
     m_Modifications:
-    - target: {fileID: 5641559624812122393, guid: 30a165fdb3bf6144088f55df9f3324e6,
-        type: 3}
-      propertyPath: m_Name
-      value: cabinet_04
-      objectReference: {fileID: 0}
     - target: {fileID: 2552481977378675635, guid: 30a165fdb3bf6144088f55df9f3324e6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1102,6 +1097,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5641559624812122393, guid: 30a165fdb3bf6144088f55df9f3324e6,
+        type: 3}
+      propertyPath: m_Name
+      value: cabinet_04
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30a165fdb3bf6144088f55df9f3324e6, type: 3}
 --- !u!4 &148846442238759570 stripped
@@ -1117,11 +1117,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5860113880834457791}
     m_Modifications:
-    - target: {fileID: 4124298620853961980, guid: c5f5eed2ba3c3434eac101ac6b187b58,
-        type: 3}
-      propertyPath: m_Name
-      value: stoveWithSuction
-      objectReference: {fileID: 0}
     - target: {fileID: 4124298620853961981, guid: c5f5eed2ba3c3434eac101ac6b187b58,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1176,6 +1171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124298620853961980, guid: c5f5eed2ba3c3434eac101ac6b187b58,
+        type: 3}
+      propertyPath: m_Name
+      value: stoveWithSuction
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5f5eed2ba3c3434eac101ac6b187b58, type: 3}

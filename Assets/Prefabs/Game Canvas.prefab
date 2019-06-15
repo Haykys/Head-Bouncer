@@ -683,7 +683,6 @@ GameObject:
   m_Component:
   - component: {fileID: 310746084}
   - component: {fileID: 310746087}
-  - component: {fileID: 310746086}
   - component: {fileID: 310746085}
   - component: {fileID: 310746088}
   m_Layer: 0
@@ -720,35 +719,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310746083}
   m_CullTransparentMesh: 0
---- !u!114 &310746086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310746083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.4117647, b: 0.38039216, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e1949bacebaf1fa428a8ddc995590ec9, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
 --- !u!114 &310746085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,7 +758,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 310746086}
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2838,18 +2808,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1559697479205708904, guid: 8759259b6b6cc194c8224b6e2d1bda08, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8759259b6b6cc194c8224b6e2d1bda08, type: 3}
---- !u!114 &4555087264300532496 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1559697478905110852, guid: 8759259b6b6cc194c8224b6e2d1bda08,
+--- !u!224 &4555087264725174655 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1559697478992112427, guid: 8759259b6b6cc194c8224b6e2d1bda08,
     type: 3}
   m_PrefabInstance: {fileID: 3068010366236369492}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4555087264536643123 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1559697479205708903, guid: 8759259b6b6cc194c8224b6e2d1bda08,
@@ -2862,9 +2826,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &4555087264725174655 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1559697478992112427, guid: 8759259b6b6cc194c8224b6e2d1bda08,
+--- !u!114 &4555087264300532496 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1559697478905110852, guid: 8759259b6b6cc194c8224b6e2d1bda08,
     type: 3}
   m_PrefabInstance: {fileID: 3068010366236369492}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

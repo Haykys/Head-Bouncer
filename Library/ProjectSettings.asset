@@ -604,9 +604,9 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
     1: SA_UNITY_ADS_INSTALLED;SA_ADMOB_INSTALLED
-    4: SA_ADMOB_INSTALLED
+    4: SA_ADMOB_INSTALLED;SA_UNITY_ADS_INSTALLED
     7: SA_UNITY_ADS_INSTALLED;SA_ADMOB_INSTALLED
-    13: SA_ADMOB_INSTALLED
+    13: SA_ADMOB_INSTALLED;SA_UNITY_ADS_INSTALLED
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

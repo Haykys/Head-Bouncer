@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112902025648357572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.95, y: 7.5, z: 0}
+  m_LocalPosition: {x: 1.95, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5860113880834457791}
@@ -183,7 +183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942791093311046033}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.89, y: 7.5, z: 0}
+  m_LocalPosition: {x: 0.89, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5860113880834457791}
@@ -420,7 +420,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5860113880810347967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.98, y: 5.81, z: 0}
+  m_LocalPosition: {x: 3.98, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5860113880834457791}
@@ -1042,11 +1042,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5860113880834457791}
     m_Modifications:
-    - target: {fileID: 5343793237600727947, guid: b78fb529c9b2c7e49a1199a94fa5a438,
-        type: 3}
-      propertyPath: m_Name
-      value: stoveWithPan
-      objectReference: {fileID: 0}
     - target: {fileID: 8801773799998462819, guid: b78fb529c9b2c7e49a1199a94fa5a438,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1101,6 +1096,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343793237600727947, guid: b78fb529c9b2c7e49a1199a94fa5a438,
+        type: 3}
+      propertyPath: m_Name
+      value: stoveWithPan
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b78fb529c9b2c7e49a1199a94fa5a438, type: 3}
