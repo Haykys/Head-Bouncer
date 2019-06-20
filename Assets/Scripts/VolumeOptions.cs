@@ -12,6 +12,10 @@ public class VolumeOptions : MonoBehaviour
     [SerializeField] Sprite volumeOn;
     [SerializeField] Sprite volumeOff;
 
+    [Header("SFX")]
+    [SerializeField] AudioClip[] UISound;
+    [SerializeField] [Range(0, 1)] float UISoundVolume = 0.7f;
+
     private void Start()
     {
         LoadSoundSettings();
@@ -22,8 +26,18 @@ public class VolumeOptions : MonoBehaviour
         AudioListener.pause = true;
     }
 
-    private void EnableSound()
+    private void EnableSoundOnStart()
     {
+        AudioListener.pause = false;
+    }
+
+    private void EnableSoundToggle()
+    {
+        MainMenuControl mainMenuControl = FindObjectOfType<MainMenuControl>();
+
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, mainMenuControl.transform.position, UISoundVolume);
+
         AudioListener.pause = false;
     }
 
@@ -36,7 +50,7 @@ public class VolumeOptions : MonoBehaviour
         } else if (PlayerPrefsController.GetVolume() == true && GetComponent<Image>() != null)
         {
             GetComponent<Image>().sprite = volumeOn;
-            EnableSound();
+            EnableSoundOnStart();
         }
     }
 
@@ -46,7 +60,7 @@ public class VolumeOptions : MonoBehaviour
         {
             gameObject.GetComponent<Image>().sprite = volumeOn;
             PlayerPrefsController.SetVolume(true);
-            EnableSound();
+            EnableSoundToggle();
         }
         else
         {

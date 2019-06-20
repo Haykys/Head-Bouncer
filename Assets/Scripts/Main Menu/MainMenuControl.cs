@@ -10,6 +10,7 @@ public class MainMenuControl : MonoBehaviour
 {
     // constants
     const string CharacterSelection = "Character Selection";
+    const string InformationPanel = "Information Panel";
     const string Player = "Player";
 
     // config params
@@ -22,6 +23,7 @@ public class MainMenuControl : MonoBehaviour
 
     // cached ref
     GameObject characterSelection;
+    GameObject informationPanel;
     GlobalManager globalManager;
     GameObject player;
     ModalPanel modalPanel;
@@ -44,6 +46,7 @@ public class MainMenuControl : MonoBehaviour
         modalPanel = FindObjectOfType<ModalPanel>();
         player = GameObject.FindGameObjectWithTag(Player);
         characterSelection = GameObject.FindGameObjectWithTag(CharacterSelection);
+        informationPanel = GameObject.FindGameObjectWithTag(InformationPanel);
         points = FindObjectOfType<Points>();
 
         SetCharacterOnStart(PlayerPrefsController.GetCharacter());
@@ -74,6 +77,30 @@ public class MainMenuControl : MonoBehaviour
     }
 
     /// <summary>
+    /// Set character selection modal to active
+    /// </summary>
+    public void DisplayInformation()
+    {
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, UISoundVolume);
+
+        informationPanel.GetComponent<CanvasGroup>().alpha = 1;
+        informationPanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
+    }
+
+    /// <summary>
+    /// Hide character selection modal
+    /// </summary>
+    public void CloseInformation()
+    {
+        AudioClip clip = UISound[Random.Range(0, UISound.Length - 1)];
+        AudioSource.PlayClipAtPoint(clip, transform.position, UISoundVolume);
+
+        informationPanel.GetComponent<CanvasGroup>().alpha = 0;
+        informationPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+    }
+
+    /// <summary>
     /// When game start set last active character as selected
     /// </summary>
     /// <param name="characterChoice">index of the character</param>
@@ -96,8 +123,6 @@ public class MainMenuControl : MonoBehaviour
     /// <param name="characterChoice">Index of the selected character</param>
     public void OnCharacterSelect(int characterChoice)
     {
-        Debug.Log("CALLING");
-
         this.characterChoice = characterChoice;
 
         CharacterSelectionButton[] characterButtons = FindObjectsOfType<CharacterSelectionButton>();

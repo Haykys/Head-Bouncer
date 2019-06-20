@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+  <!-- app_id -->
+  <string name="app_id" translatable="false">879381557174</string>
+  <!-- package_name -->
+  <string name="package_name" translatable="false">com.saiked.headbouncer</string>
+  <!-- leaderboard Top Score -->
+  <string name="leaderboard_top_score" translatable="false">CgkItt_m-csZEAIQAA</string>
+</resources>

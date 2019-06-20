@@ -33,6 +33,7 @@ public class VibrationOptions : MonoBehaviour
     {
         if (PlayerPrefsController.GetVibration() == false)
         {
+            Handheld.Vibrate();
             gameObject.GetComponent<Image>().sprite = vibrationOn;
             PlayerPrefsController.SetVibration(true);
         }

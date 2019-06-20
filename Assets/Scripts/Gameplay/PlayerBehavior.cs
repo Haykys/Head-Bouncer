@@ -26,6 +26,7 @@ public class PlayerBehavior : MonoBehaviour
 
     private bool hasMoved = false;
     private float touchTime;
+    Rect topLeft = new Rect(0, Screen.height / 1.37f, Screen.width / 4, Screen.height / 5);
 
     // cached ref
     GameSession gameSession;
@@ -84,7 +85,7 @@ public class PlayerBehavior : MonoBehaviour
             Touch touch = Input.touches[0];
 
             // User has tapped
-            if (touch.phase == TouchPhase.Ended)
+            if (touch.phase == TouchPhase.Ended && !topLeft.Contains(touch.position))
             {
                 AudioClip clip = jumpSound[Random.Range(0, jumpSound.Length -1)];
 
@@ -110,62 +111,67 @@ public class PlayerBehavior : MonoBehaviour
         {
             Touch touch = Input.touches[0];
 
-            if (touch.deltaPosition.x > 1)
+            if (!topLeft.Contains(touch.position))
             {
-                myAnimator.SetBool("isWalking", true);
-                transform.localScale = new Vector2(-1f, 1f);
-            } else if (touch.deltaPosition.x < 0)
-            {
-                myAnimator.SetBool("isWalking", true);
-                transform.localScale = new Vector2(1f, 1f);
-            }
-
-            if (!HasMoved && GameObject.FindGameObjectWithTag("Usher NPC") || GameObject.FindGameObjectWithTag("Usher Text"))
-            {
-                HasMoved = true;
-
-                // Because of the game being pause when it starts up
-                FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(false);
-
-                cameraBehaviour.CameraMovementSpeed = 1f;
-                for (int i = 0; i < GameObject.FindGameObjectsWithTag("Usher NPC").Length; i++)
+                if (touch.deltaPosition.x > 1)
                 {
-                    Destroy(GameObject.FindGameObjectsWithTag("Usher NPC")[i]);
+                    myAnimator.SetBool("isWalking", true);
+                    transform.localScale = new Vector2(-1f, 1f);
                 }
-                Destroy(GameObject.FindGameObjectWithTag("Usher Text"));
-            }
-
-            float screenPosX = Camera.main.transform.position.x;
-
-            float screenHalf = Camera.main.orthographicSize * Screen.width / Screen.height;
-
-            float leftSideOfScreen = Camera.main.transform.position.x - Camera.main.orthographicSize * Screen.width / Screen.height;
-
-            float rightSideOfScreen = Camera.main.transform.position.x + Camera.main.orthographicSize * Screen.width / Screen.height;
-
-            float touchPosInUnits = ((rightSideOfScreen - leftSideOfScreen) * (touch.position.x / Screen.width)) + leftSideOfScreen;
-
-            if (gameSession.IsAutoplayEnabled() && GameObject.FindGameObjectWithTag(BouncingObject))
-            {
-                if(GameObject.FindGameObjectsWithTag(BouncingObject).Length > 1)
+                else if (touch.deltaPosition.x < 0)
                 {
-                    GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
-                    bouncingObjects = bouncingObjects.OrderBy(bouncingObject => bouncingObject.transform.position.y).ToArray();
-
-                    // Set player position the the bouncing object with lowest transform.position.y value
-                    playerPos.x = bouncingObjects[0].transform.position.x;
-
-                } else
-                {
-                    playerPos.x = GameObject.FindGameObjectWithTag(BouncingObject).transform.position.x;
+                    myAnimator.SetBool("isWalking", true);
+                    transform.localScale = new Vector2(1f, 1f);
                 }
-            } else
-            {
-                playerPos.x = Mathf.Clamp(touchPosInUnits, leftSideOfScreen + xOffset, rightSideOfScreen - xOffset);
+
+                if (!HasMoved && GameObject.FindGameObjectWithTag("Usher NPC") || GameObject.FindGameObjectWithTag("Usher Text"))
+                {
+                    HasMoved = true;
+
+                    // Because of the game being pause when it starts up
+                    FindObjectOfType<GameOverMenuBehavior>().SetPauseMenu(false);
+
+                    cameraBehaviour.CameraMovementSpeed = 1f;
+                    for (int i = 0; i < GameObject.FindGameObjectsWithTag("Usher NPC").Length; i++)
+                    {
+                        Destroy(GameObject.FindGameObjectsWithTag("Usher NPC")[i]);
+                    }
+                    Destroy(GameObject.FindGameObjectWithTag("Usher Text"));
+                }
+
+                float screenPosX = Camera.main.transform.position.x;
+
+                float screenHalf = Camera.main.orthographicSize * Screen.width / Screen.height;
+
+                float leftSideOfScreen = Camera.main.transform.position.x - Camera.main.orthographicSize * Screen.width / Screen.height;
+
+                float rightSideOfScreen = Camera.main.transform.position.x + Camera.main.orthographicSize * Screen.width / Screen.height;
+
+                float touchPosInUnits = ((rightSideOfScreen - leftSideOfScreen) * (touch.position.x / Screen.width)) + leftSideOfScreen;
+
+                if (gameSession.IsAutoplayEnabled() && GameObject.FindGameObjectWithTag(BouncingObject))
+                {
+                    if (GameObject.FindGameObjectsWithTag(BouncingObject).Length > 1)
+                    {
+                        GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
+                        bouncingObjects = bouncingObjects.OrderBy(bouncingObject => bouncingObject.transform.position.y).ToArray();
+
+                        // Set player position the the bouncing object with lowest transform.position.y value
+                        playerPos.x = bouncingObjects[0].transform.position.x;
+
+                    }
+                    else
+                    {
+                        playerPos.x = GameObject.FindGameObjectWithTag(BouncingObject).transform.position.x;
+                    }
+                }
+                else
+                {
+                    playerPos.x = Mathf.Clamp(touchPosInUnits, leftSideOfScreen + xOffset, rightSideOfScreen - xOffset);
+                }
+
+                transform.position = playerPos;
             }
-
-            transform.position = playerPos;
-
         }
     }
     #endregion

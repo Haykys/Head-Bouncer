@@ -3,13 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using SA.CrossPlatform.UI;
 
 public class AdsCountdown : MonoBehaviour
 {
     // connfig params
     public static DateTime? adCountdown = null;
 
-    private static int staticAdCountDown = 3;
+    private static int staticAdCountDown = 4;
 
     // cached ref
     LevelLoader levelLoader;
@@ -55,6 +56,12 @@ public class AdsCountdown : MonoBehaviour
                 {
                     StaticAdCountDown = 3;
                     staticGoogleAd.DisplayStaticAd();
+                }
+
+                if (PlayerPrefsController.GetBestScore() > 60 && PlayerPrefsController.GetRateApp() == false)
+                {
+                    PlayerPrefsController.SetRateApp(true);
+                    UM_ReviewController.RequestReview();
                 }
 
                 levelLoader.LoadMainMenu();

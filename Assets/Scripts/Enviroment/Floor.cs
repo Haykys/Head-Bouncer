@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Destructible2D;
 using System;
+using SA.CrossPlatform.UI;
 
 public class Floor : MonoBehaviour
 {
@@ -90,6 +91,7 @@ public class Floor : MonoBehaviour
 
         if (Application.internetReachability == NetworkReachability.NotReachable || !InitializeGoogleAds.AdInitialized)
         {
+            SaveLastAndBestScore();
             levelLoader.LoadMainMenu();
             yield break;
         }
@@ -98,6 +100,11 @@ public class Floor : MonoBehaviour
         {
             SaveLastAndBestScore();
             levelLoader.LoadMainMenu();
+            if (PlayerPrefsController.GetBestScore() > 60 && PlayerPrefsController.GetRateApp() == false)
+            {
+                PlayerPrefsController.SetRateApp(true);
+                UM_ReviewController.RequestReview();
+            }
             yield break;
         }
 

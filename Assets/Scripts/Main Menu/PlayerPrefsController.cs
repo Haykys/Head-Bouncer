@@ -13,6 +13,7 @@ public class PlayerPrefsController : MonoBehaviour
     const string CURRENT_PLAYER_CHARACTER = "CURRENT PLAYER CHARACTER";
     const string VOLUME = "VOLUME";
     const string VIBRATION = "VIBRATION";
+    const string RATE_APP = "RATE_APP";
 
     public static void SetBestScore(int score)
     {
@@ -94,5 +95,15 @@ public class PlayerPrefsController : MonoBehaviour
     public static bool GetVibration()
     {
         return SecurePlayerPrefs.GetBool(VIBRATION);
+    }
+
+    public static void SetRateApp(bool hasRated)
+    {
+        SecurePlayerPrefs.SetBool(RATE_APP, hasRated);
+    }
+
+    public static bool GetRateApp()
+    {
+        return SecurePlayerPrefs.GetBool(RATE_APP);
     }
 }
