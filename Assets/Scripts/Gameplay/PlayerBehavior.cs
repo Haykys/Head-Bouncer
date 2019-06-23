@@ -26,7 +26,7 @@ public class PlayerBehavior : MonoBehaviour
 
     private bool hasMoved = false;
     private float touchTime;
-    Rect topLeft = new Rect(0, Screen.height / 1.37f, Screen.width / 4, Screen.height / 5);
+    Rect topLeft = new Rect(0, Screen.height / 1.15f, Screen.width / 3f, Screen.height / 4.5f);
 
     // cached ref
     GameSession gameSession;

@@ -20,21 +20,31 @@ public class EmitterSpawner : MonoBehaviour
     private bool spawnedThirtiethEmitter = false;
     private bool spawnedFourteenthEmitter = false;
     private bool spawnedFifteenthEmitter = false;
+    private bool spawnedSixteenthEmitter = false;
+    private bool spawnedSeventeenthEmitter = false;
+    private bool spawnedEighteenthEmitter = false;
+    private bool spawnedNineteennthEmitter = false;
+    private bool spawnedTwentiethEmitter = false;
 
     private int firstDifficultyThreshold = 3;
     private int secondDifficultyThreshold = 10;
     private int thirdDifficultyThreshold = 25;
     private int forthDifficultyThreshold = 40;
-    private int fifthDifficultyThreshold = 70;
-    private int sixthDifficultyThreshold = 100;
-    private int seventhDifficultyThreshold = 130;
-    private int eigthDifficultyThreshold = 170;
-    private int ninthDifficultyThreshold = 210;
-    private int tenthDifficultyThreshold = 260;
-    private int eleventhDifficultyThreshold = 310;
-    private int twelfthDifficultyThreshold = 370;
-    private int thirtiethDifficultyThreshold = 430;
-    private int fourteenthDifficultyThreshold = 500;
+    private int fifthDifficultyThreshold = 60;
+    private int sixthDifficultyThreshold = 80;
+    private int seventhDifficultyThreshold = 100;
+    private int eigthDifficultyThreshold = 130;
+    private int ninthDifficultyThreshold = 160;
+    private int tenthDifficultyThreshold = 190;
+    private int eleventhDifficultyThreshold = 230;
+    private int twelfthDifficultyThreshold = 270;
+    private int thirtiethDifficultyThreshold = 310;
+    private int fourteenthDifficultyThreshold = 360;
+    private int fifteenthDifficultyThreshold = 410;
+    private int sixteenthDifficultyThreshold = 460;
+    private int seventeenthDifficultyThreshold = 520;
+    private int eighteenthDifficultyThreshold = 580;
+    private int nineteenthDifficultyThreshold = 640;
 
     public int FirstDifficultyThreshold { get => firstDifficultyThreshold; set => firstDifficultyThreshold = value; }
     public int SecondDifficultyThreshold { get => secondDifficultyThreshold; set => secondDifficultyThreshold = value; }
@@ -50,6 +60,18 @@ public class EmitterSpawner : MonoBehaviour
     public int TwelfthDifficultyThreshold { get => twelfthDifficultyThreshold; set => twelfthDifficultyThreshold = value; }
     public int ThirtiethDifficultyThreshold { get => thirtiethDifficultyThreshold; set => thirtiethDifficultyThreshold = value; }
     public int FourteenthDifficultyThreshold { get => fourteenthDifficultyThreshold; set => fourteenthDifficultyThreshold = value; }
+    public int FifteenthDifficultyThreshold { get => fifteenthDifficultyThreshold; set => fifteenthDifficultyThreshold = value; }
+    public int SixteenthDifficultyThreshold { get => sixteenthDifficultyThreshold; set => sixteenthDifficultyThreshold = value; }
+    public int SeventeenthDifficultyThreshold { get => seventeenthDifficultyThreshold; set => seventeenthDifficultyThreshold = value; }
+    public int EighteenthDifficultyThreshold { get => eighteenthDifficultyThreshold; set => eighteenthDifficultyThreshold = value; }
+    public int NineteenthDifficultyThreshold { get => nineteenthDifficultyThreshold; set => nineteenthDifficultyThreshold = value; }
+    public bool SpawnedFirstEmitter { get => spawnedFirstEmitter; set => spawnedFirstEmitter = value; }
+    public bool SpawnedSecondEmitter { get => spawnedSecondEmitter; set => spawnedSecondEmitter = value; }
+    public bool SpawnedThirdEmitter { get => spawnedThirdEmitter; set => spawnedThirdEmitter = value; }
+    public bool SpawnedForthEmitter { get => spawnedForthEmitter; set => spawnedForthEmitter = value; }
+    public bool SpawnedFifthEmitter { get => spawnedFifthEmitter; set => spawnedFifthEmitter = value; }
+    public bool SpawnedSixthEmitter { get => spawnedSixthEmitter; set => spawnedSixthEmitter = value; }
+    public bool SpawnedSeventhEmitter { get => spawnedSeventhEmitter; set => spawnedSeventhEmitter = value; }
 
     // cached ref
     [SerializeField] GameObject emittor;
@@ -74,35 +96,35 @@ public class EmitterSpawner : MonoBehaviour
     {
         if (playerBehavior.HasMoved)
         {
-            if (gameSession.CurrentScore < firstDifficultyThreshold && !spawnedFirstEmitter)
+            if (gameSession.CurrentScore < firstDifficultyThreshold && !SpawnedFirstEmitter)
             {
                 Vector2 emittorSpawnPossition = new Vector2(transform.position.x, transform.position.y + 6f);
                 GameObject newEmitter = Instantiate(emittor, emittorSpawnPossition, Quaternion.identity);
                 newEmitter.transform.parent = transform;
 
-                spawnedFirstEmitter = true;
+                SpawnedFirstEmitter = true;
             }
-            else if (gameSession.CurrentScore >= FirstDifficultyThreshold && !spawnedSecondEmitter)
+            else if (gameSession.CurrentScore >= FirstDifficultyThreshold && !SpawnedSecondEmitter)
             {
-                spawnedSecondEmitter = SpawnNewEmiter(6f, 4f, 1.5f, 2.3f, 6f, 0.9f, false);
+                SpawnedSecondEmitter = SpawnNewEmiter(6f, 4f, 1.5f, 2.3f, 6f, 0.9f, false);
             }
-            else if (gameSession.CurrentScore >= SecondDifficultyThreshold && !spawnedThirdEmitter)
+            else if (gameSession.CurrentScore >= SecondDifficultyThreshold && !SpawnedThirdEmitter)
             {
                 FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 2f;
-                spawnedThirdEmitter = SpawnNewEmiter(5f, 5f, 1.2f, 1.5f, 8f, 0.9f, false);
-            } else if (gameSession.CurrentScore >= ThirdDifficultyThreshold && !spawnedForthEmitter)
+                SpawnedThirdEmitter = SpawnNewEmiter(5f, 5f, 1.2f, 1.5f, 8f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= ThirdDifficultyThreshold && !SpawnedForthEmitter)
             {
-                spawnedForthEmitter = SpawnNewEmiter(4f, 4f, 2.5f, 3.3f, 6f, 0.9f, false);
-            } else if (gameSession.CurrentScore >= ForthDifficultyThreshold && !spawnedFifthEmitter)
+                SpawnedForthEmitter = SpawnNewEmiter(4f, 4f, 2.5f, 3.3f, 6f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= ForthDifficultyThreshold && !SpawnedFifthEmitter)
             {
-                spawnedFifthEmitter = SpawnNewEmiter(4f, 5f, 1.5f, 2.3f, 7f, 0.9f, false);
-            } else if (gameSession.CurrentScore >= FifthDifficultyThreshold && !spawnedSixthEmitter)
+                SpawnedFifthEmitter = SpawnNewEmiter(4f, 5f, 1.5f, 2.3f, 7f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= FifthDifficultyThreshold && !SpawnedSixthEmitter)
             {
                 FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 3f;
-                spawnedSixthEmitter = SpawnNewEmiter(4f, 6f, 2f, 2.8f, 7f, 0.9f, false);
-            } else if (gameSession.CurrentScore >= SixthDifficultyThreshold && !spawnedSeventhEmitter)
+                SpawnedSixthEmitter = SpawnNewEmiter(4f, 6f, 2f, 2.8f, 7f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= SixthDifficultyThreshold && !SpawnedSeventhEmitter)
             {
-                spawnedSeventhEmitter = SpawnNewEmiter(6f, 5f, 1.5f, 2.3f, 5f, 0.9f, false);
+                SpawnedSeventhEmitter = SpawnNewEmiter(6f, 5f, 1.5f, 2.3f, 5f, 0.9f, false);
             } else if (gameSession.CurrentScore >= SeventhDifficultyThreshold && !spawnedEigthEmitter)
             {
                 spawnedEigthEmitter = SpawnNewEmiter(5.5f, 10f, 1.3f, 1.6f, 7f, 0.9f, false);
@@ -115,14 +137,14 @@ public class EmitterSpawner : MonoBehaviour
                 spawnedTenthEmitter = SpawnNewEmiter(5f, 12f, 1.5f, 1.8f, 10f, 0.9f, false);
             } else if (gameSession.CurrentScore >= TenthDifficultyThreshold && !spawnedEleventhEmitter)
             {
-                spawnedEleventhEmitter = SpawnNewEmiter(4f, 4f, 1f, 2f, 8f, 0.9f, false);
+                spawnedEleventhEmitter = SpawnNewEmiter(4f, 6f, 1f, 2f, 8f, 0.9f, false);
             } else if (gameSession.CurrentScore >= EleventhDifficultyThreshold && !spawnedTwelfthEmitter)
             {
                 FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 5f;
-                spawnedTwelfthEmitter = SpawnNewEmiter(5f, 6f, 1.4f, 1.9f, 6f, 0.9f, false);
+                spawnedTwelfthEmitter = SpawnNewEmiter(5f, 7f, 1.4f, 1.9f, 6f, 0.9f, false);
             } else if (gameSession.CurrentScore >= TwelfthDifficultyThreshold && !spawnedThirtiethEmitter)
             {
-                spawnedThirtiethEmitter = SpawnNewEmiter(3.5f, 3f, 1.3f, 1.7f, 10f, 0.9f, false);
+                spawnedThirtiethEmitter = SpawnNewEmiter(3.5f, 8f, 1.3f, 1.7f, 10f, 0.9f, false);
             } else if (gameSession.CurrentScore >= ThirtiethDifficultyThreshold && !spawnedFourteenthEmitter)
             {
                 spawnedFourteenthEmitter = SpawnNewEmiter(6f, 10f, 2f, 2.2f, 5f, 0.9f, false);
@@ -130,6 +152,23 @@ public class EmitterSpawner : MonoBehaviour
             {
                 FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 6f;
                 spawnedFifteenthEmitter = SpawnNewEmiter(4.5f, 2f, 1f, 2f, 8f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= FifteenthDifficultyThreshold && !spawnedSixteenthEmitter)
+            {
+                spawnedSixteenthEmitter = SpawnNewEmiter(5f, 7f, 1.2f, 1.5f, 8f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= SixteenthDifficultyThreshold && !spawnedSeventeenthEmitter)
+            {
+                spawnedSeventeenthEmitter = SpawnNewEmiter(4f, 8f, 2.5f, 3.3f, 6f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= SeventeenthDifficultyThreshold && !spawnedEighteenthEmitter)
+            {
+                FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 6f;
+                spawnedEighteenthEmitter = SpawnNewEmiter(4f, 9f, 2.5f, 3.3f, 6f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= EighteenthDifficultyThreshold && !spawnedNineteennthEmitter)
+            {
+                spawnedNineteennthEmitter = SpawnNewEmiter(4f, 10f, 2f, 2.8f, 7f, 0.9f, false);
+            } else if (gameSession.CurrentScore >= NineteenthDifficultyThreshold && !spawnedTwentiethEmitter)
+            {
+                FindObjectOfType<CameraBehavior>().CameraMovementSpeed = 6f;
+                spawnedTwentiethEmitter = SpawnNewEmiter(6f, 11f, 1.5f, 2.3f, 5f, 0.9f, false);
             }
         }
     }

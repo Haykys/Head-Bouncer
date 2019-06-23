@@ -8,12 +8,16 @@ public class PlayStoreAuth : MonoBehaviour
     [SerializeField] GameObject SignInButton;
     [SerializeField] GameObject SignOutButton;
 
+    private static bool hasTriedToSignInOnStart = false;
+
     void Start()
     {
         var client = UM_GameService.SignInClient;
 
-        if (client.PlayerInfo.State != UM_PlayerState.SignedIn)
+        if (client.PlayerInfo.State != UM_PlayerState.SignedIn && !hasTriedToSignInOnStart)
         {
+            hasTriedToSignInOnStart = true;
+
             client.SingIn((result) => {
                 if (result.IsSucceeded)
                 {

@@ -157,7 +157,23 @@ public class GameSession : MonoBehaviour
         {
             NextDifficultyIn = emitterSpawner.FourteenthDifficultyThreshold - CurrentScore;
             nextDifficultyInComponent.DisplayNextDifficultyIn();
-        } else if (CurrentScore > emitterSpawner.FourteenthDifficultyThreshold)
+        } else if (CurrentScore < emitterSpawner.FifteenthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.FifteenthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.SixteenthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.SixteenthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.SeventeenthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.SeventeenthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.EighteenthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.EighteenthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore > emitterSpawner.NineteenthDifficultyThreshold)
         {
             NextDifficultyIn = 0;
             nextDifficultyInComponent.DisplayNextDifficultyIn();
