@@ -16,9 +16,9 @@ Physics2DSettings:
   m_BaumgarteScale: 0.2
   m_BaumgarteTimeOfImpactScale: 0.75
   m_TimeToSleep: 10
-  m_LinearSleepTolerance: 0.0001
-  m_AngularSleepTolerance: 0.0001
-  m_DefaultContactOffset: 0.01
+  m_LinearSleepTolerance: 0.01
+  m_AngularSleepTolerance: 2
+  m_DefaultContactOffset: 0.004
   m_JobOptions:
     serializedVersion: 2
     useMultithreading: 0
