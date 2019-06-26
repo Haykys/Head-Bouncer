@@ -114,6 +114,7 @@ public class Floor : MonoBehaviour
         Destroy(otherGameObject);
         gameSession.ResetGame();
         SaveLastAndBestScore();
+        yield break;
     }
 
     private void SaveLastAndBestScore()

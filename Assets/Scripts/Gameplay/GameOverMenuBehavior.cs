@@ -10,7 +10,6 @@ public class GameOverMenuBehavior : MonoBehaviour
     private static bool paused;
 
     //  Constant
-    const string BouncingObject = "Bouncing Object";
     const string Player = "Player";
 
     // cached ref
@@ -35,13 +34,6 @@ public class GameOverMenuBehavior : MonoBehaviour
     /// </summary>
     public void Continue()
     {
-        GameObject[] bouncingObjects = GameObject.FindGameObjectsWithTag(BouncingObject);
-
-        for (int i = 0; i < bouncingObjects.Length; i++)
-        {
-            Destroy(bouncingObjects[i]);
-        }
-
         player.GetComponent<Renderer>().enabled = true;
 
         pauseMenuBehaviour.ShowPauseButton();
