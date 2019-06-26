@@ -21,6 +21,7 @@ public class Floor : MonoBehaviour
     [SerializeField] float waitTime = 2.0f;
 
     private bool isGameOver = false;
+    private bool startedEndGameCoroutine = false;
 
     // cached ref
     GameSession gameSession;
@@ -58,14 +59,14 @@ public class Floor : MonoBehaviour
             AudioSource.PlayClipAtPoint(bounceFailSound, transform.position, bounceFailSounddVolume);
 
             playerHealth.DecreaseHealth(1);
-            if (playerHealth.Health < 1)
+            if (playerHealth.Health < 1 && !startedEndGameCoroutine)
             {
                 HandleFracture(otherGameObject, collision);
                 HandleFracture(otherGameObject, collision);
 
                 IsGameOver = true;
 
-                StartCoroutine(WaitForAllObjectToBeDestroyed(otherGameObject));
+                StartCoroutine(WaitForAllObjectToBeDestroyed());
             }
             else
             {
@@ -76,14 +77,17 @@ public class Floor : MonoBehaviour
         }
     }
 
-    private IEnumerator WaitForAllObjectToBeDestroyed(GameObject otherGameObject)
-    { 
+    private IEnumerator WaitForAllObjectToBeDestroyed()
+    {
+        startedEndGameCoroutine = true;
+
         yield return new WaitUntil(() => bouncingObjects.Length <= 0);
 
-        StartCoroutine(GameOver(otherGameObject));
+        startedEndGameCoroutine = false;
+        StartCoroutine(GameOver());
     }
 
-    private IEnumerator GameOver(GameObject otherGameObject)
+    private IEnumerator GameOver()
     {
         yield return new WaitForSeconds(waitTime);
 
@@ -111,10 +115,8 @@ public class Floor : MonoBehaviour
         pauseMenuBehaviour.HidePauseButton();
 
         player.GetComponent<Renderer>().enabled = false;
-        Destroy(otherGameObject);
         gameSession.ResetGame();
         SaveLastAndBestScore();
-        yield break;
     }
 
     private void SaveLastAndBestScore()
