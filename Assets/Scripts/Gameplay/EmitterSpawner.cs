@@ -65,6 +65,7 @@ public class EmitterSpawner : MonoBehaviour
     public int SeventeenthDifficultyThreshold { get => seventeenthDifficultyThreshold; set => seventeenthDifficultyThreshold = value; }
     public int EighteenthDifficultyThreshold { get => eighteenthDifficultyThreshold; set => eighteenthDifficultyThreshold = value; }
     public int NineteenthDifficultyThreshold { get => nineteenthDifficultyThreshold; set => nineteenthDifficultyThreshold = value; }
+
     public bool SpawnedFirstEmitter { get => spawnedFirstEmitter; set => spawnedFirstEmitter = value; }
     public bool SpawnedSecondEmitter { get => spawnedSecondEmitter; set => spawnedSecondEmitter = value; }
     public bool SpawnedThirdEmitter { get => spawnedThirdEmitter; set => spawnedThirdEmitter = value; }

@@ -173,6 +173,10 @@ public class GameSession : MonoBehaviour
         {
             NextDifficultyIn = emitterSpawner.EighteenthDifficultyThreshold - CurrentScore;
             nextDifficultyInComponent.DisplayNextDifficultyIn();
+        } else if (CurrentScore < emitterSpawner.NineteenthDifficultyThreshold)
+        {
+            NextDifficultyIn = emitterSpawner.NineteenthDifficultyThreshold - CurrentScore;
+            nextDifficultyInComponent.DisplayNextDifficultyIn();
         } else if (CurrentScore >= emitterSpawner.NineteenthDifficultyThreshold)
         {
             NextDifficultyIn = 0;
