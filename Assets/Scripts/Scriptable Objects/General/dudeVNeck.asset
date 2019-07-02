@@ -15,7 +15,7 @@ MonoBehaviour:
   characterIndex: 22
   characterName: dudeVNeck
   characterSprite: {fileID: 21300000, guid: 61caa733615524269a1f43e7e876c5dd, type: 3}
-  characterRuntimeAnimatorController: {fileID: 9100000, guid: 402a512045569f74ca4e4b04cfc66a5f,
+  characterRuntimeAnimatorController: {fileID: 9100000, guid: 76c3f3cf0fdaab1469ddd74fe3a5d317,
     type: 2}
   characterPointCost: 1000
   playerHealth: 7

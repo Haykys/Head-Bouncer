@@ -10,7 +10,7 @@ public class AdsCountdown : MonoBehaviour
     // connfig params
     public static DateTime? adCountdown = null;
 
-    private static int staticAdCountDown = 4;
+    private static int staticAdCountDown = 3;
 
     // cached ref
     LevelLoader levelLoader;
@@ -24,7 +24,7 @@ public class AdsCountdown : MonoBehaviour
         levelLoader = FindObjectOfType<LevelLoader>();
         staticGoogleAd = FindObjectOfType<StaticGoogleAd>();
 
-        adCountdown = DateTime.Now.AddSeconds(5);
+        adCountdown = DateTime.Now.AddSeconds(4);
     }
 
     private void Update()
