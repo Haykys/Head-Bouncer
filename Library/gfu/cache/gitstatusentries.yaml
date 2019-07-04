@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-03T21:34:36.088+02:00
+  lastUpdatedAtString: 2019-07-04T07:49:35.303+02:00
   initializedAtString: 2019-07-02T21:30:48.866+02:00
   entries:
   - path: .vs\Head Bouncer\v15\.suo
@@ -70,6 +70,120 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets\Sprites\Icons.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons.meta
+    projectPath: Assets\Sprites\Icons.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-hdpi.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-hdpi.meta
+    projectPath: Assets\Sprites\Icons\drawable-hdpi.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-hdpi\ic_launcher.png
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-hdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icons\drawable-hdpi\ic_launcher.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-hdpi\ic_launcher.png.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-hdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icons\drawable-hdpi\ic_launcher.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-ldpi.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-ldpi.meta
+    projectPath: Assets\Sprites\Icons\drawable-ldpi.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-ldpi\ic_launcher.png
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-ldpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icons\drawable-ldpi\ic_launcher.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-ldpi\ic_launcher.png.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-ldpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icons\drawable-ldpi\ic_launcher.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-mdpi.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-mdpi.meta
+    projectPath: Assets\Sprites\Icons\drawable-mdpi.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-mdpi\ic_launcher.png
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-mdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icons\drawable-mdpi\ic_launcher.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-mdpi\ic_launcher.png.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-mdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icons\drawable-mdpi\ic_launcher.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xhdpi.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xhdpi.meta
+    projectPath: Assets\Sprites\Icons\drawable-xhdpi.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xhdpi\ic_launcher.png
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xhdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icons\drawable-xhdpi\ic_launcher.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xhdpi\ic_launcher.png.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xhdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icons\drawable-xhdpi\ic_launcher.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xxhdpi.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xxhdpi.meta
+    projectPath: Assets\Sprites\Icons\drawable-xxhdpi.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xxhdpi\ic_launcher.png
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xxhdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icons\drawable-xxhdpi\ic_launcher.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xxhdpi\ic_launcher.png.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xxhdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icons\drawable-xxhdpi\ic_launcher.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xxxhdpi.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xxxhdpi.meta
+    projectPath: Assets\Sprites\Icons\drawable-xxxhdpi.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xxxhdpi\ic_launcher.png
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xxxhdpi\ic_launcher.png
+    projectPath: Assets\Sprites\Icons\drawable-xxxhdpi\ic_launcher.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Icons\drawable-xxxhdpi\ic_launcher.png.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Sprites\Icons\drawable-xxxhdpi\ic_launcher.png.meta
+    projectPath: Assets\Sprites\Icons\drawable-xxxhdpi\ic_launcher.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Head Bouncer.sln
     fullPath: C:\UnityGames\Head Bouncer\Head Bouncer.sln
     projectPath: Head Bouncer.sln
@@ -79,12 +193,6 @@ MonoBehaviour:
   - path: Library\assetDatabase3
     fullPath: C:\UnityGames\Head Bouncer\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\UnityGames\Head Bouncer\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -110,7 +218,7 @@ MonoBehaviour:
     fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\gittrackingstatus.yaml
@@ -124,563 +232,161 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\LastBuild.buildreport
-    fullPath: C:\UnityGames\Head Bouncer\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
+  - path: Library\metadata\02\025ae9b988c73eb46aa3be63c721d76f
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\02\025ae9b988c73eb46aa3be63c721d76f
+    projectPath: Library\metadata\02\025ae9b988c73eb46aa3be63c721d76f
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\18f3d86a1ef00124889a22d90bbd1096
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\18f3d86a1ef00124889a22d90bbd1096
-    projectPath: Library\PlayerDataCache\Android\Data\18f3d86a1ef00124889a22d90bbd1096
+  - path: Library\metadata\02\025ae9b988c73eb46aa3be63c721d76f.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\02\025ae9b988c73eb46aa3be63c721d76f.info
+    projectPath: Library\metadata\02\025ae9b988c73eb46aa3be63c721d76f.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\1ccc0e4341d180f428fc51ddcab55eea
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\1ccc0e4341d180f428fc51ddcab55eea
-    projectPath: Library\PlayerDataCache\Android\Data\1ccc0e4341d180f428fc51ddcab55eea
+  - path: Library\metadata\11\1128bd6adadf92040bdd2c38a0ca92b1
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\11\1128bd6adadf92040bdd2c38a0ca92b1
+    projectPath: Library\metadata\11\1128bd6adadf92040bdd2c38a0ca92b1
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\2176547d4ce5aca418230bccafa3e8ea
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\2176547d4ce5aca418230bccafa3e8ea
-    projectPath: Library\PlayerDataCache\Android\Data\2176547d4ce5aca418230bccafa3e8ea
+  - path: Library\metadata\11\1128bd6adadf92040bdd2c38a0ca92b1.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\11\1128bd6adadf92040bdd2c38a0ca92b1.info
+    projectPath: Library\metadata\11\1128bd6adadf92040bdd2c38a0ca92b1.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\32831512170f673468ae3934d518f4e6
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\32831512170f673468ae3934d518f4e6
-    projectPath: Library\PlayerDataCache\Android\Data\32831512170f673468ae3934d518f4e6
+  - path: Library\metadata\22\2202d43875570e04faa471cd156c47ba
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\22\2202d43875570e04faa471cd156c47ba
+    projectPath: Library\metadata\22\2202d43875570e04faa471cd156c47ba
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\3f5b5dff67a942289a9defa416b206f3
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\3f5b5dff67a942289a9defa416b206f3
-    projectPath: Library\PlayerDataCache\Android\Data\3f5b5dff67a942289a9defa416b206f3
+  - path: Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
+    projectPath: Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\54810bd9897637e4991452b7f9acba13
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\54810bd9897637e4991452b7f9acba13
-    projectPath: Library\PlayerDataCache\Android\Data\54810bd9897637e4991452b7f9acba13
+  - path: Library\metadata\31\3133d2b4f48ef2147866ae1202651fc6
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\31\3133d2b4f48ef2147866ae1202651fc6
+    projectPath: Library\metadata\31\3133d2b4f48ef2147866ae1202651fc6
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\5534b723fe5ab6e41902615ec2073c5f
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\5534b723fe5ab6e41902615ec2073c5f
-    projectPath: Library\PlayerDataCache\Android\Data\5534b723fe5ab6e41902615ec2073c5f
+  - path: Library\metadata\31\3133d2b4f48ef2147866ae1202651fc6.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\31\3133d2b4f48ef2147866ae1202651fc6.info
+    projectPath: Library\metadata\31\3133d2b4f48ef2147866ae1202651fc6.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\8bc32f81b0946144a96c05cfd8886ef7
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\8bc32f81b0946144a96c05cfd8886ef7
-    projectPath: Library\PlayerDataCache\Android\Data\8bc32f81b0946144a96c05cfd8886ef7
+  - path: Library\metadata\37\37f467c430d9fd24590a69af7f63963e
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\37\37f467c430d9fd24590a69af7f63963e
+    projectPath: Library\metadata\37\37f467c430d9fd24590a69af7f63963e
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
-    projectPath: Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
+  - path: Library\metadata\37\37f467c430d9fd24590a69af7f63963e.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\37\37f467c430d9fd24590a69af7f63963e.info
+    projectPath: Library\metadata\37\37f467c430d9fd24590a69af7f63963e.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\ace84648da4c7e54ca02d4acd94eca5e
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\ace84648da4c7e54ca02d4acd94eca5e
-    projectPath: Library\PlayerDataCache\Android\Data\ace84648da4c7e54ca02d4acd94eca5e
+  - path: Library\metadata\44\44a92c4d3a05eb4408a062eeb7bc279c
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\44\44a92c4d3a05eb4408a062eeb7bc279c
+    projectPath: Library\metadata\44\44a92c4d3a05eb4408a062eeb7bc279c
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\c41005c129ba4d66911b75229fd70b45
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\c41005c129ba4d66911b75229fd70b45
-    projectPath: Library\PlayerDataCache\Android\Data\c41005c129ba4d66911b75229fd70b45
+  - path: Library\metadata\44\44a92c4d3a05eb4408a062eeb7bc279c.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\44\44a92c4d3a05eb4408a062eeb7bc279c.info
+    projectPath: Library\metadata\44\44a92c4d3a05eb4408a062eeb7bc279c.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\dc97b37649b10da4b8d8fec738677552
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\dc97b37649b10da4b8d8fec738677552
-    projectPath: Library\PlayerDataCache\Android\Data\dc97b37649b10da4b8d8fec738677552
+  - path: Library\metadata\56\56384e88383db10449e2f1dc5fae9ae5
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\56\56384e88383db10449e2f1dc5fae9ae5
+    projectPath: Library\metadata\56\56384e88383db10449e2f1dc5fae9ae5
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\ea9eb647dd0104bee8af3f243a320556
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\ea9eb647dd0104bee8af3f243a320556
-    projectPath: Library\PlayerDataCache\Android\Data\ea9eb647dd0104bee8af3f243a320556
+  - path: Library\metadata\56\56384e88383db10449e2f1dc5fae9ae5.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\56\56384e88383db10449e2f1dc5fae9ae5.info
+    projectPath: Library\metadata\56\56384e88383db10449e2f1dc5fae9ae5.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\eed1ebbb2dafdec45bc77e75b0763779
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\eed1ebbb2dafdec45bc77e75b0763779
-    projectPath: Library\PlayerDataCache\Android\Data\eed1ebbb2dafdec45bc77e75b0763779
+  - path: Library\metadata\70\7093a4e1a86f99f4fb9a14f68a6c9621
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\70\7093a4e1a86f99f4fb9a14f68a6c9621
+    projectPath: Library\metadata\70\7093a4e1a86f99f4fb9a14f68a6c9621
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\f952c082cb03451daed3ee968ac6c63e
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\f952c082cb03451daed3ee968ac6c63e
-    projectPath: Library\PlayerDataCache\Android\Data\f952c082cb03451daed3ee968ac6c63e
+  - path: Library\metadata\70\7093a4e1a86f99f4fb9a14f68a6c9621.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\70\7093a4e1a86f99f4fb9a14f68a6c9621.info
+    projectPath: Library\metadata\70\7093a4e1a86f99f4fb9a14f68a6c9621.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\fb17bc78abe8ac54cb5bf955d81e7247
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\fb17bc78abe8ac54cb5bf955d81e7247
-    projectPath: Library\PlayerDataCache\Android\Data\fb17bc78abe8ac54cb5bf955d81e7247
+  - path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
+    projectPath: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\fed76b06fed42514ebf557b5515bfe0b
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\fed76b06fed42514ebf557b5515bfe0b
-    projectPath: Library\PlayerDataCache\Android\Data\fed76b06fed42514ebf557b5515bfe0b
+  - path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
+    projectPath: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\globalgamemanagers
-    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
+  - path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
+    projectPath: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
-    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+  - path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
+    projectPath: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\level0
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\level0
-    projectPath: Library\PlayerDataCache\Android\Data\level0
+  - path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
+    projectPath: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\level1
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\level1
-    projectPath: Library\PlayerDataCache\Android\Data\level1
+  - path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
+    projectPath: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+  - path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
+    projectPath: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp-firstpass.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp-firstpass.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp-firstpass.dll
+  - path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
+    projectPath: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\com.unity.multiplayer-hlapi.Runtime.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\com.unity.multiplayer-hlapi.Runtime.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\com.unity.multiplayer-hlapi.Runtime.dll
+  - path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
+    projectPath: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.Android.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.Android.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.Android.dll
+  - path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
+    projectPath: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.Android.Manifest.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.Android.Manifest.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.Android.Manifest.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.CrossPlatform.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.CrossPlatform.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.CrossPlatform.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.Facebook.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.Facebook.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.Facebook.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.Network.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.Network.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.Network.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.Tests.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.Tests.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.Foundation.Tests.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.GIF.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.GIF.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.GIF.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.iOS.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.iOS.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.iOS.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\SA.iOS.XCode.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\SA.iOS.XCode.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\SA.iOS.XCode.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.SpatialTracking.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.SpatialTracking.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.SpatialTracking.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\Data\sharedassets1.assets
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\sharedassets1.assets
-    projectPath: Library\PlayerDataCache\Android\Data\sharedassets1.assets
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    projectPath: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Android.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Android.dll
-    projectPath: Library\ScriptAssemblies\SA.Android.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Android.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Android.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.Android.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Android.Manifest.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Android.Manifest.dll
-    projectPath: Library\ScriptAssemblies\SA.Android.Manifest.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Android.Manifest.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Android.Manifest.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.Android.Manifest.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.CrossPlatform.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.CrossPlatform.dll
-    projectPath: Library\ScriptAssemblies\SA.CrossPlatform.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.CrossPlatform.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.CrossPlatform.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.CrossPlatform.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.CrossPlatform.Tests.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.CrossPlatform.Tests.dll
-    projectPath: Library\ScriptAssemblies\SA.CrossPlatform.Tests.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Facebook.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Facebook.dll
-    projectPath: Library\ScriptAssemblies\SA.Facebook.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Facebook.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Facebook.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.Facebook.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Foundation.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Foundation.dll
-    projectPath: Library\ScriptAssemblies\SA.Foundation.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Foundation.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Foundation.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.Foundation.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Foundation.Network.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Foundation.Network.dll
-    projectPath: Library\ScriptAssemblies\SA.Foundation.Network.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Foundation.Tests.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Foundation.Tests.dll
-    projectPath: Library\ScriptAssemblies\SA.Foundation.Tests.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Foundation.Tests.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Foundation.Tests.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.Foundation.Tests.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.Foundation.ThirdParty.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.Foundation.ThirdParty.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.Foundation.ThirdParty.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.GIF.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.GIF.dll
-    projectPath: Library\ScriptAssemblies\SA.GIF.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.iOS.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.iOS.dll
-    projectPath: Library\ScriptAssemblies\SA.iOS.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.iOS.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.iOS.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.iOS.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.iOS.XCode.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.iOS.XCode.dll
-    projectPath: Library\ScriptAssemblies\SA.iOS.XCode.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SA.iOS.XCode.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\SA.iOS.XCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\SA.iOS.XCode.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe7.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\Hierarchy\d6b8be-mainStage.json
-    fullPath: C:\UnityGames\Head Bouncer\Library\StateCache\Hierarchy\d6b8be-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\d6b8be-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\SA.Android.Editor.csprojAssemblyReference.cache
-    fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.Android.Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\SA.Android.Editor.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: C:\UnityGames\Head Bouncer\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
-    originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: SA.Android.csproj
     fullPath: C:\UnityGames\Head Bouncer\SA.Android.csproj
