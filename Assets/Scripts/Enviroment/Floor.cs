@@ -22,6 +22,7 @@ public class Floor : MonoBehaviour
 
     private bool isGameOver = false;
     private bool startedEndGameCoroutine = false;
+    private bool failedToloadRewardAdd = false;
 
     // cached ref
     GameSession gameSession;
@@ -33,6 +34,7 @@ public class Floor : MonoBehaviour
     GameObject[] bouncingObjects;
 
     public bool IsGameOver { get => isGameOver; set => isGameOver = value; }
+    public bool FailedToloadRewardAdd { get => failedToloadRewardAdd; set => failedToloadRewardAdd = value; }
 
     void Start()
     {
@@ -93,7 +95,9 @@ public class Floor : MonoBehaviour
 
         IsGameOver = false;
 
-        if (Application.internetReachability == NetworkReachability.NotReachable || !InitializeGoogleAds.AdInitialized)
+        if (Application.internetReachability == NetworkReachability.NotReachable
+            || !InitializeGoogleAds.AdInitialized
+            || failedToloadRewardAdd)
         {
             SaveLastAndBestScore();
             levelLoader.LoadMainMenu();

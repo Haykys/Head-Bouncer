@@ -26,6 +26,7 @@ public class RewardedGoogleTwoAds : MonoBehaviour
     private GameOverMenuBehavior gameOverMenuBehavior;
     private RewardedGoogleAd rewardedGoogleAd;
     private LevelLoader levelLoader;
+    private Floor floor;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class RewardedGoogleTwoAds : MonoBehaviour
         gameOverMenuBehavior = FindObjectOfType<GameOverMenuBehavior>();
         rewardedGoogleAd = FindObjectOfType<RewardedGoogleAd>();
         levelLoader = FindObjectOfType<LevelLoader>();
+        floor = FindObjectOfType<Floor>();
 
         firstAd = new RewardedAd(adUnitId);
         secondAd = new RewardedAd(adUnitId);
@@ -43,6 +45,15 @@ public class RewardedGoogleTwoAds : MonoBehaviour
         // Called when the ad is closed.
         firstAd.OnAdClosed += HandleFirstRewardedAdClosed;
         secondAd.OnAdClosed += HandleSecondRewardedAdClosed;
+        // Called when an ad request has successfully loaded.
+        firstAd.OnAdLoaded += HandleFirstRewardedAdLoaded;
+        secondAd.OnAdLoaded += HandleSecondRewardedAdLoaded;
+        // Called when an ad request failed to load.
+        firstAd.OnAdFailedToLoad += HandleFirstRewardedAdFailedToLoad;
+        secondAd.OnAdFailedToLoad += HandleSecondRewardedAdFailedToLoad;
+        // Called when an ad request failed to show.
+        firstAd.OnAdFailedToShow += HandleFirstRewardedAdFailedToShow;
+        secondAd.OnAdFailedToShow += HandleSecondRewardedAdFailedToShow;
 
         // Create an empty ad request.
         AdRequest request = new AdRequest.Builder().Build();
@@ -60,6 +71,37 @@ public class RewardedGoogleTwoAds : MonoBehaviour
         {
             firstAd.Show();
         }
+    }
+
+    private void HandleFirstRewardedAdLoaded(object sender, EventArgs args)
+    {
+        floor.FailedToloadRewardAdd = false;
+    }
+
+    private void HandleSecondRewardedAdLoaded(object sender, EventArgs args)
+    {
+        floor.FailedToloadRewardAdd = false;
+    }
+
+    private void HandleFirstRewardedAdFailedToLoad(object sender, AdErrorEventArgs args)
+    {
+        floor.FailedToloadRewardAdd = true;
+    }
+
+    private void HandleSecondRewardedAdFailedToLoad(object sender, AdErrorEventArgs args)
+    {
+        floor.FailedToloadRewardAdd = true;
+    }
+
+    private void HandleFirstRewardedAdFailedToShow(object sender, AdErrorEventArgs args)
+    {
+        levelLoader.LoadMainMenu();
+
+    }
+
+    private void HandleSecondRewardedAdFailedToShow(object sender, AdErrorEventArgs args)
+    {
+        levelLoader.LoadMainMenu();
     }
 
     public void HandleFirstRewardedAdClosed(object sender, EventArgs args)

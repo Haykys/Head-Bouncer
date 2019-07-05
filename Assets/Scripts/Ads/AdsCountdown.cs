@@ -52,7 +52,8 @@ public class AdsCountdown : MonoBehaviour
             {
                 StaticAdCountDown = StaticAdCountDown - 1;
 
-                if (StaticAdCountDown <= 0)
+                if (StaticAdCountDown <= 0
+                    && !staticGoogleAd.FailedToLoadStaticGoogleAdd)
                 {
                     StaticAdCountDown = 3;
                     staticGoogleAd.DisplayStaticAd();

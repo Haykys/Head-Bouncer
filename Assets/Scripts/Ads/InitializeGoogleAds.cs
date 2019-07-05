@@ -36,8 +36,6 @@ public class InitializeGoogleAds : MonoBehaviour
 
     private void Start()
     {
-        // Initialize the Google Mobile Ads SDK.
-
         if (Application.internetReachability != NetworkReachability.NotReachable && !AdInitialized)
         {
             AdInitialized = true;

@@ -10,11 +10,12 @@ public class ShareOnTwitter : MonoBehaviour
     {
         var client = UM_SocialService.SharingClient;
         var builder = new UM_ShareDialogBuilder();
-        builder.SetText("Hello world!");
-        builder.SetUrl("https://stansassets.com/");
-
-        Texture2D sampleRedTexture = SA_IconManager.GetIcon(Color.red, 32, 32);
-        builder.AddImage(sampleRedTexture);
+        builder.SetText("I have achived a high score of " + PlayerPrefsController.GetBestScore() + " in #HeadBouncer. Will you do better ? You can find this game on Google Play and App Store");
+#if UNITY_ANDROID
+        builder.SetUrl("https://play.google.com/");
+#elif UNITY_IOS
+        builder.SetUrl("https://apps.apple.com");
+#endif
 
         client.ShareToTwitter(builder, (result) => {
             if (result.IsSucceeded)

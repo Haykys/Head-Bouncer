@@ -10,24 +10,28 @@ public class PlayStoreAuth : MonoBehaviour
 
     private static bool hasTriedToSignInOnStart = false;
 
-    void Start()
+    private void Start()
     {
-        var client = UM_GameService.SignInClient;
-
-        if (client.PlayerInfo.State != UM_PlayerState.SignedIn && !hasTriedToSignInOnStart)
+        if (Application.internetReachability != NetworkReachability.NotReachable)
         {
-            hasTriedToSignInOnStart = true;
 
-            client.SingIn((result) => {
-                if (result.IsSucceeded)
-                {
-                    Debug.Log("Player is signed");
-                }
-                else
-                {
-                    Debug.Log("Sing in failed: " + result.Error.FullMessage);
-                }
-            });
+            var client = UM_GameService.SignInClient;
+
+            if (client.PlayerInfo.State != UM_PlayerState.SignedIn && !hasTriedToSignInOnStart)
+            {
+                hasTriedToSignInOnStart = true;
+
+                client.SingIn((result) => {
+                    if (result.IsSucceeded)
+                    {
+                        Debug.Log("Player is signed");
+                    }
+                    else
+                    {
+                        Debug.Log("Sing in failed: " + result.Error.FullMessage);
+                    }
+                });
+            }
         }
     }
 

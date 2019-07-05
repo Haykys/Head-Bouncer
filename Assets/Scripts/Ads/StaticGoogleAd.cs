@@ -8,6 +8,10 @@ public class StaticGoogleAd : MonoBehaviour
 {
     private InterstitialAd interstitial;
 
+    private bool failedToLoadStaticGoogleAdd = false;
+
+    public bool FailedToLoadStaticGoogleAdd { get => failedToLoadStaticGoogleAdd; set => failedToLoadStaticGoogleAdd = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,13 +53,12 @@ public class StaticGoogleAd : MonoBehaviour
 
     public void HandleOnAdLoaded(object sender, EventArgs args)
     {
-        print("HandleAdLoaded event received");
+        FailedToLoadStaticGoogleAdd = false;
     }
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
-        print("HandleFailedToReceiveAd event received with message: "
-                            + args.Message);
+        FailedToLoadStaticGoogleAdd = true;
     }
 
     public void HandleOnAdOpened(object sender, EventArgs args)

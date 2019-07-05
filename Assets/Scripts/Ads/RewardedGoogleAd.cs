@@ -24,6 +24,7 @@ public class RewardedGoogleAd : MonoBehaviour
     private PlayerHealth playerHealth;
     private GameOverMenuBehavior gameOverMenuBehavior;
     private LevelLoader levelLoader;
+    private Floor floor;
 
     public bool AdShown { get => adShown; set => adShown = value; }
 
@@ -32,6 +33,7 @@ public class RewardedGoogleAd : MonoBehaviour
         playerHealth = FindObjectOfType<PlayerHealth>();
         gameOverMenuBehavior = FindObjectOfType<GameOverMenuBehavior>();
         levelLoader = FindObjectOfType<LevelLoader>();
+        floor = FindObjectOfType<Floor>();
 
         rewardedAd = new RewardedAd(adUnitId);
 
@@ -67,14 +69,13 @@ public class RewardedGoogleAd : MonoBehaviour
 
     public void HandleRewardedAdLoaded(object sender, EventArgs args)
     {
-        print("HandleRewardedAdLoaded event received");
+        floor.FailedToloadRewardAdd = false;
     }
 
     public void HandleRewardedAdFailedToLoad(object sender, AdErrorEventArgs args)
     {
-       print(
-            "HandleRewardedAdFailedToLoad event received with message: "
-                             + args.Message);
+        floor.FailedToloadRewardAdd = true;
+
     }
 
     public void HandleRewardedAdOpening(object sender, EventArgs args)
@@ -84,9 +85,8 @@ public class RewardedGoogleAd : MonoBehaviour
 
     public void HandleRewardedAdFailedToShow(object sender, AdErrorEventArgs args)
     {
-        print(
-            "HandleRewardedAdFailedToShow event received with message: "
-                             + args.Message);
+        levelLoader.LoadMainMenu();
+
     }
 
     public void HandleRewardedAdClosed(object sender, EventArgs args)
