@@ -8,7 +8,10 @@ public class RewardedGoogleAd : MonoBehaviour
 {
     // reward ads
 #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/5224354917";
+            // real ads
+            string adUnitId = "ca-app-pub-7950062407728228/4130246388";
+            // testing ads
+            // string adUnitId = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/4411468910";
 #else
@@ -94,6 +97,10 @@ public class RewardedGoogleAd : MonoBehaviour
         if (!watchedTillEnd)
         {
             levelLoader.LoadMainMenu();
+        } else
+        {
+            playerHealth.IncreaseHealth(2);
+            gameOverMenuBehavior.Continue();
         }
     }
 
@@ -101,9 +108,6 @@ public class RewardedGoogleAd : MonoBehaviour
     {
         AdShown = true;
         watchedTillEnd = true;
-
-        playerHealth.IncreaseHealth(2);
-        gameOverMenuBehavior.Continue();
     }
 
 }

@@ -8,9 +8,12 @@ public class RewardedGoogleTwoAds : MonoBehaviour
 {
     // reward ads
 #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/5224354917";
+            // real ads
+            string adUnitId = "ca-app-pub-7950062407728228/4130246388";
+            // testing ads
+            // string adUnitId = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IPHONE
-            string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+            string adUnitId = "ca-app-pub-3940256099942544/1712485313";
 #else
             string adUnitId = "unexpected_platform";
 #endif
@@ -123,6 +126,10 @@ public class RewardedGoogleTwoAds : MonoBehaviour
         if (!watchedSecondTillEnd)
         {
             levelLoader.LoadMainMenu();
+        } else
+        {
+            playerHealth.IncreaseHealth(3);
+            gameOverMenuBehavior.Continue();
         }
     }
 
@@ -139,9 +146,6 @@ public class RewardedGoogleTwoAds : MonoBehaviour
         {
             rewardedGoogleAd.AdShown = true;
         }
-
-        playerHealth.IncreaseHealth(3);
-        gameOverMenuBehavior.Continue();
     }
 
 }

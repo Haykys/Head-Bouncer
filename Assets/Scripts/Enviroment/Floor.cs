@@ -97,7 +97,7 @@ public class Floor : MonoBehaviour
 
         if (Application.internetReachability == NetworkReachability.NotReachable
             || !InitializeGoogleAds.AdInitialized
-            || failedToloadRewardAdd)
+            || FailedToloadRewardAdd)
         {
             SaveLastAndBestScore();
             levelLoader.LoadMainMenu();

@@ -16,9 +16,12 @@ public class StaticGoogleAd : MonoBehaviour
     void Start()
     {
 #if     UNITY_ANDROID
-        string adUnitId = "ca-app-pub-3940256099942544/1033173712";
+        // real ads
+        string adUnitId = "ca-app-pub-7950062407728228/4704961450";
+        // testing ads
+        // string adUnitId = "ca-app-pub-3940256099942544/1033173712";
 #elif   UNITY_IPHONE
-        string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+        string adUnitId = "ca-app-pub-3940256099942544/1712485313";
 #else
         string adUnitId = "unexpected_platform";
 #endif

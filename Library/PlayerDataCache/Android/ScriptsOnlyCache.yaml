@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Achivement
     - AdsCountdown
     - BackgroundEndBehaviour
     - BestScore
@@ -22,7 +23,6 @@ ScriptsOnlyBuild:
     - GameOverMenuBehavior
     - GameSession
     - GlobalManager
-    - GoogleMobileAds.Common.MobileAdsEventExecutor
     - InitializeGoogleAds
     - LastScore
     - Leaderboard
@@ -47,11 +47,9 @@ ScriptsOnlyBuild:
     - VolumeOptions
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
-    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
-    - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
     - GitHub.Unity.Window
@@ -90,7 +88,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ToggleGroup
     - UnityEngine.UI.VerticalLayoutGroup
     com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/Scenes/Game Scene.unity:
@@ -167,41 +164,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10850}
     - Class: 114
-      Script: {instanceID: 10990}
+      Script: {instanceID: 10992}
     - Class: 114
-      Script: {instanceID: 10998}
+      Script: {instanceID: 11000}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11436}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 11946}
+      Script: {instanceID: 11948}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 12302}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12340}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 12948}
+      Script: {instanceID: 12950}
     - Class: 114
-      Script: {instanceID: 13226}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13244}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13550}
+      Script: {instanceID: 13552}
     - Class: 114
-      Script: {instanceID: 13818}
+      Script: {instanceID: 13820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -304,49 +301,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10846}
     - Class: 114
-      Script: {instanceID: 11010}
+      Script: {instanceID: 10860}
     - Class: 114
-      Script: {instanceID: 11230}
+      Script: {instanceID: 11012}
     - Class: 114
-      Script: {instanceID: 11576}
+      Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11854}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 11856}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 12340}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 12614}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12654}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 12856}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 13006}
+      Script: {instanceID: 12858}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 13008}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13350}
+      Script: {instanceID: 13268}
     - Class: 114
-      Script: {instanceID: 13606}
+      Script: {instanceID: 13352}
     - Class: 114
-      Script: {instanceID: 13650}
+      Script: {instanceID: 13608}
+    - Class: 114
+      Script: {instanceID: 13652}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1090,6 +1089,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameSession
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Achivement
   - hash:
       serializedVersion: 2
       Hash: 303ad70ce203ad874efe2965d0fbcff9

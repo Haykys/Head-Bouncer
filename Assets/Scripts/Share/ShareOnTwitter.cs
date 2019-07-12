@@ -10,14 +10,15 @@ public class ShareOnTwitter : MonoBehaviour
     {
         var client = UM_SocialService.SharingClient;
         var builder = new UM_ShareDialogBuilder();
-        builder.SetText("I have achived a high score of " + PlayerPrefsController.GetBestScore() + " in #HeadBouncer. Will you do better ? You can find this game on Google Play and App Store");
-#if UNITY_ANDROID
+#if PLATFORM_ANDROID
         builder.SetUrl("https://play.google.com/");
-#elif UNITY_IOS
+        builder.SetText("I have achived a high score of " + PlayerPrefsController.GetBestScore() + " in #HeadBouncer. Will you do better ? You can find this game on Google Play");
+#elif PLATFORM_UNITY
         builder.SetUrl("https://apps.apple.com");
+        builder.SetText("I have achived a high score of " + PlayerPrefsController.GetBestScore() + " in #HeadBouncer. Will you do better ? You can find this game on App Store");
 #endif
 
-        client.ShareToTwitter(builder, (result) => {
+        client.SystemSharingDialog(builder, (result) => {
             if (result.IsSucceeded)
             {
                 Debug.Log("Sharing started ");
