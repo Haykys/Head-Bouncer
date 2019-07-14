@@ -48,9 +48,6 @@ public class RewardedGoogleTwoAds : MonoBehaviour
         // Called when the ad is closed.
         firstAd.OnAdClosed += HandleFirstRewardedAdClosed;
         secondAd.OnAdClosed += HandleSecondRewardedAdClosed;
-        // Called when an ad request has successfully loaded.
-        firstAd.OnAdLoaded += HandleFirstRewardedAdLoaded;
-        secondAd.OnAdLoaded += HandleSecondRewardedAdLoaded;
         // Called when an ad request failed to load.
         firstAd.OnAdFailedToLoad += HandleFirstRewardedAdFailedToLoad;
         secondAd.OnAdFailedToLoad += HandleSecondRewardedAdFailedToLoad;
@@ -67,23 +64,13 @@ public class RewardedGoogleTwoAds : MonoBehaviour
 
     public void UserChoseToWatchAd()
     {
-        var go = FindObjectOfType<GameSession>().GetGameOverMenu();
-        go.SetActive(false);
-
-        if (firstAd.IsLoaded())
+        if (firstAd.IsLoaded() && secondAd.IsLoaded())
         {
+            var go = FindObjectOfType<GameSession>().GetGameOverMenu();
+            go.SetActive(false);
+
             firstAd.Show();
         }
-    }
-
-    private void HandleFirstRewardedAdLoaded(object sender, EventArgs args)
-    {
-        floor.FailedToloadRewardAdd = false;
-    }
-
-    private void HandleSecondRewardedAdLoaded(object sender, EventArgs args)
-    {
-        floor.FailedToloadRewardAdd = false;
     }
 
     private void HandleFirstRewardedAdFailedToLoad(object sender, AdErrorEventArgs args)

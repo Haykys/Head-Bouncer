@@ -29,8 +29,6 @@ public class StaticGoogleAd : MonoBehaviour
         // Initialize an InterstitialAd.
         interstitial = new InterstitialAd(adUnitId);
 
-        // Called when an ad request has successfully loaded.
-        interstitial.OnAdLoaded += HandleOnAdLoaded;
         // Called when an ad request failed to load.
         interstitial.OnAdFailedToLoad += HandleOnAdFailedToLoad;
         // Called when an ad is shown.
@@ -52,11 +50,6 @@ public class StaticGoogleAd : MonoBehaviour
         {
             interstitial.Show();
         }
-    }
-
-    public void HandleOnAdLoaded(object sender, EventArgs args)
-    {
-        FailedToLoadStaticGoogleAdd = false;
     }
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)

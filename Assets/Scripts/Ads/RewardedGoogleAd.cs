@@ -40,8 +40,6 @@ public class RewardedGoogleAd : MonoBehaviour
 
         rewardedAd = new RewardedAd(adUnitId);
 
-        // Called when an ad request has successfully loaded.
-        rewardedAd.OnAdLoaded += HandleRewardedAdLoaded;
         // Called when an ad request failed to load.
         rewardedAd.OnAdFailedToLoad += HandleRewardedAdFailedToLoad;
         // Called when an ad is shown.
@@ -61,18 +59,13 @@ public class RewardedGoogleAd : MonoBehaviour
 
     public void UserChoseToWatchAd()
     {
-        var go = FindObjectOfType<GameSession>().GetGameOverMenu();
-        go.SetActive(false);
-
         if (rewardedAd.IsLoaded())
         {
+            var go = FindObjectOfType<GameSession>().GetGameOverMenu();
+            go.SetActive(false);
+
             rewardedAd.Show();
         }
-    }
-
-    public void HandleRewardedAdLoaded(object sender, EventArgs args)
-    {
-        floor.FailedToloadRewardAdd = false;
     }
 
     public void HandleRewardedAdFailedToLoad(object sender, AdErrorEventArgs args)
