@@ -70,6 +70,8 @@ public class PlayerBehavior : MonoBehaviour
         {
             AudioClip clip = plateBounceSound[Random.Range(0, plateBounceSound.Length - 1)];
             AudioSource.PlayClipAtPoint(clip, transform.position, plateBounceSoundVolume);
+
+            cameraBehaviour.TriggerShake();
         }
     }
 

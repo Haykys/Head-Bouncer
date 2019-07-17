@@ -26,9 +26,9 @@ public class InitializeGoogleAds : MonoBehaviour
     // banner ads
 #if UNITY_ANDROID
             // real ads
-            string adUnitId = "ca-app-pub-7950062407728228/8598182427";
+            // string adUnitId = "ca-app-pub-7950062407728228/8598182427";
             // testing ads
-            // string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+            string adUnitId = "ca-app-pub-3940256099942544/6300978111";
 #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/2934735716";
 #else
