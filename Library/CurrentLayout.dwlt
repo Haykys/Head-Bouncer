@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 10}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -38,9 +38,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 267
+    x: 373
     y: 0
-    width: 271
+    width: 373
     height: 732
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
@@ -66,14 +66,14 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 599
+    x: 391
     y: 0
-    width: 538
+    width: 746
     height: 732
   m_MinSize: {x: 408, y: 222}
   m_MaxSize: {x: 8008, y: 4022}
   vertical: 0
-  controlID: 84
+  controlID: 62
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,10 +94,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 732
-  m_MinSize: {x: 917, y: 494}
+  m_MinSize: {x: 742, y: 494}
   m_MaxSize: {x: 22012, y: 14044}
   vertical: 1
-  controlID: 82
+  controlID: 104
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -115,7 +115,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 458
-    width: 599
+    width: 391
     height: 274
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
@@ -143,12 +143,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 599
+    width: 391
     height: 732
   m_MinSize: {x: 232, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 208
+  controlID: 15
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,10 +171,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 732
-  m_MinSize: {x: 917, y: 494}
+  m_MinSize: {x: 742, y: 494}
   m_MaxSize: {x: 22012, y: 14044}
   vertical: 0
-  controlID: 83
+  controlID: 105
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -194,16 +194,16 @@ MonoBehaviour:
     y: 0
     width: 399
     height: 732
-  m_MinSize: {x: 277, y: 72}
+  m_MinSize: {x: 102, y: 122}
   m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 19}
   - {fileID: 23}
   - {fileID: 16}
   - {fileID: 15}
   - {fileID: 14}
-  m_Selected: 0
+  m_Selected: 3
   m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
@@ -222,10 +222,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 599
+    width: 391
     height: 458
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -315,7 +315,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 267
+    width: 373
     height: 732
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
@@ -1718,19 +1718,19 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1010
+    x: 1137.2001
     y: 72
-    width: 524
+    width: 397
     height: 713
   m_ViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: -1
+  progressMessageClearTime: 8521.048600153235
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1816,244 +1816,16 @@ MonoBehaviour:
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
-    commitMessage: Fix network issues, ajust for notch, Fix End Game menu icons
+    commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - ce64fa41fe4801a43abdd597c4035087
-        - 64e86793f0a4d764882d7d6cc5c788c9
-        - 1e28b5844a797d248833ac69f60e8234
-        - d2a59efb31ec6cd4897d854ee25c2ab6
-        - 5ecc9a6c09c131346bacd6eb573ca78c
-        - f3613492b3c65b04ab5390e87e3cbc63
-        - 8d2b417ecc33977428e94901a1dce699
-        - af1e86f711f3cbb48b17e918a5d84727
-        - 398780ae37e002a46bc671b1ac909543
-        - c45c10dbc492450479d62d8d845fc8b5
-        - 00000000000000004000000000000000
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Achivement
-          label: Achivement
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Achivement\Achivement.cs
-          label: Achivement.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Achivement\Achivement.cs
-            fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Achivement\Achivement.cs
-            projectPath: Assets\Scripts\Achivement\Achivement.cs
-            originalPath: 
-            status: 1
-            staged: 0
-        - path: Assets\Scripts\Ads
-          label: Ads
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Ads\InitializeGoogleAds.cs
-          label: InitializeGoogleAds.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Ads\InitializeGoogleAds.cs
-            fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\InitializeGoogleAds.cs
-            projectPath: Assets\Scripts\Ads\InitializeGoogleAds.cs
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: Assets\Scripts\Ads\RewardedGoogleAd.cs
-          label: RewardedGoogleAd.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Ads\RewardedGoogleAd.cs
-            fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\RewardedGoogleAd.cs
-            projectPath: Assets\Scripts\Ads\RewardedGoogleAd.cs
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-          label: RewardedGoogleTwoAds.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-            fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-            projectPath: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: Assets\Scripts\Ads\StaticGoogleAd.cs
-          label: StaticGoogleAd.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Ads\StaticGoogleAd.cs
-            fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\StaticGoogleAd.cs
-            projectPath: Assets\Scripts\Ads\StaticGoogleAd.cs
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: Assets\Scripts\Main Menu
-          label: Main Menu
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Main Menu\PlayerPrefsController.cs
-          label: PlayerPrefsController.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Main Menu\PlayerPrefsController.cs
-            fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Main Menu\PlayerPrefsController.cs
-            projectPath: Assets\Scripts\Main Menu\PlayerPrefsController.cs
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: ProjectSettings\ProjectSettings.asset
-          label: ProjectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectSettings.asset
-            fullPath: C:\UnityGames\Head Bouncer\ProjectSettings\ProjectSettings.asset
-            projectPath: ProjectSettings\ProjectSettings.asset
-            originalPath: 
-            status: 3
-            staged: 0
+        keys: []
+        values: []
       folders:
         keys:
         - .vs
@@ -2061,32 +1833,13 @@ MonoBehaviour:
         - .vs\Head Bouncer\v15
         - .vs\Head Bouncer\v15\Server
         - .vs\Head Bouncer\v15\Server\sqlite3
-        - Assets
-        - Assets\Scripts
-        - Assets\Scripts\Achivement
-        - Assets\Scripts\Ads
-        - Assets\Scripts\Main Menu
         - Library
         - Library\gfu
         - Library\gfu\cache
         - Library\metadata
-        - Library\metadata\1e
-        - Library\metadata\22
-        - Library\metadata\4c
-        - Library\metadata\4d
-        - Library\metadata\5e
-        - Library\metadata\64
-        - Library\metadata\7e
         - Library\metadata\8d
-        - Library\metadata\ac
         - Library\metadata\af
-        - Library\metadata\b7
-        - Library\metadata\c4
-        - Library\metadata\cf
-        - Library\metadata\d0
         - Library\metadata\f3
-        - Library\metadata\f4
-        - Library\metadata\f8
         - Library\PlayerDataCache
         - Library\PlayerDataCache\Android
         - Library\PlayerDataCache\Android\Data
@@ -2094,10 +1847,6 @@ MonoBehaviour:
         - Library\ScriptAssemblies
         - Library\StateCache
         - Library\StateCache\Hierarchy
-        - Library\StateCache\SceneView
-        - obj
-        - obj\Debug
-        - ProjectSettings
         - Temp
         values:
         - path: .vs
@@ -2190,96 +1939,6 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Achivement
-          label: Achivement
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Ads
-          label: Ads
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Main Menu
-          label: Main Menu
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -2352,152 +2011,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Library\metadata\1e
-          label: 1e
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\22
-          label: 22
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\4c
-          label: 4c
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\4d
-          label: 4d
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\5e
-          label: 5e
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\64
-          label: 64
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\7e
-          label: 7e
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Library\metadata\8d
           label: 8d
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\ac
-          label: ac
           level: 2
           isFolder: 1
           isContainer: 0
@@ -2532,116 +2047,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Library\metadata\b7
-          label: b7
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\c4
-          label: c4
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\cf
-          label: cf
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\d0
-          label: d0
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Library\metadata\f3
           label: f3
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\f4
-          label: f4
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\f8
-          label: f8
           level: 2
           isFolder: 1
           isContainer: 0
@@ -2773,78 +2180,6 @@ MonoBehaviour:
           isContainer: 0
           isCollapsed: 0
           isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\StateCache\SceneView
-          label: SceneView
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: obj
-          label: obj
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: obj\Debug
-          label: Debug
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
-          isHidden: 0
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -3154,240 +2489,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 1
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts\Achivement.meta
-        label: Achivement.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Achivement.meta
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Achivement.meta
-          projectPath: Assets\Scripts\Achivement.meta
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\Achivement
-        label: Achivement
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts\Achivement\Achivement.cs
-        label: Achivement.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Achivement\Achivement.cs
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Achivement\Achivement.cs
-          projectPath: Assets\Scripts\Achivement\Achivement.cs
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\Achivement\Achivement.cs.meta
-        label: Achivement.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Achivement\Achivement.cs.meta
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Achivement\Achivement.cs.meta
-          projectPath: Assets\Scripts\Achivement\Achivement.cs.meta
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\Ads
-        label: Ads
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts\Ads\InitializeGoogleAds.cs
-        label: InitializeGoogleAds.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Ads\InitializeGoogleAds.cs
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\InitializeGoogleAds.cs
-          projectPath: Assets\Scripts\Ads\InitializeGoogleAds.cs
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Scripts\Ads\RewardedGoogleAd.cs
-        label: RewardedGoogleAd.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Ads\RewardedGoogleAd.cs
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\RewardedGoogleAd.cs
-          projectPath: Assets\Scripts\Ads\RewardedGoogleAd.cs
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-        label: RewardedGoogleTwoAds.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-          projectPath: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Scripts\Ads\StaticGoogleAd.cs
-        label: StaticGoogleAd.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Ads\StaticGoogleAd.cs
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\StaticGoogleAd.cs
-          projectPath: Assets\Scripts\Ads\StaticGoogleAd.cs
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Scripts\Main Menu
-        label: Main Menu
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts\Main Menu\PlayerPrefsController.cs
-        label: PlayerPrefsController.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Main Menu\PlayerPrefsController.cs
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Main Menu\PlayerPrefsController.cs
-          projectPath: Assets\Scripts\Main Menu\PlayerPrefsController.cs
-          originalPath: 
-          status: 3
-          staged: 0
       - path: com.unity.multiplayer-hlapi.Editor.csproj
         label: com.unity.multiplayer-hlapi.Editor.csproj
         level: 0
@@ -3568,6 +2669,24 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentLayout.dwlt
+          fullPath: C:\UnityGames\Head Bouncer\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\EditorInstance.json
         label: EditorInstance.json
         level: 1
@@ -3583,6 +2702,42 @@ MonoBehaviour:
           path: Library\EditorInstance.json
           fullPath: C:\UnityGames\Head Bouncer\Library\EditorInstance.json
           projectPath: Library\EditorInstance.json
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\EditorUserBuildSettings.asset
+        label: EditorUserBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\EditorUserBuildSettings.asset
+          fullPath: C:\UnityGames\Head Bouncer\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\expandedItems
+        label: expandedItems
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\expandedItems
+          fullPath: C:\UnityGames\Head Bouncer\Library\expandedItems
+          projectPath: Library\expandedItems
           originalPath: 
           status: 3
           staged: 0
@@ -3674,7 +2829,7 @@ MonoBehaviour:
           fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\gitlog.yaml
           projectPath: Library\gfu\cache\gitlog.yaml
           originalPath: 
-          status: 3
+          status: 5
           staged: 0
       - path: Library\gfu\cache\gitstatusentries.yaml
         label: gitstatusentries.yaml
@@ -3748,6 +2903,24 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\LastSceneManagerSetup.txt
+        label: LastSceneManagerSetup.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\LastSceneManagerSetup.txt
+          fullPath: C:\UnityGames\Head Bouncer\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\metadata
         label: metadata
         level: 1
@@ -3765,330 +2938,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
-          staged: 0
-      - path: Library\metadata\1e
-        label: 1e
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234
-        label: 1e28b5844a797d248833ac69f60e8234
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\1e\1e28b5844a797d248833ac69f60e8234
-          projectPath: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234.info
-        label: 1e28b5844a797d248833ac69f60e8234.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\1e\1e28b5844a797d248833ac69f60e8234.info
-          projectPath: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234.info
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Library\metadata\22
-        label: 22
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\22\2202d43875570e04faa471cd156c47ba
-        label: 2202d43875570e04faa471cd156c47ba
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\22\2202d43875570e04faa471cd156c47ba
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\22\2202d43875570e04faa471cd156c47ba
-          projectPath: Library\metadata\22\2202d43875570e04faa471cd156c47ba
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
-        label: 2202d43875570e04faa471cd156c47ba.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
-          projectPath: Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\4c
-        label: 4c
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-        label: 4c433abcdb28444ebb7bd395ba5c76fc
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-          projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\4d
-        label: 4d
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-        label: 4dfd3f5da88944ec6ac5977d676c30c6
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-          projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\5e
-        label: 5e
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\5e\5ecc9a6c09c131346bacd6eb573ca78c
-        label: 5ecc9a6c09c131346bacd6eb573ca78c
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\5e\5ecc9a6c09c131346bacd6eb573ca78c
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\5e\5ecc9a6c09c131346bacd6eb573ca78c
-          projectPath: Library\metadata\5e\5ecc9a6c09c131346bacd6eb573ca78c
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\64
-        label: 64
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9
-        label: 64e86793f0a4d764882d7d6cc5c788c9
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9
-          projectPath: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9.info
-        label: 64e86793f0a4d764882d7d6cc5c788c9.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9.info
-          projectPath: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9.info
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Library\metadata\7e
-        label: 7e
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
-        label: 7e5d4908fba853b45a45bd978298671f
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
-          projectPath: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
-        label: 7e5d4908fba853b45a45bd978298671f.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
-          projectPath: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
-          originalPath: 
-          status: 3
           staged: 0
       - path: Library\metadata\8d
         label: 8d
@@ -4123,42 +2972,6 @@ MonoBehaviour:
           path: Library\metadata\8d\8d2b417ecc33977428e94901a1dce699
           fullPath: C:\UnityGames\Head Bouncer\Library\metadata\8d\8d2b417ecc33977428e94901a1dce699
           projectPath: Library\metadata\8d\8d2b417ecc33977428e94901a1dce699
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\ac
-        label: ac
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-        label: acc34040a66fe4170bc8885268860cfe
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-          projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
           originalPath: 
           status: 3
           staged: 0
@@ -4198,204 +3011,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\metadata\b7
-        label: b7
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
-        label: b762cc00cc659e04682ddc48a7e58937
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
-          projectPath: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
-        label: b762cc00cc659e04682ddc48a7e58937.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
-          projectPath: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\c4
-        label: c4
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\c4\c45c10dbc492450479d62d8d845fc8b5
-        label: c45c10dbc492450479d62d8d845fc8b5
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\c4\c45c10dbc492450479d62d8d845fc8b5
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\c4\c45c10dbc492450479d62d8d845fc8b5
-          projectPath: Library\metadata\c4\c45c10dbc492450479d62d8d845fc8b5
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\cf
-        label: cf
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
-        label: cfc7d764b8c1310439b0d1c51bcf994c
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
-          projectPath: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
-        label: cfc7d764b8c1310439b0d1c51bcf994c.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
-          projectPath: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\d0
-        label: d0
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
-        label: d0dd550f4584e7a43a2b903d7f681286
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
-          projectPath: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
-        label: d0dd550f4584e7a43a2b903d7f681286.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
-          projectPath: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
-          originalPath: 
-          status: 3
-          staged: 0
       - path: Library\metadata\f3
         label: f3
         level: 2
@@ -4429,96 +3044,6 @@ MonoBehaviour:
           path: Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
           fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
           projectPath: Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\f4
-        label: f4
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
-        label: f45a78159d388334085dbfe6c34d6840
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
-          projectPath: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
-        label: f45a78159d388334085dbfe6c34d6840.info
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
-          projectPath: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata\f8
-        label: f8
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-        label: f8eca3a711f4842eba0c52ea9885ef7f
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-          fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-          projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
           originalPath: 
           status: 3
           staged: 0
@@ -4936,8 +3461,26 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\SceneVisibilityState.asset
-        label: SceneVisibilityState.asset
+      - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+        label: sharedassets0.assets
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+          fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+          projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ProjectSettings.asset
+        label: ProjectSettings.asset
         level: 1
         isFolder: 0
         isContainer: 0
@@ -4948,9 +3491,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\SceneVisibilityState.asset
-          fullPath: C:\UnityGames\Head Bouncer\Library\SceneVisibilityState.asset
-          projectPath: Library\SceneVisibilityState.asset
+          path: Library\ProjectSettings.asset
+          fullPath: C:\UnityGames\Head Bouncer\Library\ProjectSettings.asset
+          projectPath: Library\ProjectSettings.asset
           originalPath: 
           status: 3
           staged: 0
@@ -5061,6 +3604,24 @@ MonoBehaviour:
           projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
           originalPath: 
           status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+        label: BuiltinAssemblies.stamp
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+          fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+          projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+          originalPath: 
+          status: 1
           staged: 0
       - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
         label: com.unity.multiplayer-hlapi.Editor.dll
@@ -5692,6 +4253,132 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+        label: shadercompiler-UnityShaderCompiler.exe1.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+          fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe1.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+        label: shadercompiler-UnityShaderCompiler.exe2.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+          fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe2.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+        label: shadercompiler-UnityShaderCompiler.exe3.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+          fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe3.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+        label: shadercompiler-UnityShaderCompiler.exe4.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+          fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe4.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+        label: shadercompiler-UnityShaderCompiler.exe5.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+          fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe5.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+        label: shadercompiler-UnityShaderCompiler.exe6.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+          fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe6.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+        label: shadercompiler-UnityShaderCompiler.exe7.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+          fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe7.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\StateCache
         label: StateCache
         level: 1
@@ -5743,276 +4430,6 @@ MonoBehaviour:
           path: Library\StateCache\Hierarchy\d6b8be-mainStage.json
           fullPath: C:\UnityGames\Head Bouncer\Library\StateCache\Hierarchy\d6b8be-mainStage.json
           projectPath: Library\StateCache\Hierarchy\d6b8be-mainStage.json
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\StateCache\SceneView
-        label: SceneView
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\StateCache\SceneView\660d23-mainStage.json
-        label: 660d23-mainStage.json
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\StateCache\SceneView\660d23-mainStage.json
-          fullPath: C:\UnityGames\Head Bouncer\Library\StateCache\SceneView\660d23-mainStage.json
-          projectPath: Library\StateCache\SceneView\660d23-mainStage.json
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj
-        label: obj
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 1
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: obj\Debug
-        label: Debug
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-        label: Assembly-CSharp.csproj.CoreCompileInputs.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-        label: Assembly-CSharp.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-        label: Assembly-CSharp-Editor.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-        label: SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-          projectPath: obj\Debug\SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-        label: SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-          projectPath: obj\Debug\SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-        label: SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-          projectPath: obj\Debug\SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-        label: SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-          fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-          projectPath: obj\Debug\SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 1
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\UnityGames\Head Bouncer\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
           originalPath: 
           status: 3
           staged: 0
@@ -6430,8 +4847,8 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
-      - path: Temp\UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
-        label: UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
+      - path: Temp\UnityTempFile-05a7bc367d6cff54189136bccc7226f1
+        label: UnityTempFile-05a7bc367d6cff54189136bccc7226f1
         level: 1
         isFolder: 0
         isContainer: 0
@@ -6442,14 +4859,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
-          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
-          projectPath: Temp\UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
+          path: Temp\UnityTempFile-05a7bc367d6cff54189136bccc7226f1
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-05a7bc367d6cff54189136bccc7226f1
+          projectPath: Temp\UnityTempFile-05a7bc367d6cff54189136bccc7226f1
           originalPath: 
           status: 1
           staged: 0
-      - path: Temp\UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
-        label: UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
+      - path: Temp\UnityTempFile-094c14cdcd78d89448cb7199dd83db14
+        label: UnityTempFile-094c14cdcd78d89448cb7199dd83db14
         level: 1
         isFolder: 0
         isContainer: 0
@@ -6460,14 +4877,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
-          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
-          projectPath: Temp\UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
+          path: Temp\UnityTempFile-094c14cdcd78d89448cb7199dd83db14
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-094c14cdcd78d89448cb7199dd83db14
+          projectPath: Temp\UnityTempFile-094c14cdcd78d89448cb7199dd83db14
           originalPath: 
           status: 1
           staged: 0
-      - path: Temp\UnityTempFile-13b2053a023e17d4882f78d61162c020
-        label: UnityTempFile-13b2053a023e17d4882f78d61162c020
+      - path: Temp\UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
+        label: UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
         level: 1
         isFolder: 0
         isContainer: 0
@@ -6478,14 +4895,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-13b2053a023e17d4882f78d61162c020
-          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-13b2053a023e17d4882f78d61162c020
-          projectPath: Temp\UnityTempFile-13b2053a023e17d4882f78d61162c020
+          path: Temp\UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
+          projectPath: Temp\UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
           originalPath: 
           status: 1
           staged: 0
-      - path: Temp\UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
-        label: UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
+      - path: Temp\UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
+        label: UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
         level: 1
         isFolder: 0
         isContainer: 0
@@ -6496,14 +4913,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
-          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
-          projectPath: Temp\UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
+          path: Temp\UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
+          projectPath: Temp\UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
           originalPath: 
           status: 1
           staged: 0
-      - path: Temp\UnityTempFile-162ceaa8473921c429f826e00d62e9b4
-        label: UnityTempFile-162ceaa8473921c429f826e00d62e9b4
+      - path: Temp\UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
+        label: UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
         level: 1
         isFolder: 0
         isContainer: 0
@@ -6514,14 +4931,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-162ceaa8473921c429f826e00d62e9b4
-          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-162ceaa8473921c429f826e00d62e9b4
-          projectPath: Temp\UnityTempFile-162ceaa8473921c429f826e00d62e9b4
+          path: Temp\UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
+          projectPath: Temp\UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
           originalPath: 
           status: 1
           staged: 0
-      - path: Temp\UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
-        label: UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
+      - path: Temp\UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
+        label: UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
         level: 1
         isFolder: 0
         isContainer: 0
@@ -6532,14 +4949,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
-          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
-          projectPath: Temp\UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
+          path: Temp\UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
+          projectPath: Temp\UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
           originalPath: 
           status: 1
           staged: 0
-      - path: Temp\UnityTempFile-c05d306b160abad4580c95eb5e0831bf
-        label: UnityTempFile-c05d306b160abad4580c95eb5e0831bf
+      - path: Temp\UnityTempFile-1ad8831b613dff4439b028565a29949a
+        label: UnityTempFile-1ad8831b613dff4439b028565a29949a
         level: 1
         isFolder: 0
         isContainer: 0
@@ -6550,9 +4967,585 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-c05d306b160abad4580c95eb5e0831bf
-          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c05d306b160abad4580c95eb5e0831bf
-          projectPath: Temp\UnityTempFile-c05d306b160abad4580c95eb5e0831bf
+          path: Temp\UnityTempFile-1ad8831b613dff4439b028565a29949a
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-1ad8831b613dff4439b028565a29949a
+          projectPath: Temp\UnityTempFile-1ad8831b613dff4439b028565a29949a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+        label: UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+          projectPath: Temp\UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-2625b04628a363144bfbe80b18eba80f
+        label: UnityTempFile-2625b04628a363144bfbe80b18eba80f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-2625b04628a363144bfbe80b18eba80f
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-2625b04628a363144bfbe80b18eba80f
+          projectPath: Temp\UnityTempFile-2625b04628a363144bfbe80b18eba80f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+        label: UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+          projectPath: Temp\UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-374eaacadacb02140acd3a406e8e6561
+        label: UnityTempFile-374eaacadacb02140acd3a406e8e6561
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-374eaacadacb02140acd3a406e8e6561
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-374eaacadacb02140acd3a406e8e6561
+          projectPath: Temp\UnityTempFile-374eaacadacb02140acd3a406e8e6561
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+        label: UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+          projectPath: Temp\UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-41525e4149990094da634b840245c295
+        label: UnityTempFile-41525e4149990094da634b840245c295
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-41525e4149990094da634b840245c295
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-41525e4149990094da634b840245c295
+          projectPath: Temp\UnityTempFile-41525e4149990094da634b840245c295
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+        label: UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+          projectPath: Temp\UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+        label: UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+          projectPath: Temp\UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+        label: UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+          projectPath: Temp\UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+        label: UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+          projectPath: Temp\UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+        label: UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+          projectPath: Temp\UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+        label: UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+          projectPath: Temp\UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-7f6a9010f4e241940b98775510caf105
+        label: UnityTempFile-7f6a9010f4e241940b98775510caf105
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-7f6a9010f4e241940b98775510caf105
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7f6a9010f4e241940b98775510caf105
+          projectPath: Temp\UnityTempFile-7f6a9010f4e241940b98775510caf105
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+        label: UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+          projectPath: Temp\UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-8471b322c3aff4149be53a559afd401f
+        label: UnityTempFile-8471b322c3aff4149be53a559afd401f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8471b322c3aff4149be53a559afd401f
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8471b322c3aff4149be53a559afd401f
+          projectPath: Temp\UnityTempFile-8471b322c3aff4149be53a559afd401f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+        label: UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+          projectPath: Temp\UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+        label: UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+          projectPath: Temp\UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+        label: UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+          projectPath: Temp\UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+        label: UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+          projectPath: Temp\UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+        label: UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+          projectPath: Temp\UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+        label: UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+          projectPath: Temp\UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-aebbfae58bb54824d8455034306cd272
+        label: UnityTempFile-aebbfae58bb54824d8455034306cd272
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-aebbfae58bb54824d8455034306cd272
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-aebbfae58bb54824d8455034306cd272
+          projectPath: Temp\UnityTempFile-aebbfae58bb54824d8455034306cd272
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+        label: UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+          projectPath: Temp\UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+        label: UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+          projectPath: Temp\UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+        label: UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+          projectPath: Temp\UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+        label: UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+          projectPath: Temp\UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-c878168defeddba42b14c4c8761ec1db
+        label: UnityTempFile-c878168defeddba42b14c4c8761ec1db
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c878168defeddba42b14c4c8761ec1db
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c878168defeddba42b14c4c8761ec1db
+          projectPath: Temp\UnityTempFile-c878168defeddba42b14c4c8761ec1db
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-d5303058700e3cb43929dda9eed6e405
+        label: UnityTempFile-d5303058700e3cb43929dda9eed6e405
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-d5303058700e3cb43929dda9eed6e405
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-d5303058700e3cb43929dda9eed6e405
+          projectPath: Temp\UnityTempFile-d5303058700e3cb43929dda9eed6e405
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+        label: UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+          projectPath: Temp\UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-eb054932d2931d3408bca460a28b2781
+        label: UnityTempFile-eb054932d2931d3408bca460a28b2781
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-eb054932d2931d3408bca460a28b2781
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-eb054932d2931d3408bca460a28b2781
+          projectPath: Temp\UnityTempFile-eb054932d2931d3408bca460a28b2781
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+        label: UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+          projectPath: Temp\UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
+        label: UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
+          fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
+          projectPath: Temp\UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
           originalPath: 
           status: 1
           staged: 0
@@ -6701,23 +5694,23 @@ MonoBehaviour:
           status: 1
           staged: 0
       selectedNode:
-        path: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-        label: RewardedGoogleTwoAds.cs
-        level: 3
+        path: 
+        label: 
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
-        isHidden: 1
+        isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-          fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-          projectPath: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          status: 3
+          status: 0
           staged: 0
     gitStatusEntries:
     - path: .vs\Head Bouncer\v15\.suo
@@ -6771,54 +5764,6 @@ MonoBehaviour:
     - path: Assembly-CSharp-firstpass.csproj
       fullPath: C:\UnityGames\Head Bouncer\Assembly-CSharp-firstpass.csproj
       projectPath: Assembly-CSharp-firstpass.csproj
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Scripts\Achivement.meta
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Achivement.meta
-      projectPath: Assets\Scripts\Achivement.meta
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\Achivement\Achivement.cs
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Achivement\Achivement.cs
-      projectPath: Assets\Scripts\Achivement\Achivement.cs
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\Achivement\Achivement.cs.meta
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Achivement\Achivement.cs.meta
-      projectPath: Assets\Scripts\Achivement\Achivement.cs.meta
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\Ads\InitializeGoogleAds.cs
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\InitializeGoogleAds.cs
-      projectPath: Assets\Scripts\Ads\InitializeGoogleAds.cs
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Scripts\Ads\RewardedGoogleAd.cs
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\RewardedGoogleAd.cs
-      projectPath: Assets\Scripts\Ads\RewardedGoogleAd.cs
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-      projectPath: Assets\Scripts\Ads\RewardedGoogleTwoAds.cs
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Scripts\Ads\StaticGoogleAd.cs
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\StaticGoogleAd.cs
-      projectPath: Assets\Scripts\Ads\StaticGoogleAd.cs
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Scripts\Main Menu\PlayerPrefsController.cs
-      fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Main Menu\PlayerPrefsController.cs
-      projectPath: Assets\Scripts\Main Menu\PlayerPrefsController.cs
       originalPath: 
       status: 3
       staged: 0
@@ -6876,9 +5821,27 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\UnityGames\Head Bouncer\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\EditorInstance.json
       fullPath: C:\UnityGames\Head Bouncer\Library\EditorInstance.json
       projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: C:\UnityGames\Head Bouncer\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\UnityGames\Head Bouncer\Library\expandedItems
+      projectPath: Library\expandedItems
       originalPath: 
       status: 3
       staged: 0
@@ -6898,7 +5861,7 @@ MonoBehaviour:
       fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\gitlog.yaml
       projectPath: Library\gfu\cache\gitlog.yaml
       originalPath: 
-      status: 3
+      status: 5
       staged: 0
     - path: Library\gfu\cache\gitstatusentries.yaml
       fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\gitstatusentries.yaml
@@ -6924,69 +5887,9 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\1e\1e28b5844a797d248833ac69f60e8234
-      projectPath: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\1e\1e28b5844a797d248833ac69f60e8234.info
-      projectPath: Library\metadata\1e\1e28b5844a797d248833ac69f60e8234.info
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Library\metadata\22\2202d43875570e04faa471cd156c47ba
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\22\2202d43875570e04faa471cd156c47ba
-      projectPath: Library\metadata\22\2202d43875570e04faa471cd156c47ba
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
-      projectPath: Library\metadata\22\2202d43875570e04faa471cd156c47ba.info
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-      projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-      projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\5e\5ecc9a6c09c131346bacd6eb573ca78c
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\5e\5ecc9a6c09c131346bacd6eb573ca78c
-      projectPath: Library\metadata\5e\5ecc9a6c09c131346bacd6eb573ca78c
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9
-      projectPath: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9.info
-      projectPath: Library\metadata\64\64e86793f0a4d764882d7d6cc5c788c9.info
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
-      projectPath: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
-      projectPath: Library\metadata\7e\7e5d4908fba853b45a45bd978298671f.info
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\UnityGames\Head Bouncer\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
       originalPath: 
       status: 3
       staged: 0
@@ -6996,81 +5899,15 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-      projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Library\metadata\af\af1e86f711f3cbb48b17e918a5d84727
       fullPath: C:\UnityGames\Head Bouncer\Library\metadata\af\af1e86f711f3cbb48b17e918a5d84727
       projectPath: Library\metadata\af\af1e86f711f3cbb48b17e918a5d84727
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
-      projectPath: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
-      projectPath: Library\metadata\b7\b762cc00cc659e04682ddc48a7e58937.info
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\c4\c45c10dbc492450479d62d8d845fc8b5
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\c4\c45c10dbc492450479d62d8d845fc8b5
-      projectPath: Library\metadata\c4\c45c10dbc492450479d62d8d845fc8b5
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
-      projectPath: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
-      projectPath: Library\metadata\cf\cfc7d764b8c1310439b0d1c51bcf994c.info
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
-      projectPath: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
-      projectPath: Library\metadata\d0\d0dd550f4584e7a43a2b903d7f681286.info
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
       fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
       projectPath: Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
-      projectPath: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
-      projectPath: Library\metadata\f4\f45a78159d388334085dbfe6c34d6840.info
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-      fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-      projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
       originalPath: 
       status: 3
       staged: 0
@@ -7188,9 +6025,15 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\SceneVisibilityState.asset
-      fullPath: C:\UnityGames\Head Bouncer\Library\SceneVisibilityState.asset
-      projectPath: Library\SceneVisibilityState.asset
+    - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+      fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+      projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ProjectSettings.asset
+      fullPath: C:\UnityGames\Head Bouncer\Library\ProjectSettings.asset
+      projectPath: Library\ProjectSettings.asset
       originalPath: 
       status: 3
       staged: 0
@@ -7223,6 +6066,12 @@ MonoBehaviour:
       projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
       originalPath: 
       status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      status: 1
       staged: 0
     - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
       fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
@@ -7434,75 +6283,51 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+      fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe5.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+      fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe6.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+      fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe7.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\StateCache\Hierarchy\d6b8be-mainStage.json
       fullPath: C:\UnityGames\Head Bouncer\Library\StateCache\Hierarchy\d6b8be-mainStage.json
       projectPath: Library\StateCache\Hierarchy\d6b8be-mainStage.json
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\StateCache\SceneView\660d23-mainStage.json
-      fullPath: C:\UnityGames\Head Bouncer\Library\StateCache\SceneView\660d23-mainStage.json
-      projectPath: Library\StateCache\SceneView\660d23-mainStage.json
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-      projectPath: obj\Debug\SA.Android.Manifest.Editor.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-      projectPath: obj\Debug\SA.Foundation.Tests.Editor.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-      projectPath: obj\Debug\SA.Foundation.ThirdParty.Editor.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-      fullPath: C:\UnityGames\Head Bouncer\obj\Debug\SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-      projectPath: obj\Debug\SA.iOS.XCode.Editor.csprojAssemblyReference.cache
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: C:\UnityGames\Head Bouncer\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
       originalPath: 
       status: 3
       staged: 0
@@ -7638,45 +6463,237 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
-      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
-      projectPath: Temp\UnityTempFile-0807646655cd6544e9bc830d1ffdf1a7
+    - path: Temp\UnityTempFile-05a7bc367d6cff54189136bccc7226f1
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-05a7bc367d6cff54189136bccc7226f1
+      projectPath: Temp\UnityTempFile-05a7bc367d6cff54189136bccc7226f1
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
-      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
-      projectPath: Temp\UnityTempFile-1123ba553e2b01c44a81d8f5edaf77d6
+    - path: Temp\UnityTempFile-094c14cdcd78d89448cb7199dd83db14
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-094c14cdcd78d89448cb7199dd83db14
+      projectPath: Temp\UnityTempFile-094c14cdcd78d89448cb7199dd83db14
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-13b2053a023e17d4882f78d61162c020
-      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-13b2053a023e17d4882f78d61162c020
-      projectPath: Temp\UnityTempFile-13b2053a023e17d4882f78d61162c020
+    - path: Temp\UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
+      projectPath: Temp\UnityTempFile-0a35cb3db64faa64b93ec27ee1f4b385
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
-      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
-      projectPath: Temp\UnityTempFile-156d23d0c29b7bb4ebaf2d3b4cd125cb
+    - path: Temp\UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
+      projectPath: Temp\UnityTempFile-0af81ae223857334bb10c18ec6c1fa70
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-162ceaa8473921c429f826e00d62e9b4
-      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-162ceaa8473921c429f826e00d62e9b4
-      projectPath: Temp\UnityTempFile-162ceaa8473921c429f826e00d62e9b4
+    - path: Temp\UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
+      projectPath: Temp\UnityTempFile-0db2fbf53972b464f8dcac5a516494e3
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
-      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
-      projectPath: Temp\UnityTempFile-3c6e111c2a2d9144a85b608005c65c81
+    - path: Temp\UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
+      projectPath: Temp\UnityTempFile-0eff87d3bfd4efd4e9b18231fd0a5d00
       originalPath: 
       status: 1
       staged: 0
-    - path: Temp\UnityTempFile-c05d306b160abad4580c95eb5e0831bf
-      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c05d306b160abad4580c95eb5e0831bf
-      projectPath: Temp\UnityTempFile-c05d306b160abad4580c95eb5e0831bf
+    - path: Temp\UnityTempFile-1ad8831b613dff4439b028565a29949a
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-1ad8831b613dff4439b028565a29949a
+      projectPath: Temp\UnityTempFile-1ad8831b613dff4439b028565a29949a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+      projectPath: Temp\UnityTempFile-25a3d2050c61bc847acab0d257b2b771
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-2625b04628a363144bfbe80b18eba80f
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-2625b04628a363144bfbe80b18eba80f
+      projectPath: Temp\UnityTempFile-2625b04628a363144bfbe80b18eba80f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+      projectPath: Temp\UnityTempFile-2e22c38cfab440442809a2ce3b3a082a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-374eaacadacb02140acd3a406e8e6561
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-374eaacadacb02140acd3a406e8e6561
+      projectPath: Temp\UnityTempFile-374eaacadacb02140acd3a406e8e6561
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+      projectPath: Temp\UnityTempFile-3a91fd763248a934985a6cbca14bdcf5
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-41525e4149990094da634b840245c295
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-41525e4149990094da634b840245c295
+      projectPath: Temp\UnityTempFile-41525e4149990094da634b840245c295
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+      projectPath: Temp\UnityTempFile-4be52c41f0b5c3946946a91c735ee84c
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+      projectPath: Temp\UnityTempFile-4ced37332bdd84b45a66927dad3823b9
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+      projectPath: Temp\UnityTempFile-62707a4af7b35f640b6532b2995e50cd
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+      projectPath: Temp\UnityTempFile-6ba061fa2aa6d7c4c8e5cf6db780c999
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+      projectPath: Temp\UnityTempFile-75800fb6b3c376343b3daf6b9d6d2f55
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+      projectPath: Temp\UnityTempFile-7b61b1155bc81f841b9f3ade73ffc12e
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-7f6a9010f4e241940b98775510caf105
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7f6a9010f4e241940b98775510caf105
+      projectPath: Temp\UnityTempFile-7f6a9010f4e241940b98775510caf105
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+      projectPath: Temp\UnityTempFile-838dee64ba8a6d14b9cb6b84d4e8678a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-8471b322c3aff4149be53a559afd401f
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8471b322c3aff4149be53a559afd401f
+      projectPath: Temp\UnityTempFile-8471b322c3aff4149be53a559afd401f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+      projectPath: Temp\UnityTempFile-8db1dc12c154c534d86d059bc3f0e849
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+      projectPath: Temp\UnityTempFile-8dc1d1df14bfacf4d9f27f391522f7ca
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+      projectPath: Temp\UnityTempFile-8e6f58f1ac9929c4494c3f0cbcd04453
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+      projectPath: Temp\UnityTempFile-9c9efff5c7a73dd4990e893d1a8304c4
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+      projectPath: Temp\UnityTempFile-9cf266ffcf2dcb4479b6086390e25f2a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+      projectPath: Temp\UnityTempFile-a1d8e05fc6898cc46abc06741707795c
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-aebbfae58bb54824d8455034306cd272
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-aebbfae58bb54824d8455034306cd272
+      projectPath: Temp\UnityTempFile-aebbfae58bb54824d8455034306cd272
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+      projectPath: Temp\UnityTempFile-b1bc38d0b9bfc4e488d9f564df82c086
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+      projectPath: Temp\UnityTempFile-b63999a8646baa44fb7b1ee9c1b4e5c2
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+      projectPath: Temp\UnityTempFile-c07e63ca42cf81a40b462b96b1eb1523
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+      projectPath: Temp\UnityTempFile-c32f19d7af4d43e4aac279ee1be6be0a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-c878168defeddba42b14c4c8761ec1db
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c878168defeddba42b14c4c8761ec1db
+      projectPath: Temp\UnityTempFile-c878168defeddba42b14c4c8761ec1db
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-d5303058700e3cb43929dda9eed6e405
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-d5303058700e3cb43929dda9eed6e405
+      projectPath: Temp\UnityTempFile-d5303058700e3cb43929dda9eed6e405
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+      projectPath: Temp\UnityTempFile-dbcb753c4a03ffc47afe3487eddb4a7b
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-eb054932d2931d3408bca460a28b2781
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-eb054932d2931d3408bca460a28b2781
+      projectPath: Temp\UnityTempFile-eb054932d2931d3408bca460a28b2781
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+      projectPath: Temp\UnityTempFile-f08d3c713298c5c4a8031689b70808ee
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
+      fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
+      projectPath: Temp\UnityTempFile-ff78ba62dc289c840b5d2d2e7d2c9b25
       originalPath: 
       status: 1
       staged: 0
@@ -7728,15 +6745,15 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
-    changedFilesText: 168 changed files
+    changedFilesText: 172 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-07-11T22:01:04.251+02:00
+      updatedTimeString: 2019-07-14T08:42:15.850+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-07-11T22:39:36.091+02:00
+      updatedTimeString: 2019-07-14T08:41:56.810+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2019-07-14T08:41:01.848+02:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -25645,13 +24662,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-07-11T22:01:04.251+02:00
+    updatedTimeString: 2019-07-14T08:42:15.850+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-07-11T22:01:04.510+02:00
+    updatedTimeString: 2019-07-14T08:42:14.191+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-07-11T22:23:45.128+02:00
+    updatedTimeString: 2019-07-14T08:41:56.810+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -25670,7 +24687,7 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
   repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressMessage: Reading locks...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -25761,7 +24778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 530
-    width: 599
+    width: 391
     height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -25776,20 +24793,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Leaderboard
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Leaderboard
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\UnityGames\Head Bouncer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 213}
-    m_SelectedIDs: 84470000
-    m_LastClickedID: 18308
-    m_ExpandedIDs: 0000000072290000742d0000d2360000ae3800003e3f000076430000ee450000ac470000b4480000565c0000585c00005a5c00005c5c00005e5c0000605c000000ca9a3b
+    scrollPos: {x: 0, y: 165}
+    m_SelectedIDs: 90390000
+    m_LastClickedID: 14736
+    m_ExpandedIDs: 0000000072290000762d000008370000e4380000763f0000ae43000026460000f04800008a5c00008c5c00008e5c0000905c0000925c0000945c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -25817,7 +24834,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000072290000742d0000d2360000ae3800003e3f000076430000ee450000b4480000565c0000585c00005a5c00005c5c00005e5c0000605c0000
+    m_ExpandedIDs: 0000000072290000762d000008370000763f0000ae43000026460000f04800008a5c00008c5c00008e5c0000905c0000925c0000945c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -25848,18 +24865,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300000837000004360000c4350000e62c0000c8370000342f000086390000583900004e310000162c000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Achivement
-      m_OriginalName: Achivement
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 23714
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -25871,7 +24888,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
-  m_DirectoriesAreaWidth: 156
+  m_DirectoriesAreaWidth: 154
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -25931,29 +24948,29 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72
-    width: 599
+    width: 391
     height: 439
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7ebbffff
-      m_LastClickedID: -17538
-      m_ExpandedIDs: 58bdffffb8bdfffffcbdffff92c8ffff86fbffff88fbffff
+      m_SelectedIDs: 28350000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Good Catcher NPC
-        m_OriginalName: Good Catcher NPC
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -16918
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -25984,9 +25001,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 599.2
+    x: 391.2
     y: 72
-    width: 265
+    width: 371
     height: 713
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -25999,9 +25016,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.1482755, y: 7.2953362, z: -0.33310384}
+    m_Target: {x: 225.23442, y: 409.45282, z: -280.48898}
     speed: 2
-    m_Value: {x: 0.0045857877, y: 7.317041, z: -0.24367169}
+    m_Value: {x: 225.23442, y: 409.45282, z: -280.48898}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -26034,9 +25051,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.6997166
+    m_Target: 700.57306
     speed: 2
-    m_Value: 5.229098
+    m_Value: 700.57306
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -26082,9 +25099,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 866
+    x: 764
     y: 72
-    width: 269
+    width: 371
     height: 713
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
@@ -26098,16 +25115,16 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -53.8
-    m_HBaseRangeMax: 53.8
-    m_VBaseRangeMin: -95.6
-    m_VBaseRangeMax: 95.6
+    m_HBaseRangeMin: -74.200005
+    m_HBaseRangeMax: 74.200005
+    m_VBaseRangeMin: -132
+    m_VBaseRangeMax: 132
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
+    m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -26119,25 +25136,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 269
+      width: 371
       height: 696
-    m_Scale: {x: 2.5313902, y: 2.5313902}
-    m_Translation: {x: 134.5, y: 348}
+    m_Scale: {x: 2.3402712, y: 2.3402712}
+    m_Translation: {x: 185.50002, y: 348}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -53.13286
-      y: -137.47386
-      width: 106.26572
-      height: 274.94772
+      x: -79.26432
+      y: -148.70071
+      width: 158.52864
+      height: 297.40143
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 672.5, y: 1782.5}
+  m_LastWindowPixelSize: {x: 927.5, y: 1782.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000100000100
@@ -26163,8 +25180,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1010
+    x: 1137.2001
     y: 72
-    width: 524
+    width: 397
     height: 713
   m_ViewDataDictionary: {fileID: 0}
