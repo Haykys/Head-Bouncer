@@ -16,7 +16,7 @@ public class CameraBehavior : MonoBehaviour
     private float shakeDuration = 0f;
 
     // A measure of magnitude for the shake. Tweak based on your preference
-    private float shakeMagnitude = 0.03f;
+    private float shakeMagnitude = 0.02f;
 
     // A measure of how quickly the shake effect should evaporate
     private float dampingSpeed = 12.0f;

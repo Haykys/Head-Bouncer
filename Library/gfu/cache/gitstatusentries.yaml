@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-17T22:50:23.636+02:00
+  lastUpdatedAtString: 2019-07-18T18:41:29.563+02:00
   initializedAtString: 2019-07-17T22:18:57.490+02:00
   entries:
   - path: .vs\Head Bouncer\v15\.suo
@@ -70,9 +70,27 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scenes\Game Scene.unity
-    fullPath: C:\UnityGames\Head Bouncer\Assets\Scenes\Game Scene.unity
-    projectPath: Assets\Scenes\Game Scene.unity
+  - path: Assets\Particles.meta
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Particles.meta
+    projectPath: Assets\Particles.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Ads\InitializeGoogleAds.cs
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Ads\InitializeGoogleAds.cs
+    projectPath: Assets\Scripts\Ads\InitializeGoogleAds.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Gameplay\CameraBehavior.cs
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Gameplay\CameraBehavior.cs
+    projectPath: Assets\Scripts\Gameplay\CameraBehavior.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Share\ShareOnTwitter.cs
+    fullPath: C:\UnityGames\Head Bouncer\Assets\Scripts\Share\ShareOnTwitter.cs
+    projectPath: Assets\Scripts\Share\ShareOnTwitter.cs
     originalPath: 
     status: 3
     staged: 0
@@ -130,24 +148,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\UnityGames\Head Bouncer\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorInstance.json
-    fullPath: C:\UnityGames\Head Bouncer\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\expandedItems
-    fullPath: C:\UnityGames\Head Bouncer\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -170,7 +170,7 @@ MonoBehaviour:
     fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\UnityGames\Head Bouncer\Library\gfu\cache\gittrackingstatus.yaml
@@ -190,9 +190,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\UnityGames\Head Bouncer\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
+  - path: Library\metadata\57\572bfd4b00caa424fa127ac961040407
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\57\572bfd4b00caa424fa127ac961040407
+    projectPath: Library\metadata\57\572bfd4b00caa424fa127ac961040407
     originalPath: 
     status: 3
     staged: 0
@@ -208,29 +208,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\8d\8d2b417ecc33977428e94901a1dce699
-    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\8d\8d2b417ecc33977428e94901a1dce699
-    projectPath: Library\metadata\8d\8d2b417ecc33977428e94901a1dce699
+  - path: Library\metadata\fe\fe0bb579320e5ff41ba470e8afcd843b
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\fe\fe0bb579320e5ff41ba470e8afcd843b
+    projectPath: Library\metadata\fe\fe0bb579320e5ff41ba470e8afcd843b
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Library\metadata\8e\8e083707ad5ae7747a11bb0c96f081e7
-    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\8e\8e083707ad5ae7747a11bb0c96f081e7
-    projectPath: Library\metadata\8e\8e083707ad5ae7747a11bb0c96f081e7
+  - path: Library\metadata\fe\fe0bb579320e5ff41ba470e8afcd843b.info
+    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\fe\fe0bb579320e5ff41ba470e8afcd843b.info
+    projectPath: Library\metadata\fe\fe0bb579320e5ff41ba470e8afcd843b.info
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\af\af1e86f711f3cbb48b17e918a5d84727
-    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\af\af1e86f711f3cbb48b17e918a5d84727
-    projectPath: Library\metadata\af\af1e86f711f3cbb48b17e918a5d84727
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
-    fullPath: C:\UnityGames\Head Bouncer\Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
-    projectPath: Library\metadata\f3\f3613492b3c65b04ab5390e87e3cbc63
-    originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
     fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\globalgamemanagers
@@ -358,15 +346,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ProjectSettings.asset
-    fullPath: C:\UnityGames\Head Bouncer\Library\ProjectSettings.asset
-    projectPath: Library\ProjectSettings.asset
+  - path: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
+    fullPath: C:\UnityGames\Head Bouncer\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
+    projectPath: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -399,6 +381,12 @@ MonoBehaviour:
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
     fullPath: C:\UnityGames\Head Bouncer\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
@@ -610,48 +598,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: C:\UnityGames\Head Bouncer\Library\shadercompiler-UnityShaderCompiler.exe7.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\StateCache\Hierarchy\d6b8be-mainStage.json
     fullPath: C:\UnityGames\Head Bouncer\Library\StateCache\Hierarchy\d6b8be-mainStage.json
     projectPath: Library\StateCache\Hierarchy\d6b8be-mainStage.json
@@ -661,12 +607,6 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\660d23-mainStage.json
     fullPath: C:\UnityGames\Head Bouncer\Library\StateCache\SceneView\660d23-mainStage.json
     projectPath: Library\StateCache\SceneView\660d23-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\UnityGames\Head Bouncer\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
     originalPath: 
     status: 3
     staged: 0
@@ -10725,6 +10665,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-08c8b6244ebcacf4f8b03db92d164fa7
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-08c8b6244ebcacf4f8b03db92d164fa7
+    projectPath: Temp\UnityTempFile-08c8b6244ebcacf4f8b03db92d164fa7
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-0b14241daf1766b4b9389e12e1363825
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-0b14241daf1766b4b9389e12e1363825
     projectPath: Temp\UnityTempFile-0b14241daf1766b4b9389e12e1363825
@@ -10743,9 +10689,21 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-10e1dae4a29f58343a5f8eb3868636a2
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-10e1dae4a29f58343a5f8eb3868636a2
+    projectPath: Temp\UnityTempFile-10e1dae4a29f58343a5f8eb3868636a2
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-1272d731e1beac443a685447e8433e5a
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-1272d731e1beac443a685447e8433e5a
     projectPath: Temp\UnityTempFile-1272d731e1beac443a685447e8433e5a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-14a3512fa2327ee468f47859c4a9f570
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-14a3512fa2327ee468f47859c4a9f570
+    projectPath: Temp\UnityTempFile-14a3512fa2327ee468f47859c4a9f570
     originalPath: 
     status: 1
     staged: 0
@@ -10758,6 +10716,18 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-15e0fac7f6a43404e95176e48c619b87
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-15e0fac7f6a43404e95176e48c619b87
     projectPath: Temp\UnityTempFile-15e0fac7f6a43404e95176e48c619b87
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-178ed37f171e0884e83150cdc9870808
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-178ed37f171e0884e83150cdc9870808
+    projectPath: Temp\UnityTempFile-178ed37f171e0884e83150cdc9870808
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-17cf70028ede5194d84a109caefaf106
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-17cf70028ede5194d84a109caefaf106
+    projectPath: Temp\UnityTempFile-17cf70028ede5194d84a109caefaf106
     originalPath: 
     status: 1
     staged: 0
@@ -10821,6 +10791,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-22c2d72f22a6c364f968aa4339f78e18
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-22c2d72f22a6c364f968aa4339f78e18
+    projectPath: Temp\UnityTempFile-22c2d72f22a6c364f968aa4339f78e18
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-22e2d923c47b4be4590220bc8fd4274c
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-22e2d923c47b4be4590220bc8fd4274c
     projectPath: Temp\UnityTempFile-22e2d923c47b4be4590220bc8fd4274c
@@ -10830,6 +10806,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-230a14b6ba8f28d4ea959cb441b36b61
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-230a14b6ba8f28d4ea959cb441b36b61
     projectPath: Temp\UnityTempFile-230a14b6ba8f28d4ea959cb441b36b61
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-235089b55f4098b429900272da6d766d
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-235089b55f4098b429900272da6d766d
+    projectPath: Temp\UnityTempFile-235089b55f4098b429900272da6d766d
     originalPath: 
     status: 1
     staged: 0
@@ -10848,6 +10830,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-27faa17615a1f7c418de6c078f1d74f9
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-27faa17615a1f7c418de6c078f1d74f9
     projectPath: Temp\UnityTempFile-27faa17615a1f7c418de6c078f1d74f9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-28723559bd26be440b760d2eb5f120ab
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-28723559bd26be440b760d2eb5f120ab
+    projectPath: Temp\UnityTempFile-28723559bd26be440b760d2eb5f120ab
     originalPath: 
     status: 1
     staged: 0
@@ -10905,15 +10893,33 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-2f6db8be2a8fee54b81d1de0a5928e98
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-2f6db8be2a8fee54b81d1de0a5928e98
+    projectPath: Temp\UnityTempFile-2f6db8be2a8fee54b81d1de0a5928e98
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-2faaedcbbf24c6746a1c06107e540dd8
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-2faaedcbbf24c6746a1c06107e540dd8
     projectPath: Temp\UnityTempFile-2faaedcbbf24c6746a1c06107e540dd8
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-3087a5e06e86db2428c3952c2141b3de
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-3087a5e06e86db2428c3952c2141b3de
+    projectPath: Temp\UnityTempFile-3087a5e06e86db2428c3952c2141b3de
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-3320dd95d7f9f064a88760984e41a023
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-3320dd95d7f9f064a88760984e41a023
     projectPath: Temp\UnityTempFile-3320dd95d7f9f064a88760984e41a023
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3413e58b959504348bb4369de4f682c1
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-3413e58b959504348bb4369de4f682c1
+    projectPath: Temp\UnityTempFile-3413e58b959504348bb4369de4f682c1
     originalPath: 
     status: 1
     staged: 0
@@ -10938,6 +10944,18 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-35e146dfe4952834780da5875a240b98
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-35e146dfe4952834780da5875a240b98
     projectPath: Temp\UnityTempFile-35e146dfe4952834780da5875a240b98
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-39233d659b110104cbc03c99b3889691
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-39233d659b110104cbc03c99b3889691
+    projectPath: Temp\UnityTempFile-39233d659b110104cbc03c99b3889691
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-399a22db9d6726a4c9626cee42375335
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-399a22db9d6726a4c9626cee42375335
+    projectPath: Temp\UnityTempFile-399a22db9d6726a4c9626cee42375335
     originalPath: 
     status: 1
     staged: 0
@@ -10971,6 +10989,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-41348e4cd7bf64148927afe296e769d5
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-41348e4cd7bf64148927afe296e769d5
+    projectPath: Temp\UnityTempFile-41348e4cd7bf64148927afe296e769d5
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-4523ff01f28a0444dac8f63e4767f86d
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-4523ff01f28a0444dac8f63e4767f86d
     projectPath: Temp\UnityTempFile-4523ff01f28a0444dac8f63e4767f86d
@@ -10989,9 +11013,21 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-48b6057a4aafd354b955503f01ccdd81
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-48b6057a4aafd354b955503f01ccdd81
+    projectPath: Temp\UnityTempFile-48b6057a4aafd354b955503f01ccdd81
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-49e09df8cfb55b44891874351eea49b5
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-49e09df8cfb55b44891874351eea49b5
     projectPath: Temp\UnityTempFile-49e09df8cfb55b44891874351eea49b5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-4a9804ab21b9dd5488c01e9f1aca21da
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-4a9804ab21b9dd5488c01e9f1aca21da
+    projectPath: Temp\UnityTempFile-4a9804ab21b9dd5488c01e9f1aca21da
     originalPath: 
     status: 1
     staged: 0
@@ -11025,9 +11061,21 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-512fd5bbc52832647821a09e10befce4
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-512fd5bbc52832647821a09e10befce4
+    projectPath: Temp\UnityTempFile-512fd5bbc52832647821a09e10befce4
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-526042c787116c44a8d30d476a972bf4
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-526042c787116c44a8d30d476a972bf4
     projectPath: Temp\UnityTempFile-526042c787116c44a8d30d476a972bf4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-52a1e505e6660be4f9dbdde9c2c8521f
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-52a1e505e6660be4f9dbdde9c2c8521f
+    projectPath: Temp\UnityTempFile-52a1e505e6660be4f9dbdde9c2c8521f
     originalPath: 
     status: 1
     staged: 0
@@ -11049,6 +11097,18 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-5653375ee9860b247b1bdfd2c4319f7e
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-5653375ee9860b247b1bdfd2c4319f7e
+    projectPath: Temp\UnityTempFile-5653375ee9860b247b1bdfd2c4319f7e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-572ac7014db27af4db6482d8906f29d6
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-572ac7014db27af4db6482d8906f29d6
+    projectPath: Temp\UnityTempFile-572ac7014db27af4db6482d8906f29d6
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-5780fc3f4a159614db8cb4d1f86b16f6
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-5780fc3f4a159614db8cb4d1f86b16f6
     projectPath: Temp\UnityTempFile-5780fc3f4a159614db8cb4d1f86b16f6
@@ -11061,9 +11121,33 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-59a81754c0b4ac14cb9fbc479373f472
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-59a81754c0b4ac14cb9fbc479373f472
+    projectPath: Temp\UnityTempFile-59a81754c0b4ac14cb9fbc479373f472
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-5b46eaeb201b9964bbb9715bf98cc0c6
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-5b46eaeb201b9964bbb9715bf98cc0c6
+    projectPath: Temp\UnityTempFile-5b46eaeb201b9964bbb9715bf98cc0c6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-5b52c803f0ec16140bb065df0405b1e3
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-5b52c803f0ec16140bb065df0405b1e3
+    projectPath: Temp\UnityTempFile-5b52c803f0ec16140bb065df0405b1e3
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-5d6a28496039d624b9fec071518824e8
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-5d6a28496039d624b9fec071518824e8
     projectPath: Temp\UnityTempFile-5d6a28496039d624b9fec071518824e8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-5e29b34562d1e9f44937a3e518b60fd6
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-5e29b34562d1e9f44937a3e518b60fd6
+    projectPath: Temp\UnityTempFile-5e29b34562d1e9f44937a3e518b60fd6
     originalPath: 
     status: 1
     staged: 0
@@ -11097,9 +11181,33 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-62c6d9b77df7b684d8b29621f395fb94
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-62c6d9b77df7b684d8b29621f395fb94
+    projectPath: Temp\UnityTempFile-62c6d9b77df7b684d8b29621f395fb94
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-639b30c54f6d89b43bf969e95e956113
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-639b30c54f6d89b43bf969e95e956113
     projectPath: Temp\UnityTempFile-639b30c54f6d89b43bf969e95e956113
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-678f3122345359a4a9df2c6255217466
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-678f3122345359a4a9df2c6255217466
+    projectPath: Temp\UnityTempFile-678f3122345359a4a9df2c6255217466
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6906731afb98c3440903bf9932009f85
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-6906731afb98c3440903bf9932009f85
+    projectPath: Temp\UnityTempFile-6906731afb98c3440903bf9932009f85
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6949e4b0813e19d4ea3285559e3ffb8e
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-6949e4b0813e19d4ea3285559e3ffb8e
+    projectPath: Temp\UnityTempFile-6949e4b0813e19d4ea3285559e3ffb8e
     originalPath: 
     status: 1
     staged: 0
@@ -11112,6 +11220,18 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-6bc2d1fa70c525247b7f62b1d82dd2ad
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-6bc2d1fa70c525247b7f62b1d82dd2ad
     projectPath: Temp\UnityTempFile-6bc2d1fa70c525247b7f62b1d82dd2ad
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6e9e96821f021294fb1da9adf3bc6a6b
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-6e9e96821f021294fb1da9adf3bc6a6b
+    projectPath: Temp\UnityTempFile-6e9e96821f021294fb1da9adf3bc6a6b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6effe142682f5374f972601ba670b6da
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-6effe142682f5374f972601ba670b6da
+    projectPath: Temp\UnityTempFile-6effe142682f5374f972601ba670b6da
     originalPath: 
     status: 1
     staged: 0
@@ -11151,9 +11271,21 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-7b3219130b9defb4ca26c0f567229136
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7b3219130b9defb4ca26c0f567229136
+    projectPath: Temp\UnityTempFile-7b3219130b9defb4ca26c0f567229136
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-7b6afc96989e64345a9c89f1785e1662
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7b6afc96989e64345a9c89f1785e1662
     projectPath: Temp\UnityTempFile-7b6afc96989e64345a9c89f1785e1662
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7bc3696bda276a5429575f2c2265a178
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7bc3696bda276a5429575f2c2265a178
+    projectPath: Temp\UnityTempFile-7bc3696bda276a5429575f2c2265a178
     originalPath: 
     status: 1
     staged: 0
@@ -11169,6 +11301,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-7f910aa498056b64e81b008a14d7384f
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-7f910aa498056b64e81b008a14d7384f
+    projectPath: Temp\UnityTempFile-7f910aa498056b64e81b008a14d7384f
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-802ee0724a400b64da6203d12aad04b2
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-802ee0724a400b64da6203d12aad04b2
     projectPath: Temp\UnityTempFile-802ee0724a400b64da6203d12aad04b2
@@ -11178,6 +11316,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-803af338002a4fe40a21284dc1494a1b
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-803af338002a4fe40a21284dc1494a1b
     projectPath: Temp\UnityTempFile-803af338002a4fe40a21284dc1494a1b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-8056f2aa68af07c4699541d01c347ac1
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-8056f2aa68af07c4699541d01c347ac1
+    projectPath: Temp\UnityTempFile-8056f2aa68af07c4699541d01c347ac1
     originalPath: 
     status: 1
     staged: 0
@@ -11307,9 +11451,21 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-99cca1c2e187af542a4792eb46829b6c
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-99cca1c2e187af542a4792eb46829b6c
+    projectPath: Temp\UnityTempFile-99cca1c2e187af542a4792eb46829b6c
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-9b83d63cd7119284186c775eedf443ca
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9b83d63cd7119284186c775eedf443ca
     projectPath: Temp\UnityTempFile-9b83d63cd7119284186c775eedf443ca
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9e36152d1f6663048adfe7ca0c6d053d
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9e36152d1f6663048adfe7ca0c6d053d
+    projectPath: Temp\UnityTempFile-9e36152d1f6663048adfe7ca0c6d053d
     originalPath: 
     status: 1
     staged: 0
@@ -11322,6 +11478,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-9f09cbbfd968b0d49be789cae1ae74a0
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9f09cbbfd968b0d49be789cae1ae74a0
     projectPath: Temp\UnityTempFile-9f09cbbfd968b0d49be789cae1ae74a0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9f2b03fc5616857488a4c3168b4c2132
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-9f2b03fc5616857488a4c3168b4c2132
+    projectPath: Temp\UnityTempFile-9f2b03fc5616857488a4c3168b4c2132
     originalPath: 
     status: 1
     staged: 0
@@ -11340,6 +11502,24 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-a1fce4b2a8fb2124e86f5c6dccd5f3fc
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-a1fce4b2a8fb2124e86f5c6dccd5f3fc
     projectPath: Temp\UnityTempFile-a1fce4b2a8fb2124e86f5c6dccd5f3fc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a4dce4148c4832841a120c3513550028
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-a4dce4148c4832841a120c3513550028
+    projectPath: Temp\UnityTempFile-a4dce4148c4832841a120c3513550028
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a793e688d92600f4f967b64dd3b8c8e9
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-a793e688d92600f4f967b64dd3b8c8e9
+    projectPath: Temp\UnityTempFile-a793e688d92600f4f967b64dd3b8c8e9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a98d816fa7873604489caf43032da75f
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-a98d816fa7873604489caf43032da75f
+    projectPath: Temp\UnityTempFile-a98d816fa7873604489caf43032da75f
     originalPath: 
     status: 1
     staged: 0
@@ -11385,6 +11565,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-b4cef6b2e6793e840bf5c94e44a19802
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b4cef6b2e6793e840bf5c94e44a19802
+    projectPath: Temp\UnityTempFile-b4cef6b2e6793e840bf5c94e44a19802
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-b4f0932228b7d4e4db962979cffd3c84
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b4f0932228b7d4e4db962979cffd3c84
     projectPath: Temp\UnityTempFile-b4f0932228b7d4e4db962979cffd3c84
@@ -11394,6 +11580,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-b53cf0b2eb43dbd4691939184fbec244
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b53cf0b2eb43dbd4691939184fbec244
     projectPath: Temp\UnityTempFile-b53cf0b2eb43dbd4691939184fbec244
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-b54c45597b553994bb09e88b9a16314b
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b54c45597b553994bb09e88b9a16314b
+    projectPath: Temp\UnityTempFile-b54c45597b553994bb09e88b9a16314b
     originalPath: 
     status: 1
     staged: 0
@@ -11409,6 +11601,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-b7937464ac18d5c4abf4b906bae66db8
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-b7937464ac18d5c4abf4b906bae66db8
+    projectPath: Temp\UnityTempFile-b7937464ac18d5c4abf4b906bae66db8
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-ba4ede892dadd8b498386b0960486362
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-ba4ede892dadd8b498386b0960486362
     projectPath: Temp\UnityTempFile-ba4ede892dadd8b498386b0960486362
@@ -11421,6 +11619,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-bb32be8d917d2c442906fc038260eca4
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-bb32be8d917d2c442906fc038260eca4
+    projectPath: Temp\UnityTempFile-bb32be8d917d2c442906fc038260eca4
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-bbe19fcefdbcd57498eee935bf806542
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-bbe19fcefdbcd57498eee935bf806542
     projectPath: Temp\UnityTempFile-bbe19fcefdbcd57498eee935bf806542
@@ -11430,6 +11634,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-bbfbc749acdb5e34885893acf87555e8
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-bbfbc749acdb5e34885893acf87555e8
     projectPath: Temp\UnityTempFile-bbfbc749acdb5e34885893acf87555e8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bdf065f33982c064193459b7712064b1
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-bdf065f33982c064193459b7712064b1
+    projectPath: Temp\UnityTempFile-bdf065f33982c064193459b7712064b1
     originalPath: 
     status: 1
     staged: 0
@@ -11457,6 +11667,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-c18bd6773013a5c4b82b8c807a8606ab
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c18bd6773013a5c4b82b8c807a8606ab
+    projectPath: Temp\UnityTempFile-c18bd6773013a5c4b82b8c807a8606ab
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-c234bd2f9eabf7e46b4f8fc3800cb4ed
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c234bd2f9eabf7e46b4f8fc3800cb4ed
     projectPath: Temp\UnityTempFile-c234bd2f9eabf7e46b4f8fc3800cb4ed
@@ -11478,6 +11694,18 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-c79aa47eeee90704aa2e3ac358659fc0
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c79aa47eeee90704aa2e3ac358659fc0
     projectPath: Temp\UnityTempFile-c79aa47eeee90704aa2e3ac358659fc0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c7abd2fb9a482a94db9af6a5f210aadc
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c7abd2fb9a482a94db9af6a5f210aadc
+    projectPath: Temp\UnityTempFile-c7abd2fb9a482a94db9af6a5f210aadc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c9160b7aa34fa5e4f840efad6d9a73ea
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-c9160b7aa34fa5e4f840efad6d9a73ea
+    projectPath: Temp\UnityTempFile-c9160b7aa34fa5e4f840efad6d9a73ea
     originalPath: 
     status: 1
     staged: 0
@@ -11547,6 +11775,24 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-d3498d668b716274a9e12ce185f7bcdd
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-d3498d668b716274a9e12ce185f7bcdd
+    projectPath: Temp\UnityTempFile-d3498d668b716274a9e12ce185f7bcdd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d6d345e821c4696459247eee459d1124
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-d6d345e821c4696459247eee459d1124
+    projectPath: Temp\UnityTempFile-d6d345e821c4696459247eee459d1124
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-da5fe2d20d960af43b933a8c644ec1b5
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-da5fe2d20d960af43b933a8c644ec1b5
+    projectPath: Temp\UnityTempFile-da5fe2d20d960af43b933a8c644ec1b5
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-db707f1a4a5d0b0478acadced9570488
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-db707f1a4a5d0b0478acadced9570488
     projectPath: Temp\UnityTempFile-db707f1a4a5d0b0478acadced9570488
@@ -11583,15 +11829,81 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-e0671d400830d5040af28804667bc2d2
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-e0671d400830d5040af28804667bc2d2
+    projectPath: Temp\UnityTempFile-e0671d400830d5040af28804667bc2d2
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-e2f63cecc6408974b9c188e8b22d033c
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-e2f63cecc6408974b9c188e8b22d033c
     projectPath: Temp\UnityTempFile-e2f63cecc6408974b9c188e8b22d033c
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-e40ef5339d2533f4fb80aa85be89715b
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-e40ef5339d2533f4fb80aa85be89715b
+    projectPath: Temp\UnityTempFile-e40ef5339d2533f4fb80aa85be89715b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e4e5d571191c18c479527198c85f9322
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-e4e5d571191c18c479527198c85f9322
+    projectPath: Temp\UnityTempFile-e4e5d571191c18c479527198c85f9322
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-e581cdada4eee9b4687b79876a45231f
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-e581cdada4eee9b4687b79876a45231f
     projectPath: Temp\UnityTempFile-e581cdada4eee9b4687b79876a45231f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e6f00c8ce38490c43849349779b2826c
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-e6f00c8ce38490c43849349779b2826c
+    projectPath: Temp\UnityTempFile-e6f00c8ce38490c43849349779b2826c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e8e8df03dbe229c4a9ccba09c5de81fe
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-e8e8df03dbe229c4a9ccba09c5de81fe
+    projectPath: Temp\UnityTempFile-e8e8df03dbe229c4a9ccba09c5de81fe
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ea987d18e0d1f40418dee381751508ac
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-ea987d18e0d1f40418dee381751508ac
+    projectPath: Temp\UnityTempFile-ea987d18e0d1f40418dee381751508ac
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ea997407e650b9042afe397a19fd0e98
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-ea997407e650b9042afe397a19fd0e98
+    projectPath: Temp\UnityTempFile-ea997407e650b9042afe397a19fd0e98
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-eb83bc8e739f5fa458531247a4db3307
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-eb83bc8e739f5fa458531247a4db3307
+    projectPath: Temp\UnityTempFile-eb83bc8e739f5fa458531247a4db3307
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ed0d0a7d6c91bfd41abf59802a354230
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-ed0d0a7d6c91bfd41abf59802a354230
+    projectPath: Temp\UnityTempFile-ed0d0a7d6c91bfd41abf59802a354230
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-edc347443abbf9d488f663ac880d7acb
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-edc347443abbf9d488f663ac880d7acb
+    projectPath: Temp\UnityTempFile-edc347443abbf9d488f663ac880d7acb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ee8d5b9f19e22b440964615b29e22fc5
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-ee8d5b9f19e22b440964615b29e22fc5
+    projectPath: Temp\UnityTempFile-ee8d5b9f19e22b440964615b29e22fc5
     originalPath: 
     status: 1
     staged: 0
@@ -11613,9 +11925,21 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-f2484970f05c859459f6a23ad14278ca
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-f2484970f05c859459f6a23ad14278ca
+    projectPath: Temp\UnityTempFile-f2484970f05c859459f6a23ad14278ca
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-f4d16f04aac82d94b8a6d20dc6599246
     fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-f4d16f04aac82d94b8a6d20dc6599246
     projectPath: Temp\UnityTempFile-f4d16f04aac82d94b8a6d20dc6599246
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f67b4f0d503866745b165a415b16bbb8
+    fullPath: C:\UnityGames\Head Bouncer\Temp\UnityTempFile-f67b4f0d503866745b165a415b16bbb8
+    projectPath: Temp\UnityTempFile-f67b4f0d503866745b165a415b16bbb8
     originalPath: 
     status: 1
     staged: 0
