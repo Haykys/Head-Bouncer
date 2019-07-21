@@ -14,6 +14,7 @@ public class PlayerPrefsController : MonoBehaviour
     const string VOLUME = "VOLUME";
     const string VIBRATION = "VIBRATION";
     const string RATE_APP = "RATE_APP";
+    const string BEST_BOUNCING_SPREE = "BEST_BOUNCING_SPREE";
 
     const string POINTS_25 = "POINTS_25";
     const string POINTS_50 = "POINTS_50";
@@ -217,5 +218,15 @@ public class PlayerPrefsController : MonoBehaviour
     public static bool GetCharacters30()
     {
         return SecurePlayerPrefs.GetBool(CHARACTERS_30);
+    }
+
+    public static void SetBestBouncingSpree(int bouncingSpree)
+    {
+        SecurePlayerPrefs.SetInt(BEST_BOUNCING_SPREE, bouncingSpree);
+    }
+
+    public static int GetBestBouncingSpree()
+    {
+        return SecurePlayerPrefs.GetInt(BEST_BOUNCING_SPREE);
     }
 }

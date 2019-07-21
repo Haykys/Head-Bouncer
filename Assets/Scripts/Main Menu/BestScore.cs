@@ -22,5 +22,4 @@ public class BestScore : MonoBehaviour
             gameObject.GetComponent<TextMeshProUGUI>().text = 0.ToString();
         }
     }
-
 }

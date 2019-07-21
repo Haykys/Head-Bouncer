@@ -19,6 +19,7 @@ public class GameSession : MonoBehaviour
 
     // State variable
     int currentScore = 0;
+    int currentBouncingSpree = 0;
     int points = 0;
     int difficultyLevel = 1;
     int nextDifficultyIn = 5;
@@ -27,9 +28,11 @@ public class GameSession : MonoBehaviour
     public int DifficultyLevel { get => difficultyLevel; set => difficultyLevel = value; }
     public int Points { get => points; set => points = value; }
     public int NextDifficultyIn { get => nextDifficultyIn; set => nextDifficultyIn = value; }
+    public int CurrentBouncingSpree { get => currentBouncingSpree; set => currentBouncingSpree = value; }
 
     // cached ref
     ScoreDisplay scoreDisplay;
+    BouncingSpreeDisplay bouncingSpreeDisplay;
     DifficultyLevel gameDifficultyLevel;
     GameObject player;
     GlobalManager globalManager;
@@ -39,12 +42,14 @@ public class GameSession : MonoBehaviour
     private void Awake()
     {
         CurrentScore = 0;
+        CurrentBouncingSpree = 0;
         SpawnPlayer();
     }
 
     private void Start()
     {
         scoreDisplay = FindObjectOfType<ScoreDisplay>();
+        bouncingSpreeDisplay = FindObjectOfType<BouncingSpreeDisplay>();
         gameDifficultyLevel = FindObjectOfType<DifficultyLevel>();
         player = GameObject.FindGameObjectWithTag(Player);
         globalManager = FindObjectOfType<GlobalManager>();
@@ -76,11 +81,28 @@ public class GameSession : MonoBehaviour
         scoreDisplay.GetComponent<ScoreDisplay>().DisplayScore();
     }
 
+    public void AddToBouncingSpree(int amount)
+    {
+        CurrentBouncingSpree += amount;
+        bouncingSpreeDisplay.GetComponent<BouncingSpreeDisplay>().DisplayBouncingSpree();
+    }
+
     public void AddPoints(int amount)
     {
         int currentPoints = PlayerPrefsController.GetPoints();
         int newPoints = currentPoints + amount;
         PlayerPrefsController.SetPoints(newPoints);
+    }
+
+    public void ResetBouncingSpree()
+    {
+        if (CurrentBouncingSpree > PlayerPrefsController.GetBestBouncingSpree())
+        {
+            PlayerPrefsController.SetBestBouncingSpree(CurrentBouncingSpree);
+        }
+
+        CurrentBouncingSpree = 0;
+        bouncingSpreeDisplay.GetComponent<BouncingSpreeDisplay>().DisplayBouncingSpree();
     }
 
     /// <summary>

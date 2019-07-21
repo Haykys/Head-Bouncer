@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using SA.CrossPlatform.GameServices;
@@ -10,8 +10,10 @@ public class Leaderboard : MonoBehaviour
     {
         var client = UM_GameService.LeaderboardsClient;
         var signInClient = UM_GameService.SignInClient;
-        var leaderboardId = "CgkItt_m-csZEAIQAA";
+        var bestScoreLeaderboardId = "CgkItt_m-csZEAIQAA";
+        var bouncingSpreeLeaderboardId = "CgkItt_m-csZEAIQDA";
         int bestScore = PlayerPrefsController.GetBestScore();
+        int bestBouncingSpree = PlayerPrefsController.GetBestBouncingSpree();
         int context = 0;
 
         if (bestScore >= 5)
@@ -19,7 +21,24 @@ public class Leaderboard : MonoBehaviour
 
             if (signInClient.PlayerInfo.State == UM_PlayerState.SignedIn)
             {
-                client.SubmitScore(leaderboardId, bestScore, context, (result) => {
+                client.SubmitScore(bestScoreLeaderboardId, bestScore, context, (result) => {
+                    if (result.IsSucceeded)
+                    {
+                        Debug.Log("Score submitted successfully");
+                    }
+                    else
+                    {
+                        Debug.Log("Failed to submit score: " + result.Error.FullMessage);
+                    }
+                });
+            }
+        }
+
+        if(bestBouncingSpree >= 5)
+        {
+            if (signInClient.PlayerInfo.State == UM_PlayerState.SignedIn)
+            {
+                client.SubmitScore(bouncingSpreeLeaderboardId, bestBouncingSpree, context, (result) => {
                     if (result.IsSucceeded)
                     {
                         Debug.Log("Score submitted successfully");
@@ -36,9 +55,8 @@ public class Leaderboard : MonoBehaviour
     public void DisplayLeaderboard()
     {
         var client = UM_GameService.LeaderboardsClient;
-        var leaderboardId = "CgkItt_m-csZEAIQAA";
 
-        client.ShowUI(leaderboardId, (result) => {
+        client.ShowUI((result) => {
             if (result.IsSucceeded)
             {
                 Debug.Log("User closed Leaderboards native view");

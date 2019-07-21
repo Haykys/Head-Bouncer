@@ -61,6 +61,7 @@ public class Floor : MonoBehaviour
             AudioSource.PlayClipAtPoint(bounceFailSound, transform.position, bounceFailSounddVolume);
 
             playerHealth.DecreaseHealth(1);
+            gameSession.ResetBouncingSpree();
             if (playerHealth.Health < 1 && !startedEndGameCoroutine)
             {
                 HandleFracture(otherGameObject, collision);
